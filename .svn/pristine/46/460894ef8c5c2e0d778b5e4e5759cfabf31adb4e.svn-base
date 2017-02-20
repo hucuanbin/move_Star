@@ -1,0 +1,83 @@
+﻿
+body {
+    height: 100%;
+    position: relative;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Verdana','Microsoft YaHei';
+    font-size: 12px;
+    color: #000;
+}
+
+input {
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none !important;
+}
+
+    a:link {
+        text-decoration: none !important;
+    }
+
+    a:visited {
+        text-decoration: none !important;
+    }
+
+        a:visited > div {
+            text-decoration: none !important;
+        }
+
+    a:hover {
+        text-decoration: none !important;
+    }
+
+    a:active {
+        text-decoration: none !important;
+    }
+
+.a:hover {
+    text-decoration: none !important;
+}
+
+.p0 {
+    padding: 0px !important;
+}
+
+.shou_j_yao {
+    background: #292C2D;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+    .shou_j_yao > img {
+        margin-top: 5%;
+        width: 60vw;
+    }
+
+    .shou_j_yao > P {
+        color: #fff;
+        font-size: 6vw;
+        position: absolute;
+        width: 100%;
+        bottom: 10%;
+    }
+
+#shuz {
+    display: inline-block;
+    margin: 0px 5px;
+    font-size: 10vw;
+    color: #ff6a00;
+    font-weight:100;
+    text-align: center;
+}

@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <script src="js/bootstrap.js"></script>
+    <style>
+        body {
+            background: #EDEDED;
+        }
+    </style>
+    <div class="container-fluid nr_top_1">
+        <a href="wode.html" class="glyphicon glyphicon-menu-left "></a>
+        <b class="text-center">安全中心</b>
+    </div>
+    <div class="container-fluid xiug_shouji">
+        <div class="shouji_qieh" style="width:300%;">
+            <div class="zhifu_mm_1 ">
+                <div class="p10">
+                    <p>安全中心绑定号码</p>
+                    <p class="zi_big">157****3691</p>
+                </div>
+                <p class="mo_re p10">
+                    短信验证码已经发送到手机 15759313615
+                </p>
+                <div class="zhifu_xx">
+                    <div>
+                        <input value="19875654562"  disabled/>
+                    </div>
+                    <div>
+                        <input placeholder="请输入验证码"/>
+                        <img  src="images/mingx_toux.png"/>
+                    </div>
+                    <div>
+                        <input placeholder="请输入短信验证码" />
+                        <span id="btn_send_code" class="botn_quan" style="padding:3px 10px;" data-data="0">获取短信验证码</span>
+                    </div>
+                </div>
+             </div>
+            <div class="zhifu_mm_2">
+                <p class="mo_re p10">
+                   请输入6位数字支付密码.
+                </p>
+                <div class="wode_shouj_yhxx">
+                    <div>
+                        <input placeholder="请输入新密码"/>
+                        <span>新支付密码:</span>
+                    </div>
+                    <div>
+                        <input placeholder="请再次输入新密码" />
+                        <span>确认密码:</span>
+                    </div>
+                </div>
+            </div>
+            <div class="wode_shoji_cg">
+                <div>
+                    <span class=" glyphicon glyphicon-ok-sign quan_xz"></span>
+                    <span>重置支付密码成功！</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hei_di">
+
+    </div>
+    <div class="container-fluid dibu">
+        <span id="wode_sj_nex" class="botn_quan" style="width:100%;padding:10px;margin-bottom:10px;" data-data="1">下一步</span>
+        <a id="jineu" href="wode_aqzx.html" class="botn_quan" style="width:100%;padding:10px;margin-bottom:10px;display:none;" data-data="0">进入安全中心</a>
+    </div>
+
+    <script>
+        $(".shouji_qieh>div").width($(window).width());
+
+        $("#wode_sj_nex").click(function () {
+            var now =parseInt( $(this).attr("data-data"));
+            var jul = now * $(window).width() * -1;
+            $('.shouji_qieh').animate({ marginLeft: jul }, 300);
+            $(this).attr("data-data", now + 1);
+            if ((now + 1) == 3) {
+                $(this).hide();
+                $("#jineu").show();
+            }
+        })
+
+ 
+
+        $("#btn_send_code").click(function () {
+            var biaoji = $(this).attr("data-data");
+            if (biaoji == 0) {
+                var a = 6;
+                $(this).attr("data-data", "1");
+                $(this).addClass("zhc_no");
+                var mytime = setInterval(function () {
+                    getTime();
+                }, 1000);
+                function getTime() {
+                    if (a == 0) {
+                        $("#btn_send_code").attr("data-data", "0");
+                        $("#btn_send_code").removeClass("zhc_no");
+                        $("#btn_send_code").text("获取验证码");
+                        clearInterval(mytime);
+                    }
+                    else {
+                        a -= 1;
+                        $("#btn_send_code").text("重新发送(" + a + ")");
+                    }
+                }
+                //点击代码
+                var mobile = $("#mobile").val();
+                if (mobile == "") {
+                    alert('请填入手机号码！');
+                    return;
+                }
+                $.ajax({
+                    url: '/Register/Sent_Msg',
+                    data: { 'mobile': mobile },
+                    dataType: 'json',
+                    type: 'post',
+                    success: function (data) {
+                        if (data == true) {
+                        }
+                    }
+                });
+            }
+            else {
+                return;
+            }
+        });
+
+    </script>
+</body>
+</html>

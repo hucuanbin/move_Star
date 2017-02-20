@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <style>
+        body {
+            background: #EAEAEA !important;
+        }
+    </style>
+    <link href="css/xiugai_styles.css" rel="stylesheet" />
+    <script src="js/yxMobileSlider1.js"></script>
+        <div class="container-fluid nr_top">
+            <p class="text-center">MV播放</p>
+        </div>
+    <div class="container-fluid p0" style="background:#fff;" id="qianji">
+        <video src="http://flv2.mtvxz.cn:83/57467.mp4" style="width:100%;" webkit-playsinline controls autoplay="autoplay"></video>
+        <p class="mv_name">我的MV名字我的MV名字我的MV名字我的MV名字</p>
+        <p class="mv_zan"><span><em id="zan">18210</em>个赞</span><b class="dianzahn"><em class="glyphicon glyphicon-heart-empty"></em></b></p>
+    </div>
+        <div id="huipiao">
+        </div>
+    <script>
+        $(document).ready(function () {
+            var handler = function (e) {
+                e.preventDefault();
+            };            document.body.addEventListener('touchmove', handler, false);            var ce_id = 0;
+            var zan_sji = parseInt($("#zan").text());
+            $("#zan").text(zan_sji + 1);
+            $(".mv_zan,.mv_name").click(function () {
+                e = arguments[0] || window.event;
+                x = e.clientX;
+                y = e.clientY;
+                var suiji_tup = Math.floor(Math.random() * 53 + 1);
+                var suiji_xiaoguo = Math.floor(Math.random() * 3 + 1);
+                console.log(suiji_xiaoguo);
+                $("#huipiao").append('<img src="images/biaoq/' + suiji_tup + '.png" class="feisheng feisheng_' + suiji_xiaoguo + '" style="left:' + x + 'px;top:' + y + 'px;" />')
+                var fanhui=shanchu(ce_id);
+                ce_id++;
+            })
+
+            function shanchu(a) {
+                setTimeout(function () {
+                    $("#huipiao>img:eq(" + a + ")").hide();
+
+                }, 3000)
+            }
+        })
+    </script>
+</body>
+</html>

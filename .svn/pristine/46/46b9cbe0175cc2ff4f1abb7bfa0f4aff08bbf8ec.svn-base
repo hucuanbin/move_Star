@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <script src="js/bootstrap.js"></script>
+    <style>
+        body {
+            background: #E6E6E6;
+        }
+    </style>
+    <div class="container-fluid nr_top_1">
+        <a href="wode.html" class="glyphicon glyphicon-menu-left "></a>
+        <b class="text-center">物流详情</b>
+    </div>
+
+    <div class="container-fluid wuzi_top">
+        <div class="wuzi_rig_nrg">
+            <b>韵达快递</b>
+            <p>订单编号:3100512714194</p>
+            <p>物流状态:签单成功</p>
+            <img src="images/xunda.png"/>
+        </div>
+    </div>
+
+    <div class="m-10 container-fluid wuzi_xq">
+        <p class="bor_bton wuzi_xq_bt">商品详情</p>
+        <div class="wuzi_rig_nrg">
+            <p>商品上坡</p>
+            <img src="images/mingx_toux.png" />
+        </div>
+    </div>
+
+    <div class="m-10 container-fluid wuzi_index">
+        <p class="bor_bton wuzi_xq_bt">物资详情</p>
+        <div class="wz_nr m-10">
+            <div >
+                <span></span>
+                <p>快递信息快递信息快递信息快递信息</p>
+                <p>2015-07-27 12:29:14</p>
+            </div>
+            <div>
+                <span></span>
+                <p>快递信息快递信息快递信息快递信息</p>
+                <p>2015-07-27 12:29:14</p>
+            </div>
+            <div>
+                <span></span>
+                <p>快递信息快递信息快递信息快递信息</p>
+                <p>2015-07-27 12:29:14</p>
+            </div>
+            <div>
+                <span></span>
+                <p>快递信息快递信息快递信息快递信息</p>
+                <p>2015-07-27 12:29:14</p>
+            </div>
+            <div>
+                <span></span>
+                <p>快递信息快递信息快递信息快递信息</p>
+                <p>2015-07-27 12:29:14</p>
+            </div>
+            <div>
+                <span></span>
+                <p>快递信息快递信息快递信息快递信息</p>
+                <p>2015-07-27 12:29:14</p>
+            </div>
+            <div>
+                <span></span>
+                <p>快递信息快递信息快递信息快递信息</p>
+                <p>2015-07-27 12:29:14</p>
+            </div>
+            <div>
+                <span></span>
+                <p>快递信息快递信息快递信息快递信息</p>
+                <p>2015-07-27 12:29:14</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

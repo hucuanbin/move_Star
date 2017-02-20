@@ -1,0 +1,281 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+
+
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+
+    <script src="js/bootstrap.js"></script>
+    <style>
+        body {
+            background: #EDEDED;
+        }
+    </style>
+    <div class="container-fluid nr_top_1">
+        <a href="index.html" class="glyphicon glyphicon-menu-left "></a>
+        <b class="text-center">签到</b>
+    </div>
+    <div class="container-fluid qiandao_index">
+        <div>
+            <div class="rili_top">
+                <img src="images/rili.png" style="height:22px;outline:none" data-toggle="modal" data-target="#myModal1" />
+                <span class="rili_top_ruqi" data-toggle="modal" data-target="#myModal1" style="outline:none">2015-10-21</span>
+            </div>
+            <div class="rili_zhuti">
+
+            </div>
+        </div>
+    </div>
+    <div id="myModal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog1  rili_kongj">
+            <div class="modal-content" style="background:#F5F5F5">
+                <div class="modal-header riqi_tc_top">
+                    <h4 class="modal-title rili_tiqi text-center">选择月份</h4>
+                </div>
+                <div class="modal-body p0">
+                    <div class="rili_tc_index">
+                        <div class="dwrc">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <div class="dwwl0">
+                                            <div class="dwl">
+                                                年
+                                            </div>
+                                            <div class="dww">
+                                                <div class="dw-ul" style="-webkit-transition: all 0.100s ease-out;-webkit-transform: translate3d(0,-108px,0);">
+                                                    <div>
+                                                        <div class="dw-li">
+                                                            01
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            01
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            01
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            01
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            01
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            01
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            01
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            01
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            01
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            01
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            01
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="dwwo">
+
+                                                </div>
+                                            </div>
+                                            <div class="dwwol">
+
+                                            </div>
+                                        </div>
+
+                                    </td>
+                                    <td>
+                                        <div class="dwwl0">
+                                            <div class="dwl">
+                                                年
+                                            </div>
+                                            <div class="dww">
+                                                <div class="dw-ul" style="-webkit-transition: all 0.100s ease-out;-webkit-transform: translate3d(0,-108px,0);">
+                                                    <div>
+                                                        <div class="dw-li">
+                                                            01
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            01
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            01
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            01
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            01
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            01
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            01
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            01
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            01
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            01
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            01
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="dwwo">
+
+                                                </div>
+                                            </div>
+                                            <div class="dwwol">
+
+                                            </div>
+                                        </div>
+
+                                    </td>
+
+                                </tr>
+
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer p0" style="text-align:center">
+                    <ul>
+                        <li><a data-dismiss="modal">取消</a></li>
+                        <li><a data-dismiss="modal">确认</a></li>
+                    </ul>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <script>
+        $(function () {
+            var currYear = (new Date()).getFullYear();
+            var opt = {};
+            opt.date = { preset: 'date' };
+            opt.datetime = { preset: 'datetime' };
+            opt.time = { preset: 'time' };
+            opt.default = {
+                theme: 'android-ics light', //皮肤样式
+                display: 'modal', //显示方式
+                mode: 'scroller', //日期选择模式
+                dateFormat: 'yyyy-mm-dd',
+                lang: 'zh',
+                showNow: true,
+                nowText: "今天",
+                startYear: currYear - 10, //开始年份
+                endYear: currYear + 10 //结束年份
+            };
+
+            $("#appDate").mobiscroll($.extend(opt['date'], opt['default']));
+        });
+    </script>
+
+
+
+    <script>
+        var nstr1 = new Date(); //当前Date资讯
+        rili(nstr1);
+
+
+
+
+        function is_leap(year) {
+            return (year % 100 == 0 ? res = (year % 400 == 0 ? 1 : 0) : res = (year % 4 == 0 ? 1 : 0));
+        } //是否为闰年
+        function rili(nstr) {
+            var a = [1, 3, 5, 7, 8, 9, 11, 15, 21];
+            //$.ajax({
+            //    url: 'aaa2.txt?' + Math.random(),
+            //    dataType: "json",
+            //    success: function (data) {
+            //       for (var i = 0; i < data.length; i++) {
+            //           a[i] = data[i].riqi;
+            //         }
+            //    }
+            //});
+            //alert(a);
+            var b = [];
+            for (var key in a) {
+                b[a[key]] = 1;
+            }
+
+            var rili_zhuti = $(".rili_zhuti");
+            rili_zhuti.html("");
+            var geshi = "";
+            var ynow = nstr.getFullYear(); //年份
+            var mnow = nstr.getMonth(); //月份
+            var dnow = nstr.getDate(); //今日日期
+            var n1str = new Date(ynow, mnow, 1); //当月第一天Date资讯
+
+            var firstday = n1str.getDay(); //当月第一天星期几
+
+            var m_days = new Array(31, 28 + is_leap(ynow), 31, 30, 31, 30, 31, 31, 30, 31, 30, 31); //各月份的总天数
+
+            var tr_str = Math.ceil((m_days[mnow] + firstday) / 7); //表格所需要行数
+
+            //打印表格第一行（有星期标志）
+            geshi += ("<table border='1' align='center' class='rili_table'><tr><td align='center'>日</td><td align='center'>一</td><td align='center'>二</td><td align='center'>三</td><td align='center'>四</td><td align='center'>五</td><td align='center'>六</td></tr>");
+
+            for (i = 0; i < tr_str; i++) { //表格的行
+                geshi += ("<tr>");
+                for (k = 0; k < 7; k++) { //表格每行的单元格
+                    idx = i * 7 + k; //单元格自然序列号
+                    date_str = idx - firstday + 1; //计算日期
+                    //过滤无效日期（小于等于零的、大于月总天数的）
+                    (date_str <= 0 || date_str > m_days[mnow]) ? date_str = "&nbsp;" : date_str = idx - firstday + 1;
+                    //打印日期：今天底色为红
+                    if (date_str == dnow)
+                        //都dnow为今天日期
+                    {
+                        geshi += ("<td class='rili_tabay'>" + date_str + "</td>")
+                    }
+                    else if (date_str % 1 == 0) {
+                        //判断有无签到
+                        if (date_str < dnow) {
+                            if (b[date_str] == 1) {
+                                geshi += ("<td >" + date_str + "<span class='glyphicon glyphicon-ok rili_yiqiandao'></span></td>");
+                            }
+                            else {
+                                geshi += ("<td >" + date_str + "<span class='glyphicon glyphicon-remove rili_weiqiandao'></span></td>");
+                            }
+                        }
+                        else {
+                            geshi += ("<td >" + date_str + "</td>");
+                        }
+                    }
+                    else {
+                        //日期为空
+                        geshi += ("<td align='center'>" + date_str + "</td>");
+                    }
+                }
+                geshi += ("</tr>"); //表格的行结束
+            }
+
+            geshi += ("</table>"); //表格结束
+            rili_zhuti.append(geshi);
+        }
+    </script>
+</body>
+</html>

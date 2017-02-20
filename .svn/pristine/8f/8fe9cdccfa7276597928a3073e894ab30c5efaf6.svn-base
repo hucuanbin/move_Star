@@ -1,0 +1,202 @@
+﻿body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td, label {
+    margin: 0;
+    padding: 0;
+}
+
+body, button, input, select, textarea {
+    font-family: 'Microsoft YaHei' !important;
+    font-size: 12px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+
+address, cite, dfn, em, var {
+    font-style: normal;
+}
+
+span {
+    display: inline-block;
+}
+
+.p10 {
+    padding: 10px !important;
+}
+
+a:hover, a:before, a:link {
+    text-decoration: none !important;
+}
+
+code, kbd, pre, samp {
+    font-family: couriernew, courier, monospace;
+}
+
+small {
+    font-size: 12px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+sup {
+    vertical-align: text-top;
+}
+
+
+p {
+    margin-bottom: 0px !important;
+}
+
+body {
+    background: #F2F2F2 !important;
+}
+
+sub {
+    vertical-align: text-bottom;
+}
+
+legend {
+    color: #000;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.p0 {
+    padding: 0px !important;
+}
+
+.m0 {
+    margin: 0px !important;
+}
+
+.m-5 {
+    margin-top: 5px;
+}
+
+.m-10 {
+    margin-top: 10px;
+}
+
+.m-20 {
+    margin-top: 20px;
+}
+
+.left {
+    float: left !important;
+}
+
+.right {
+    float: right !important;
+}
+
+.pos_r {
+    position: relative;
+}
+
+.img_wid {
+    width: 100%;
+    height: auto;
+}
+
+.font_0 {
+    font-size: 0px;
+}
+
+.zhaomu_index {
+    background: url(../images/zhaomu_bg.png) repeat-y;
+    background-size: 100% auto;
+    padding:10px;
+}
+
+.zhaomuxiao {
+    margin-top:10px;
+    padding: 15px 10px;
+    border-radius: 5px;
+    margin-bottom:25px;
+    position:relative;
+    padding-bottom:25px;
+}
+
+    .zhaomuxiao span, .zhaomuxiao em, .zhaomuxiao p {
+        font-weight: bold;
+        font-size: 0.9rem;
+    }
+
+    .zhaomuxiao p {
+        text-align: justify;
+        margin-top: 5px;
+    }
+
+    .zhaomuxiao span + span {
+        margin-left: 5px;
+    }
+
+    .zhaomuxiao span > em {
+        margin-left: 2px;
+    }
+
+.zhu_nan {
+    background: #23E7D9;
+}
+
+    .zhu_nan span, .zhu_nan em, .zhu_nan p {
+        color: #0A6E64;
+    }
+
+.zhu_nv {
+    background: #02B3F6;
+}
+
+    .zhu_nv span, .zhu_nv em, .zhu_nv p {
+        color: #016D9B;
+    }
+
+.zhu_pei {
+    background: #FF679A;
+}
+
+    .zhu_pei span, .zhu_pei em, .zhu_pei p {
+        color: #A0093C;
+    }
+
+.zhu_fax {
+    background: #27192A;
+}
+
+    .zhu_fax span, .zhu_fax em, .zhu_fax p {
+        color: #A466B1;
+    }
+    .zhaomu_img{
+       position:absolute;
+       top:-14px;
+       left:30px;
+       height:26px;
+       width:auto;
+    }
+    .zhaomu_dianhu>p{
+        font-size:0.9rem;
+        color:#7E1545;
+        text-align:center;
+        margin-bottom:3px !important;
+    }

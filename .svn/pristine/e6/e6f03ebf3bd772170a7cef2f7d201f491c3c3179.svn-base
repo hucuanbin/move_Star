@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <script src="js/bootstrap.js"></script>
+    <div class="container-fluid nr_top_1">
+        <a href="wode.html" class="glyphicon glyphicon-menu-left "></a>
+        <b class="text-center">修改姓名</b>
+    </div>
+    <div class="container-fluid zil_xiug p10">
+        <div class="xiug_input">
+            <input id="nicheng" value="肉包子" class="inpt_show" data-data="肉包子" />
+            <button class="botn_quan">保存</button>
+        </div>
+    </div>
+    <script>
+        $("#nicheng").focus(function () {
+            $(this).val("");
+        });
+        $("#nicheng").blur(function () {
+            if ($(this).val() == "") {
+                $(this).val( $(this).attr("data-data"));
+            }
+        });
+    </script>
+</body>
+</html>

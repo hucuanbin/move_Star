@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <script src="js/bootstrap.js"></script>
+    <style>
+        body {
+            background: #F0F2F4;
+        }
+    </style>
+    <div class="container-fluid nr_top_1">
+        <a href="wode_dingdan.html" class="glyphicon glyphicon-menu-left "></a>
+        <b class="text-center">订单详情</b>
+    </div>
+    <div class="ddxx_top container-fluid">
+        <p><b class="glyphicon glyphicon-time ce_hong"></b>交易成功</p>
+        <p>下单时间:08-11 11:40:45<span class="right">订单编号:24867729</span></p>
+    </div>
+
+    <div class=" container-fluid m-10 dd_xq_index">
+        <div class="ddxx_jg m-10">
+            <div>
+                <img src="images/index_yhc.png" />
+                <span class=" yuan_top"></span>
+                <span class=" yuan_left"></span>
+                <span class=" yuan_right"></span>
+                <a class="dd_shaid">晒单咯</a>
+            </div>
+            <div>
+                <p><span>单位</span><span>总价</span></p>
+                <p><span><b class="zi_big">1</b>张</span><span><b class="mo_re zi_big">380.00</b>元</span></p>
+            </div>
+        </div>
+        <div class="m-10 ddcg_diz" style="display:block">
+          <a href="yuzi_xq.html"> 
+              <div>
+                  <b class="glyphicon glyphicon-bed jz_wd cghe"></b>
+                  <p>
+                      我是地址我是自动化iw是地址动化iw是地址我是地址我是自动化iw是地址
+                  </p>
+                  <p>
+                      2015-07-27 12:29
+                  </p>
+                  <spam class="glyphicon glyphicon-menu-right jz_wd">
+
+                  </spam>
+              </div>
+          </a>
+           <div class="bor_top">
+               <b class="glyphicon glyphicon-map-marker jz_wd cghe"></b>
+               <p>收货人:肉包子 157****3651</p>
+               <p>收货地址：娜拉哪里anal</p>
+           </div>
+        </div>
+        <div class="sp_je m-10" style="padding:10px;">
+            <p>商品金额<span class="right">380.0元</span></p>
+            <p>运费<span class="right">+22.0元</span></p>
+            <p id="baox_je" style="display:none">保险<span class="right">+22.0元</span></p>
+            <p>优惠政策<span class="right">01元</span></p>
+            <p>订单金额<span class="right"><b class="zi_big mo_re" id="zng_je">402.00</b>元</span></p>
+        </div>
+    </div>
+</body>
+</html>

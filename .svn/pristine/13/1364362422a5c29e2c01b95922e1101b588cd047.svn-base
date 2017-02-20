@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <script src="js/bootstrap.js"></script>
+    <div class="container-fluid nr_top_1">
+        <a href="wode.html" class="glyphicon glyphicon-menu-left "></a>
+        <b class="text-center">修改生日</b>
+    </div>
+    <div class="container-fluid wod_shengb p10">
+     <div>
+         <div class="col-xs-4">
+             <select>
+                 <option>2014</option>
+                 <option>2014</option>
+                 <option>2014</option>
+                 <option>2014</option>
+                 <option>2014</option>
+                 <option>2014</option>
+             </select>
+             <span>年</span>
+         </div>
+         <div class="col-xs-4">
+             <select>
+                 <option>2014</option>
+                 <option>2014</option>
+                 <option>2014</option>
+                 <option>2014</option>
+                 <option>2014</option>
+                 <option>2014</option>
+             </select>
+             <span>月</span>
+         </div>
+         <div class="col-xs-4">
+             <select>
+                 <option>2014</option>
+                 <option>2014</option>
+                 <option>2014</option>
+                 <option>2014</option>
+                 <option>2014</option>
+                 <option>2014</option>
+             </select>
+             <span>日</span>
+         </div>
+     </div>
+        <div>
+            <button class="botn_quan m-20">保存</button>
+        </div>
+    </div>
+</body>
+</html>

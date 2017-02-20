@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <link href="css/xiugai_styles.css" rel="stylesheet" />
+    <script src="js/yxMobileSlider1.js"></script>
+    <style>
+        body {
+            background: #F0F2F5;
+        }
+    </style>
+    <div class="container-fluid nr_top_1">
+        <a href="weip_lb.html" class="glyphicon glyphicon-menu-left "></a>
+        <b class="text-center">微拍详情</b>
+    </div>
+    <div class="container-fluid  p0">
+        <div class="kePublic kePublic1">
+            <!--效果html开始-->
+            <div class="slider1">
+                <ul>
+                    <li>
+                        <a href="denglu.html">
+                            <img src="images/index_diany.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/index_yhc.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/index_yhc.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script>
+                $(".slider1").yxMobileSlider1({ width: 640, height: 340, during: 5000 })
+        </script>
+    </div>
+    <div class="container-fluid weip_xq_top">
+        <div class="p10">
+           <p class="zi_1-5r"> 明星详情</p>
+        </div>
+        <div class="p10">
+            <p class="m-b-5 zi_1-3r">当前价：<span class="weip_lb_jg">￥1</span></p>
+            <p class="se_he weip_lb_js time_daoj">距结束：<span class="time_tian">00</span>天<span class="time_shi">00</span>时<span class="time_fen">00</span>分<span class="time_miao">00</span>秒</p>
+        </div>
+        <div class="p10 weip_xq_nr" style="height:80px;" data-gaodu="80">
+            <p style="font-size:1.5rem;margin-bottom:5px;">藏品描述</p>
+           <div>
+               <p>asdasdasdsadsa</p>
+               <p>asdasdasdsadsa</p>
+               <p>asdasdasdsadsa</p>
+               <p>asdasdasdsadsa</p>
+               <p>asdasdasdsadsa</p>
+               <p>asdasdasdsadsa</p>
+               <p>asdasdasdsadsa</p>
+               <p>asdasdasdsadsa</p>
+               <p>asdasdasdsadsa</p>
+               <p>asdasdasdsadsa</p>
+           </div>
+        </div>
+        <div class="weip_xq_nrgd p5" data-data="0">
+            查看更多
+        </div>
+    </div>
+    <div class="container-fluid weip_xq_top m-20">
+        <div class="p10">
+            <p style="overflow:auto;">
+                <span class="weip_bon_span">起拍价:￥1</span>
+                <span class="weip_bon_span" id="fudu" data-dufu="50">加价幅度:￥50</span>
+                <span class="weip_bon_span">保证金:￥0</span>
+                <span class="weip_bon_span">拍卖延时/次</span>
+            </p>
+        </div>
+        <div class="p10" style="overflow:auto">
+            <a id="chujjl" data-data="0"><span>出价记录<b class="se_E63F00">(1)</b></span><em class="right glyphicon glyphicon-chevron-down weip_xq_jt"></em><span class="right weip_xq_jpr">132908</span></a>
+            <div class="m-10 cjlj" style="display:none;">
+                <ul class="chuji_jil">
+                    <li>
+                        <span>竞拍人</span>
+                        <span>出价</span>
+                        <span>时间</span>
+                    </li>
+                    <li>
+                        <span class="shengl">巴拉巴拉</span>
+                        <span>51</span>
+                        <span>07-12 11:23:03</span>
+                    </li>
+                    <li>
+                        <span class="shengl">巴拉巴拉</span>
+                        <span>51</span>
+                        <span>07-12 11:23:03</span>
+                    </li>
+                    <li>
+                        <span class="shengl">巴拉巴拉</span>
+                        <span>51</span>
+                        <span>07-12 11:23:03</span>
+                    </li>
+                </ul>
+            </div> 
+        </div>
+       
+    </div>
+    <div class="container-fluid text-center p10">
+        <a href="weip_lb.html" class="botn_quan weip_xq_btn">查看该专场的其他藏品</a>
+    </div>
+
+    <div class="container-fluid weip_xq_botn text-center">
+        <span class="jiaj">
+            <b class="weip_fuh" data-sheng="-1" id="jian_s">
+                <em class="glyphicon glyphicon-minus  weip_c">
+
+                </em>
+            </b>
+            <input type="text" class="weip_input" value="1200" data-data="1200"/>
+            <b class="weip_fuh" data-sheng="1">
+                <em class="glyphicon glyphicon-plus weip_c">
+
+                </em>
+            </b>
+        </span>
+        <script>
+            $(".weip_fuh").click(function () {
+                var fudu = parseInt($("#fudu").attr("data-dufu"));
+                var fuhao = parseInt($(this).attr("data-sheng"));
+                var miqian_zhi =parseInt( $(".weip_input").val());
+                var shue = fudu * fuhao;
+                var zuixiao = parseInt($(".weip_input").attr("data-data"));
+                if ((miqian_zhi + shue) < zuixiao) {
+                   
+                }
+                else {
+                    $("#jian_s").removeClass("zuixiao");
+                    $(".weip_input").val(miqian_zhi + shue);
+                    if ((miqian_zhi + shue) == zuixiao) {
+                        $("#jian_s").addClass("zuixiao");
+                    }
+                }
+            })
+        </script>
+        <a class="chuj_btn botn_quan">
+            出价
+        </a>
+    </div>
+    <script src="js/weip_daojishi.js"></script>
+    <script>
+        //选择的时间+36小时  测试用
+        var a = parseInt(new Date().valueOf() / 1000 + (3600 * 36));
+        $(".time_daoj").attr("data-data", a);
+        $(document).ready(function () {
+            $(".weip_xq_nrgd").click(function () {
+                var a = $(this).attr("data-data");
+                if (a == 0) {
+                    $(".weip_xq_nr").css("height", "auto");
+                    $(this).attr("data-data", 1);
+                    $(".weip_xq_nrgd").text("收起");
+                    $('html,body').animate({ scrollTop: '320px' }, 300);                }
+                else {
+                    var hei = $(".weip_xq_nr").attr("data-gaodu");
+                    $(".weip_xq_nr").css("height", hei + "px");
+                    $(this).attr("data-data", 0);
+                    $(".weip_xq_nrgd").text("查看更多");
+                }
+            });
+            $("#chujjl").click(function () {
+                var a = $(this).attr("data-data");
+                if (a == 0) {
+                    $(".cjlj").slideDown();
+                    var st = parseInt($(document).scrollTop());                    var b1 = parseInt($(".cjlj li").length);                    $('html,body').animate({ scrollTop: (st + b1 * 26) + 'px' }, 300);                    $(this).attr("data-data", 1);                    $(".weip_xq_jt").attr("class", "right glyphicon glyphicon-chevron-up weip_xq_jt");                }
+                else {
+                    $(".weip_xq_jt").attr("class", "right glyphicon glyphicon-chevron-down weip_xq_jt");                    $(this).attr("data-data", 0);
+                    $(".cjlj").slideUp();
+
+                }
+            })
+        })
+    </script>
+</body>
+</html>

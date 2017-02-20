@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <style>
+        body {
+            background: #F0F2F5;
+        }
+    </style>
+    <script src="js/bootstrap.js"></script>
+
+    <div class="container-fluid p0 mm_xq_top tu_index">
+        <img src="images/index_diany.png" />
+        <a href="fax.html" class="glyphicon glyphicon-menu-left "></a>
+        <div class="mm_xq_top_1 text-center">
+            <p class="zi_big">EX0-M</p>
+            <p class="xuanfu">-------<span>177.5万粉丝</span>-------</p>
+            <p><span class="waiquan">关注</span></p>
+        </div>
+    </div>
+    <div class="container-fluid ddgl_top">
+        <nav>
+            <a class="ddgl_top_xq" href="#mmxq_yh" data-toggle="tab">演出</a>
+            <a href="#mmxq_zj" data-toggle="tab">专辑</a>
+            <a href="#mmxq_sp" data-toggle="tab">视频</a>
+            <a href="#mmxq_xq" data-toggle="tab">详情</a>
+        </nav>
+    </div>
+    <div class="container-fluid p0">
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade in active" id="mmxq_yh">
+                <div class="m-10 mm_yc">
+                    <div>
+                        <p>2015 08 22</p>
+                        <p class="mm_yc_nr shengl">娜拉娜拉巴娜拉巴娜拉巴娜拉巴娜拉巴巴拉</p>
+                        <a href="yanchu_xq.html" class="mmxq_yh_a jz_wd">
+                            <img src="images/mx_xiangq.png" />
+                            <span>详情</span>
+                        </a>
+                    </div>
+                    <div>
+                        <p>2015 08 22</p>
+                        <p class="mm_yc_nr shengl">娜拉娜拉巴娜拉巴娜拉巴娜拉巴娜拉巴巴拉</p>
+                        <a href="yanchu_xq.html" class="mmxq_yh_a jz_wd">
+                            <img src="images/mx_xiangq.png" />
+                            <span>详情</span>
+                        </a>
+                    </div>
+                    <div>
+                        <p>2015 08 22</p>
+                        <p class="mm_yc_nr shengl">娜拉娜拉巴娜拉巴娜拉巴娜拉巴娜拉巴巴拉</p>
+                        <a href="yanchu_xq.html" class="mmxq_yh_a jz_wd">
+                            <img src="images/mx_xiangq.png" />
+                            <span>详情</span>
+                        </a>
+                    </div>
+                    <div>
+                        <p>2015 08 22</p>
+                        <p class="mm_yc_nr shengl">娜拉娜拉巴娜拉巴娜拉巴娜拉巴娜拉巴巴拉</p>
+                        <a href="yanchu_xq.html" class="mmxq_yh_a jz_wd">
+                            <img src="images/mx_xiangq.png" />
+                            <span>详情</span>
+                        </a>
+                    </div>
+                    <div>
+                        <p>2015 08 22</p>
+                        <p class="mm_yc_nr shengl">娜拉娜拉巴娜拉巴娜拉巴娜拉巴娜拉巴巴拉</p>
+                        <a href="yanchu_xq.html" class="mmxq_yh_a jz_wd">
+                            <img src="images/mx_xiangq.png" />
+                            <span>详情</span>
+                        </a>
+                    </div>
+                    <div>
+                        <p>2015 08 22</p>
+                        <p class="mm_yc_nr shengl">娜拉娜拉巴娜拉巴娜拉巴娜拉巴娜拉巴巴拉</p>
+                        <a href="yanchu_xq.html" class="mmxq_yh_a jz_wd">
+                            <img src="images/mx_xiangq.png" />
+                            <span>详情</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="mmxq_zj">
+                <div class="mm_zj p10">
+                    <div>
+                        <div class="mb_zj">
+                            <img src="images/tiantian_Logo.png" class="mb_zj_1"/>
+                        </div>
+                        <p class="shengl">巴拉巴拉巴拉巴拉</p>
+                        <p>2015-06-03</p>
+                    </div>
+                    <div>
+                        <div class="mb_zj">
+                            <img src="images/tiantian_Logo.png" class="mb_zj_1" />
+                        </div>
+                        <p class="shengl">巴拉巴拉巴拉巴拉巴</p>
+                        <p>2015-06-03</p>
+                    </div>
+                    <div>
+                        <div class="mb_zj">
+                            <img src="images/tiantian_Logo.png" class="mb_zj_1" />
+                        </div>
+                        <p class="shengl">巴拉巴拉巴拉巴拉</p>
+                        <p>2015-06-03</p>
+                    </div>
+                    <div>
+                        <div class="mb_zj">
+                            <img src="images/tiantian_Logo.png" class="mb_zj_1" />
+                        </div>
+                        <p class="shengl">巴拉巴拉巴拉巴拉巴</p>
+                        <p>2015-06-03</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="mmxq_sp">
+                <div class="mm_sq p0">
+                    <div class="fx_indexx_tuij p10">
+                        <a>
+                            <div>
+                                <div class="xinwen_tu_1">
+                                    <img src="images/index_yhc.png" />
+                                    <p>12:10</p>
+                                    <b class="bof_tb"></b>
+                                </div>
+                                <p class="shengl">1111111</p>
+                            </div>
+                        </a>
+                        <a>
+                            <div>
+                                <div class="xinwen_tu_1">
+                                    <img src="images/index_yhc.png" />
+                                    <p>12:10</p>
+                                    <b class="bof_tb"></b>
+                                </div>
+                                <p class="shengl">111111111111111111111</p>
+                            </div>
+                        </a>
+                        <a>
+                            <div>
+                                <div class="xinwen_tu_1">
+                                    <img src="images/index_yhc.png" />
+                                    <p>12:10</p>
+                                    <b class="bof_tb"></b>
+                                </div>
+                                <p class="shengl">1111111</p>
+                            </div>
+                        </a>
+                        <a>
+                            <div>
+                                <div class="xinwen_tu_1">
+                                    <img src="images/index_yhc.png" />
+                                    <p>12:10</p>
+                                    <b class="bof_tb"></b>
+                                </div>
+                                <p class="shengl">11撒旦阿斯顿阿斯顿阿登省阿斯顿阿斯顿</p>
+                            </div>
+                        </a>
+                        <a>
+                            <div>
+                                <div class="xinwen_tu_1">
+                                    <img src="images/index_yhc.png" />
+                                    <p>12:10</p>
+                                    <b class="bof_tb"></b>
+                                </div>
+                                <p class="shengl">1111111</p>
+                            </div>
+                        </a>
+                        <a>
+                            <div>
+                                <div class="xinwen_tu_1">
+                                    <img src="images/index_yhc.png" />
+                                    <p>12:10</p>
+                                    <b class="bof_tb"></b>
+                                </div>
+                                <p class="shengl">11撒旦阿斯顿阿斯顿阿登省阿斯顿阿斯顿</p>
+                            </div>
+                        </a>
+                        <a>
+                            <div>
+                                <div class="xinwen_tu_1">
+                                    <img src="images/index_yhc.png" />
+                                    <p>12:10</p>
+                                    <b class="bof_tb"></b>
+                                </div>
+                                <p class="shengl">1111111</p>
+                            </div>
+                        </a>
+                        <a>
+                            <div>
+                                <div class="xinwen_tu_1">
+                                    <img src="images/index_yhc.png" />
+                                    <p>12:10</p>
+                                    <b class="bof_tb"></b>
+                                </div>
+                                <p class="shengl">11撒旦阿斯顿阿斯顿阿登省阿斯顿阿斯顿</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="mmxq_xq">
+                <div class="mmxq_xq_nr m-10">
+                    巴拉撒旦空间斯大林阿斯顿老看经斯大林就阿斯兰打算离开东京阿斯利康圣诞节
+                    阿斯科利大家萨看来大家阿斯来得及阿里肯德基阿斯利康大家阿拉山口大家萨里看到就萨里看到就
+                    速度快阿斯利康大家阿斯来得及阿斯来得及领导军来将敌萨拉丁家拉克丝大家拉伸空间的
+                    速度快阿斯利康大家阿斯来得及阿斯来得及领导军来将敌萨拉丁家拉克丝大家拉伸空间的
+                    速度快阿斯利康大家阿斯来得及阿斯来得及领导军来将敌萨拉丁家拉克丝大家拉伸空间的
+                    速度快阿斯利康大家阿斯来得及阿斯来得及领导军来将敌萨拉丁家拉克丝大家拉伸空间的
+                    速度快阿斯利康大家阿斯来得及阿斯来得及领导军来将敌萨拉丁家拉克丝大家拉伸空间的
+                </div>
+                <div class="mmxq_xs">
+                    <p>  <span class="zi_big">相似歌手</span></p>
+                    <div class="mmxq_xs_gs m-10">
+                        <a>
+                            <div>
+                                <img src="images/tiantian_Logo.png" />
+                                <p class="shengl">少女纸袋</p>
+                            </div>
+                        </a>
+                        <a>
+                            <div>
+                                <img src="images/tiantian_Logo.png" />
+                                <p class="shengl">少女纸袋</p>
+                            </div>
+                        </a>
+                        <a>
+                            <div>
+                                <img src="images/tiantian_Logo.png" />
+                                <p class="shengl">少女纸袋</p>
+                            </div>
+                        </a>
+                        <a>
+                            <div>
+                                <img src="images/tiantian_Logo.png" />
+                                <p class="shengl">少女纸袋</p>
+                            </div>
+                        </a>
+                        <a>
+                            <div>
+                                <img src="images/tiantian_Logo.png" />
+                                <p class="shengl">少女纸袋</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <script>
+            $(".ddgl_top a").click(function () {
+                $(this).siblings("a").attr("class", "");
+                $(this).attr("class", "ddgl_top_xq");
+            })
+        </script>
+
+</body>
+</html>

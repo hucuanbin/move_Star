@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/toupiao.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <script src="js/bootstrap.js"></script>
+    <div class="container-fluid toup_index_bg p0">
+        <div class="toup_phb_index">
+            <div class="col-xs-5">
+                <p class="top_phb_img_top"><span>No.01</span></p>
+                <img src="images/weixuan.png" class="tu_man" />
+            </div>
+            <div class="col-xs-7 toup_phb_xx">
+                <p class="zi_big">2371号 花木兰</p>
+                <p class="phb_piaoshu m-5"><em class="z1_huang">13261</em>票</p>
+                <p class=" m-10"><a class="toup_2_a">为他投票</a></p>
+            </div>
+        </div>
+        <div class="toup_phb_index">
+            <div class="col-xs-5">
+                <p class="top_phb_img_top"><span>No.01</span></p>
+                <img src="images/weixuan.png" class="tu_man" />
+            </div>
+            <div class="col-xs-7 toup_phb_xx">
+                <p class="zi_big">2371号 花木兰</p>
+                <p class="phb_piaoshu m-5"><em class="z1_huang">161</em>票</p>
+                <p class=" m-10"><a class="toup_2_a">为他投票</a></p>
+            </div>
+        </div>
+        <div class="toup_phb_index">
+            <div class="col-xs-5">
+                <p class="top_phb_img_top"><span>No.01</span></p>
+                <img src="images/weixuan.png" class="tu_man" />
+            </div>
+            <div class="col-xs-7 toup_phb_xx">
+                <p class="zi_big">2371号 花木兰</p>
+                <p class="phb_piaoshu m-5"><em class="z1_huang">1123261</em>票</p>
+                <p class=" m-10"><a class="toup_2_a">为他投票</a></p>
+            </div>
+        </div>
+        <div class="toup_phb_index">
+            <div class="col-xs-5">
+                <p class="top_phb_img_top"><span>No.01</span></p>
+                <img src="images/weixuan.png" class="tu_man" />
+            </div>
+            <div class="col-xs-7 toup_phb_xx">
+                <p class="zi_big">2371号 花木兰</p>
+                <p class="phb_piaoshu m-5"><em class="z1_huang">13278961</em>票</p>
+                <p class=" m-10"><a class="toup_2_a">为他投票</a></p>
+            </div>
+        </div>
+
+    </div>
+    <div id="myModal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog1" style="margin:90px auto;width:300px;">
+            <div class="modal-content qiiand_cg">
+                <div class="modal-body  qd_cg_index" style="display:none;">
+                    <div>
+                        <p class="dc_tg_top">投票成功 <a data-dismiss="modal" aria-label="Close">关闭</a></p>
+                    </div>
+                    <div class="qd_cg">
+                        <p class="qd_cg_p1">投票成功</p>
+                        <p class="qd_cg_p2">谢谢您的参与.记得明天还可以过来投票哦</p>
+                        <span class="glyphicon glyphicon-ok-sign qd_cg_tb"></span>
+                    </div>
+                </div>
+                <div class="text-center tc_jz">
+                    <img src="images/loding.gif" />
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <div id="myModal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog1" style="margin:90px auto;width:300px;">
+            <div class="modal-content qiiand_cg">
+                <div class="modal-body  qd_cg_index">
+                    <div>
+                        <p class="dc_tg_top">投票失败 <a data-dismiss="modal" aria-label="Close">关闭</a></p>
+                    </div>
+                    <div class="qd_cg text-center" style="padding-left:10px">
+                        <p class="qid_cg">您已经投票过了，谢谢您的参与!</p>
+                    </div>
+                </div>
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <script>
+        //  $(".huod_jies_index").width(($(".toup_huod_jies").width() - 76));
+        //  alert($(".huod_jies_index").width() + "::" + $(".toup_huod_jies").width());
+
+        $(".z1_huang").each(function () {
+            var a = $(this).text();
+            var b = [];
+            var jiashu = 0;
+            var c="";
+            while (a > 0) {
+                if (jiashu % 3 == 0 && jiashu!=0)
+                    b.push(",");
+                b.push(a % 10);
+                jiashu++;
+                a = parseInt(a / 10);
+            }
+            c=b.reverse().join("");
+            $(this).text(c);
+         
+        })
+
+
+        $(".toup_2_a").click(function () {
+            if ($(this).text() == "为他投票") {
+                $('#myModal2').modal({
+                    keyboard: false
+                })
+
+                setTimeout(function () {
+                    $(".tc_jz").hide();
+                    $(".qd_cg_index").show()
+                }, 1000);
+                $(this).text("投票成功");                $(this).addClass("tp_cg");
+            }
+            else {
+                $('#myModal3').modal({
+                    keyboard: false
+                })
+            }
+
+            /////////////////////////////
+            //$('#myModal2').modal({
+            //    keyboard: false
+            //})            //setTimeout(function () {
+            //    $(".tc_jz").hide();
+            //    $(".qd_cg_index").show();
+              
+            //}, 1000);            //$(this).text("投票成功");            //$(this).addClass("tp_cg");        })
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,520 @@
+﻿body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td, label {
+    margin: 0;
+    padding: 0;
+}
+
+body, button, input, select, textarea {
+    /*
+      font: 12px/1.5tahoma, arial, \5b8b\4f53;
+  */
+    font-family: 'Microsoft YaHei';
+    font-size: 12px;
+}
+
+body {
+    font-size: 12px;
+    max-width: 414px;
+    margin: 0px auto;
+}
+
+@media only screen and (min-width: 375px) {
+    html, body {
+        font-size: 12.5px;
+    }
+}
+
+@media only screen and (min-width: 414px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+
+address, cite, dfn, em, var {
+    font-style: normal;
+}
+
+span {
+    display: inline-block;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+a:hover, a:before, a:link {
+    text-decoration: none !important;
+}
+
+code, kbd, pre, samp {
+    font-family: couriernew, courier, monospace;
+}
+
+small {
+    font-size: 12px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+sup {
+    vertical-align: text-top;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+sub {
+    vertical-align: text-bottom;
+}
+
+legend {
+    color: #000;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.p0 {
+    padding: 0px !important;
+}
+
+.m0 {
+    margin: 0px !important;
+}
+
+.m-5 {
+    margin-top: 5px;
+}
+
+.m-10 {
+    margin-top: 10px;
+}
+
+.m-20 {
+    margin-top: 20px;
+}
+
+.m-b_7 {
+    margin-bottom: 7px;
+}
+
+.left {
+    float: left !important;
+}
+
+.right {
+    float: right !important;
+}
+
+.posr {
+    position: relative;
+}
+
+.toupp_time {
+    font-size: 1.2rem;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    bottom: 15%;
+}
+
+.toup_huod_jies {
+    padding: 20px;
+    overflow: auto;
+    padding-bottom: 10px;
+    font-size: 0px;
+}
+
+.top_1 {
+    background: url(../images/toup_top_bg.png) no-repeat;
+    background-size: 100% auto;
+}
+
+.top_1_topp {
+    width: 90%;
+}
+
+.huod_jies_zi {
+    font-size: 15px;
+    color: #fff;
+}
+
+.huod_jies_index {
+    display: inline-block;
+    width: calc(100% - 75px);
+    font-size: 14px;
+    color: #fff;
+    float: right;
+    vertical-align: top;
+}
+
+.bton_quan {
+    display: inline-block;
+    background: #0180F3;
+    color: #fff;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    vertical-align:bottom;
+}
+
+.yijibaom {
+    width: 150px;
+}
+
+.toup_1_index {
+    font-size: 0px;
+}
+
+.toup_1_index_idv {
+    display: inline-block;
+    width: 48%;
+    margin-bottom: 4%;
+    background: #fff;
+}
+
+    .toup_1_index_idv .img-responsive {
+        width: 100%;
+    }
+
+.toup_1_index > .toup_1_index_idv:nth-child(2n) {
+    margin-left: 4%;
+}
+
+.toux_1_xx {
+    padding: 5px;
+    padding-top: 2px;
+    font-size: 13px;
+}
+
+.piaoshu {
+    color: #9B2323;
+    margin-right: 4px;
+}
+
+.toup_1_bton {
+    margin-bottom: 15px;
+}
+
+.toup_phb {
+    font-size: 14px;
+    color: #fff;
+}
+
+.toup_index_bg {
+    padding: 10px 7px;
+    background: url(../images/toup_index_beij.png) no-repeat;
+    background-size: 100% auto;
+    min-height:100%;
+}
+
+.toup_2_img {
+    width: 10rem;
+}
+
+.toup_2_name {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+    .toup_2_name span {
+        margin-left: 10px;
+    }
+
+.toup_2_a {
+    display: inline-block;
+    width: 47%;
+    color: #fff;
+    padding: 3px;
+    border: 2px #fff solid;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 15px;
+    height: 31px;
+    line-height: 21px;
+    vertical-align: bottom;
+}
+
+    .toup_2_a .piaoshu,.toup_jieg_xx .piaoshu,.z1_huang{
+        display: inline-block;
+        color: #FFF600;
+        height: 21px;
+        line-height: 21px;
+    }
+    .loding_wai {
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+}
+    .loading {
+  position: absolute;
+  width: 60%;
+  left: 50%;
+  margin-left: -30%;
+  top: 104px;
+  background: #1E1E1E;
+  height: 62px;
+  overflow: hidden;
+}
+    .loading span {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 5PX;
+  background: #fff;
+}
+    .loading > b {
+  position: absolute;
+  display: inline-block;
+  width: 64px;
+  left: -20%;
+  height: 64px;
+  background: -moz-linear-gradient(left, blue, white);
+  background: linear-gradient(left, blue, white);
+  background: -webkit-linear-gradient(left, rgba(30,30,30,0.0),rgba(30,30,30,5),rgba(30,30,30,1), rgba(30,30,30,1),rgba(30,30,30,0.5),rgba(30,30,30,0.0));
+  animation: jiantou_left 3s infinite;
+  -webkit-animation: jiantou_left 3s infinite;
+}
+    .loading ul {
+  overflow: auto;
+  margin-top: 25.6px;
+  padding: 0px 10px;
+}
+    .loading li {
+  width: 12.5%;
+  text-align: center;
+  float: left;
+}
+    @keyframes jiantou_left {
+    0% {
+        left: -20%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+@-moz-keyframes jiantou_left /* Firefox */
+{
+    0% {
+        left: -20%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+@-webkit-keyframes jiantou_left /* Safari 和 Chrome */
+{
+    0% {
+        left: -20%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+@-o-keyframes jiantou_left /* Opera */
+{
+    0% {
+        left: -20%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+.toup_xq_xuany .toup_huod_jies{
+    padding:0px;
+}
+.toup_zuop .toup_1_index_idv{
+    position:relative;
+}
+.zuopin_icon{
+   position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -25px;
+  margin-left: -25px;
+  width: 50px;
+  height: 50px;
+  opacity: 0.7;
+}
+.toup_jieg_index{
+    margin:0px 5%;
+    padding-left:8.5rem;
+    position:relative;
+    margin-bottom:20px;
+    height:8rem;
+}
+.toup_jieg_img{
+    width:8rem;
+        position:absolute;
+        top:0px;
+        left:5px;
+
+}
+.toup_jieg_mingci{
+    position:absolute;
+    width:40px;
+    top:-10px;
+    left:-10px;
+}
+.mingci_1{
+    color:#C76500;
+}
+.mingci_2{
+    color:#686D7A
+}
+.mingci_3{
+    color:#8D5356
+}
+.mingci_4{
+    color:#535252
+}
+.mingci{
+    position:absolute;
+    width:100%;
+    display:inline-block;
+    text-align:center;
+    font-size:13px;
+    top:6px
+}
+.toup_jieg_xx{
+    font-size:1.5rem;
+    padding-top:1.5rem;
+}
+
+.topp_jieguo_div{
+    margin-top:-15%;
+}
+.top_phb_img_top{
+    width:112%;
+    background:url(../images/paihangb_img_top.png) no-repeat;
+    background-size:100% 100%;
+    padding:2px;
+    padding-left:15%;
+}
+.top_phb_img_top>span{
+        font-size:16px;
+        transform:skewX(170deg);
+            color:#fff;
+}
+.toup_phb_index{
+    padding:10px;
+    overflow:auto;
+    position:relative;
+}
+.toup_phb_index .col-xs-5,.toup_phb_index .col-xs-7{
+    padding:0px;
+}
+.tu_man{
+    width:100%;
+}
+.toup_phb_xx{
+    position:absolute;
+    bottom:20px;
+    left:41%;
+    padding-left:25px !important;
+}
+.zi_big{
+    font-size:1.8rem;
+    color:#fff;
+}
+.phb_piaoshu{
+    font-size:15px;
+    color:#fff;
+}
+.toup_phb_index+.toup_phb_index{
+    border-top:2px #fff dashed;
+}
+.phb_piaoshu .z1_huang{
+    margin-right:5px;
+}
+.toup_2_a:active{
+    background:#0180F3;
+    color:#fff !important;
+}
+.toup_2_a:link,.toup_2_a:hover{
+   color:#fff;
+}
+.tc_jz {
+  border: none;
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px;
+  border: 5px #0180F3 solid;
+}
+.qd_cg_index {
+  background: #0180F3;
+  padding: 5px;
+}
+.dc_tg_top {
+  color: rgba(255,255,255,0.9);
+  font-size: 15px;
+  padding-bottom: 3px;
+}
+.dc_tg_top a {
+  font-size: 15px;
+  color: rgba(255,255,255,0.9);
+  float: right;
+}
+.qd_cg {
+  background: #fff;
+  padding: 35px 10px;
+  position: relative;
+  padding-left: 60px;
+}
+.qd_cg_p1 {
+  font-size: 18px;
+  color: #6E6E6E;
+  margin-bottom: 10px;
+}
+.qd_cg_p2 {
+  font-size: 13px;
+  color: #6E6E6E;
+}
+.qd_cg_tb {
+  position: absolute;
+  top: 35px;
+  left: 10px;
+  color:#0180F3;
+  font-size: 40px;
+}
+.tp_cg{
+    background:#0180F3;
+    color:#fff;
+}

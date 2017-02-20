@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="loding_wai">
+        <div class="loading">
+            <b></b>
+            <ul>
+                <li>
+                    <span style="background:#FFCA08"></span>
+                </li>
+                <li>
+                    <span style="background:#0099D2"></span>
+                </li>
+                <li>
+                    <span style="background:#A3248F"></span>
+                </li>
+                <li>
+                    <span style="background:#A6CE3A"></span>
+                </li>
+                <li>
+                    <span style="background:#C40F3A"></span>
+                </li>
+                <li>
+                    <span style="background:#466F83"></span>
+                </li>
+                <li>
+                    <span style="background:#00A77B"></span>
+                </li>
+                <li>
+                    <span style="background:#F15C22"></span>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="container-fluid nr_top_1">
+        <a href="yanchu_xq.html" class="glyphicon glyphicon-menu-left "></a>
+        <b class="text-center">场馆地图</b>
+    </div>
+    <div style="height:300PX;width:100%;background:#FFCA08">
+
+    </div>
+    <div class="container-fluid yhc_bor yhc_cd">
+        <label>演出场地</label>
+        <p>北京展览馆剧场</p>
+        <a><span class="glyphicon glyphicon-map-marker"></span>地址：北京西城区西直门外大街136号</a>
+    </div>
+    <div class="container-fluid yhc_bor yhc_cd">
+        <label>场馆介绍</label>
+       <div class="yhc_cg_jc">
+           <p>asdsadada</p>
+       </div>
+    </div>
+
+   
+<script>
+    $(document).ready(function () {
+        $(".loding_wai").height($(window).height());
+        document.onreadystatechange = subSomething;//当页面加载状态改变的时候执行这个方法. 
+        function subSomething() {
+            if (document.readyState == "complete") //当页面加载状态 
+            $(".loding_wai").hide();
+        }
+    })
+</script>
+</body>
+</html>

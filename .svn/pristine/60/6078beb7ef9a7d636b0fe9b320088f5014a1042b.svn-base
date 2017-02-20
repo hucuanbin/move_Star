@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/toupiao.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid toup_index_bg">
+        <p><a class="toup_famhui" href="#"><span class="glyphicon glyphicon-menu-left"></span>返回</a></p>
+        <div class="text-center">
+            <img src="images/weixuan.png" class="toup_2_img" />
+            <p class="toup_2_name m-10">2371号 <span>意大利酸菜</span></p>
+        </div>
+        <p class="m-20">
+            <a class="toup_2_a"><em class="piaoshu">2029</em>票</a>
+            <a class="toup_2_a right">投他一票</a>
+        </p>
+        <div class="m-20 toup_xq_xuany">
+            <div class="toup_huod_jies">
+                <span class="huod_jies_zi">我的宣言：</span>
+                <span class="huod_jies_index">我的宣言我的宣言我的宣言我的宣言我的宣言</span>
+            </div>
+            <div class="m-10">
+                <p class="m-10"><span class="huod_jies_zi">我的作品：</span></p>
+                <div class="toup_1_index m-10 toup_zuop">
+                    <div class="toup_1_index_idv">
+                        <a href="toup_xiangq.html">
+                            <img src="images/player_icon_5c67475.png" class="zuopin_icon" id="ceshi" style=" width: 50px;height: 50px;" />
+                            <img src="images/index_diany.png" class="img-responsive" />
+                        </a>
+                    </div>
+                    <div class="toup_1_index_idv">
+                        <a href="toup_jieguo.html">
+                            <img src="images/index_diany.png" class="img-responsive" />
+                            <img src="images/player_icon_5c67475.png" class="zuopin_icon" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(".huod_jies_index").width(($(".toup_huod_jies").width() - $(".huod_jies_zi").width()));
+        //  alert($(".huod_jies_index").width() + "::" + $(".toup_huod_jies").width());
+
+    </script>
+
+</body>
+</html>

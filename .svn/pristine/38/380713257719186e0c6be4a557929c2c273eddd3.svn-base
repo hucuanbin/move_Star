@@ -1,0 +1,74 @@
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+.turntable-bg img{
+    width:100%;
+    height:auto;
+      max-height:100%;
+  max-width:100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+.turntable-bg {
+  width: 650px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+  background: url("../images/turntable-bg.jpg");
+  background-size:cover;
+}
+.turntable-bg .mask {
+  width: 454px;
+  height: 451px;
+  position: absolute;
+  left: 116px;
+  top: 60px;
+  /*z-index:9;*/
+}
+.turntable-bg .pointer {
+  width: 18%;
+  height: 28%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -7.5%;
+  margin-top: -14%;
+  z-index: 8;
+}
+.turntable-bg .rotate {
+  width: 69.7%;
+  height:auto;
+  position: absolute;
+  left: 17.7%;
+  top: 10%
+}

@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <style>
+        body {
+            background: #F6F6F6;
+        }
+    </style>
+    <script src="js/bootstrap.js"></script>
+    <div class="container-fluid nr_top_1 ycg_xq_top">
+        <a href="yanchu.html" class="glyphicon glyphicon-menu-left "></a>
+        <b class="text-center">图片相册</b>
+    </div>
+    <div class="container-fluid tup_xq">
+        <p class="tup_title">你好好</p>
+        <div>
+            <ul class="tup_xq_leb">
+                <li>
+                    <a>
+                        <p style="background:url(http://m.qpic.cn/psb?/V11aqtwm46gGDN/s7EUxHbHbi*BUaDENIU28JkW0uy8SpjBmUlPPjcrnC0!/m/dJMAAAAAAAAA&ek=1&kp=1&pt=0&bo=IwMPAgAAAAAFBwk!&sce=0-12-12&rf=7003-0&t=5) no-repeat;" class="tp_xq_le_p" data-dizhi="http://m.qpic.cn/psb?/V11aqtwm46gGDN/s7EUxHbHbi*BUaDENIU28JkW0uy8SpjBmUlPPjcrnC0!/m/dJMAAAAAAAAA&ek=1&kp=1&pt=0&bo=IwMPAgAAAAAFBwk!&sce=0-12-12&rf=7003-0&t=5"></p>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <p style="background:url(http://m.qpic.cn/psb?/V13lGozx2YfksQ/7OQtq6h3yWBE4e39DlOasBDQUqVKo0NZTEnSpg1Dbks!/m/dHZ4TG7APQAA&ek=1&kp=1&pt=0&bo=uALyAbgC8gEDCC0!&su=0157764385&t=5#sce=54-11-3&rf=-0-0) no-repeat;" class="tp_xq_le_p" data-dizhi="http://m.qpic.cn/psb?/V13lGozx2YfksQ/7OQtq6h3yWBE4e39DlOasBDQUqVKo0NZTEnSpg1Dbks!/m/dHZ4TG7APQAA&ek=1&kp=1&pt=0&bo=uALyAbgC8gEDCC0!&su=0157764385&t=5#sce=54-11-3&rf=-0-0"></p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container-fluid tup_leb">
+        <a>
+            <div class="tup_leb_div tplb_gd text-center"><span class="tplb_gd_span">无更多更多</span></div>
+        </a>
+    </div>
+
+    <div id="myModal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog1  anq-sz-jymm" style="width:95% !important;margin:20px auto;">
+            <div class="modal-content">
+                <div class="modal-body dz-xiugai-tc">
+                  <img id="tup_zhanshi" class="tuo_zhanshi"/>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+ <script>
+     $(".tup_xq_leb a").click(function () {
+         var a = $(this).find("p").attr("data-dizhi");
+         $("#tup_zhanshi").attr("src", a);
+         $("#myModal1").modal({
+             keboard: false
+         });
+     })
+ </script>
+</body>
+</html>

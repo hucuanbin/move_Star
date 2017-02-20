@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <style>
+        body{
+         background:#F2F2F2;
+        }
+    </style>
+    <div class="container-fluid nr_top_1">
+        <a href="goumai_index.html" class="glyphicon glyphicon-menu-left "></a>
+        <b class="text-center">项目介绍</b>
+    </div>
+    <div class="container-fluid dd_xq p0  m-10">
+        <div class="ddxq_1">
+            <p><span>数量</span><span>总价</span></p>
+            <p><span><b>1</b>张</span><b class="mo_re">380.00</b>元</p>
+        </div>
+        <div class="qihuo">
+            <label class="biaoti_hong">选择配送方式</label>
+            <div class="kudi_fs">
+                <span data-data="1">
+                    <img src="images/kuaidi_you.png" data-data="images/kuaidi_wu.png" />
+                    <b>快递</b>
+                </span>
+                <span data-data="0" data-leix="shangm">
+                    <img src="images/ziqu_wu.png" data-data="images/ziqu_you.png" />
+                    <b>上门自取</b>
+                </span>
+            </div>
+            <a>
+                <div class="kai_dz">
+                    <p>肉包子 157****3612</p>
+                    <p>福建福州市鼓楼区 全景骨碌人家</p>
+                    <span class="sanj_d"></span>
+                </div>
+            </a>
+            <div class="qup_dizhi">
+                <p>我是地址我是地址我是地址我是地址我是地址我是地址我是地址我是地址我是地址我是地址 </p>
+                <p>营业时间：工作日9:00-20:00,周末及节假日9:00-18:00</p>
+            </div>
+        </div>
+        <div class="baox">
+            <label class="biaoti_hong">订票保险 <input type="checkbox" class="right bx_eig" id="dp_bx" /></label>
+            <div class="bor_bton">
+                <p>购买"安心订票保险"<span id="bx_jg" data-data="21">(21.0元)</span></p>
+            </div> 
+            <div>
+                <p>温馨提示：因自身原因未能观看演出可申请理赔哦!</p>
+                <p><a class="a_lan">查看保险服务说明</a></p>
+            </div>
+        </div>
+
+        <div class="sp_je">
+           <p>商品金额<span class="right">380.0元</span></p>
+            <p>运费<span class="right">+22.0元</span></p>
+            <p id="baox_je" style="display:none">保险<span class="right">+22.0元</span></p>
+            <p>优惠政策<span class="right">01元</span></p>
+            <p>订单金额<span class="right"><b class="zi_big mo_re" id="zng_je">402.00</b>元</span></p>
+        </div>
+        <div class="zhifu_fs">
+            <label class="biaoti_hong">选择支付方式</label>
+            <div>
+             <ul class="zhifu_tb">
+                 <li>
+                     <em class="yh_tu_1">
+
+                     </em>
+                     <span>
+                         <b>支付宝客户端只支付</b><br />
+                         <b>推荐安装支付宝客户端的用户使用</b>
+                     </span>
+                     <b class="quan right glyphicon glyphicon-ok-sign quan_xz"></b>
+                 </li>
+                 <li>
+                     <em class="yh_tu_2">
+
+                     </em>
+                     <span>
+                         <b>微信支付</b><br />
+                         <b>推荐安装微信的用户使用</b>
+                     </span>
+                     <b class="quan right"></b>
+                 </li>
+                 <li>
+                     <em class="yh_tu_3">
+
+                     </em>
+                     <span>
+                         <b>银联手机支付</b><br />
+                         <b>推荐银联用户使用</b>
+                     </span>
+                     <b class="quan right"></b>
+                 </li>
+                 <li>
+                     <em class="yh_tu_4">
+
+                     </em>
+                     <span>
+                         <b>支付宝网页支付</b><br />
+                         <b>推荐有支付宝账户的用户使用</b>
+                     </span>
+                     <b class="quan right"></b>
+                 </li>
+                 <li>
+                     <em class="yh_tu_5">
+
+                     </em>
+                     <span>
+                         <b>电子钱包</b><br />
+                         <b>大麦钱包支付</b>
+                     </span>
+                     <b class="quan right"></b>
+                 </li>
+                 <li>
+                     <em class="yh_tu_6">
+
+                     </em>
+                     <span>
+                         <b>中国银行</b><br />
+                         <b>中国银行支付</b>
+                     </span>
+                     <b class="quan right"></b>
+                 </li>
+                 <li>
+                     <em class="yh_tu_7">
+
+                     </em>
+                     <span>
+                         <b>浦发银行WAP</b><br />
+                         <b>浦发银行WAP支付</b>
+                     </span>
+                     <b class="quan right"></b>
+                 </li>
+
+             </ul>
+            </div>
+        </div>
+        <div class="fap">
+            <p>我要开发票 <input class="right bx_eig" type="checkbox" /></p>
+        </div>
+        <p class="ddtj_tx">温馨提示：票名为不记名食物,请您妥善保管,遗失不补.</p>
+    </div>
+
+    <div class="container-fluid  m-10 dd_tj ">
+
+        <p>订单总额：<b class="zi_big mo_re">401.00</b>元</p>
+        <p>使用支付宝客户端支付</p>
+        <a href="goumai_cg.html" class="botn_quan right">下单并支付</a>
+    </div>
+
+    <script>
+        //订票保险
+        $("#dp_bx").click(function () {
+            var a = parseInt($("#zng_je").text());
+            var bx_jg = parseInt($("#bx_jg").attr("data-data"));
+            if ($("#dp_bx").is(":checked")) {
+                $('#baox_je').slideDown("200");
+                $("#zng_je").text(a + bx_jg + ".00");
+            }
+            else {
+                $('#baox_je').slideUp("200");
+                $("#zng_je").text(a - bx_jg + ".00");
+            }        });
+
+        //支付方式
+        $(".zhifu_tb li").click(function () {
+            $(".zhifu_tb>li>.right").attr("class", "quan right");
+            $(this).find(".right").attr("class", "quan right glyphicon glyphicon-ok-sign quan_xz");
+        });
+        //配送方式
+        $(".kudi_fs span").click(function () {
+            var leix = $(this).attr("data-leix");
+            if ($(this).attr("data-data") == 0) {
+                $(".kudi_fs span").each(function () {
+                    var a = $(this).find("img").attr("data-data");
+                    var b = $(this).find("img").attr("src");
+                    $(this).find("img").attr("src", a);
+                    $(this).find("img").attr("data-data", b);
+                })
+                $(".kudi_fs span").attr("data-data", "0");
+                $(this).attr("data-data", "1");
+
+                if (leix == "shangm") {
+                    $(".kai_dz").hide();
+                    $(".qup_dizhi").show();
+                }
+                else {
+                    $(".qup_dizhi").hide();
+                    $(".kai_dz").show();
+                }
+            }
+          
+        })
+    </script>
+</body>
+</html>

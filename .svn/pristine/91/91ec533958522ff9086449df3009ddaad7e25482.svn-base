@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <style>
+        body {
+            background: #F2F2F2;
+        }
+    </style>
+    <div class="container-fluid nr_top_1">
+        <a href="yanchu_xq.html" class="glyphicon glyphicon-menu-left "></a>
+        <b class="text-center">项目介绍</b>
+    </div>
+    <div class="container-fluid dd_xq p0">
+        <div class="gm_time">
+            <label class="biaoti_hong">选择时间</label>
+            <div>
+                <ul class="gm_lb">
+                    <li class="li_xz">
+                        <p>2015-11-11</p>
+                        <p>周日 18:30</p>
+                    </li>
+                    <li>
+                        <p>2015-11-11</p>
+                        <p>周日 18:30</p>
+                    </li>
+                    <li>
+                        <p>2015-11-11</p>
+                        <p>周日 18:30</p>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="gm_jg">
+            <label class="biaoti_hong">选择价格</label>
+            <div>
+                <ul class="gm_lb">
+                    <li class="li_xz">
+                       <span>看台180</span>
+                    </li>
+                    <li class="li_no">
+                        <span>看台80</span>
+                    </li>
+                    <li>
+                        <span>看台180</span>
+                    </li>
+                    <li>
+                        <span>看台280</span>
+                    </li>
+                    <li>
+                        <span>看台380</span>
+                    </li>
+                    <li>
+                        <span>看台580</span>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="gm_sl">
+            <label class="biaoti_hong">选择价格</label>
+            <div>
+                <ul class="gm_lb" data-data="2">
+                    <li class="li_no" data-data="-1" id="jian">
+                        <span>-</span>
+                    </li>
+                    <li class="li_xz" id="num">
+                        <span  style="outline:none">1</span>
+                    </li>
+                    <li data-data="1" id="jia">
+                        <span>+</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="hei_di">
+
+    </div>
+    <div class="container-fluid nr_bton m-10 dibu">
+        <span>订单总额:<b class="mo_re" id="zonge" data-danji="380">380.00</b>元</span><a href="goumai_tijiao.html" class="botn_quan right">下一步</a>
+
+    </div>
+    <script>
+      
+        $(document).ready(function () {
+            
+            $(".gm_lb").each(function () {
+                $(this).children("li").each(function () {
+                    var a = $(this).index();
+                    if (a % 3 == 0)
+                    {
+                        $(this).css("margin-left", "0px")
+                    }
+                })
+
+            })
+
+            $(".gm_lb>li").click(function () {
+                var biaoji = $(this).parent().attr("data-data");
+                if (biaoji != 2)
+                {
+                    var a = $(this).attr("class");
+                    if (a == "li_no") {
+                        return
+                    }
+                    $(this).parent().children("li").each(function () {
+                        var nuw = $(this).attr("class");
+                        if (nuw == "li_xz") {
+                            $(this).attr("class", "");
+                        }
+                    })
+                    $(this).attr("class", "li_xz");
+                }
+                else {
+                    biaoji = $(this).attr("data-data");
+                    if (biaoji == "-1" || biaoji == "1") {
+                        var a = parseInt($(this).attr("data-data"));
+                        var b = parseInt($("#num>span").text());
+                        var c = a + b;
+                        if (c < 1) {
+                            $("#jian").attr("class", "li_no");
+                            return;
+                        }
+                        $("#num>span").text(a + b);
+
+                      var danjia= parseInt(  $("#zonge").attr("data-danji"));
+                      $("#zonge").text(c * danjia+".00")
+                        $("#jian").attr("class", "");
+                    }
+                }
+            })
+
+            $("#num").blur(function () {
+                alert();
+            })
+        })
+    </script>
+</body>
+</html>

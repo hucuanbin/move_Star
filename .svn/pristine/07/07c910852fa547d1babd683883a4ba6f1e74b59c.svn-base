@@ -1,0 +1,411 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+
+
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+
+    <script src="js/bootstrap.js"></script>
+    <style>
+        body {
+            background: #EDEDED;
+        }
+    </style>
+    <div class="container-fluid nr_top_1">
+        <a href="index.html" class="glyphicon glyphicon-menu-left "></a>
+        <b class="text-center">签到</b>
+    </div>
+    <div class="container-fluid qiandao_index">
+        <div class="rili_index">
+            <div class="rili_top">
+                <img src="images/rili.png" style="height:22px;outline:none" data-toggle="modal" data-target="#myModal1" />
+                <span class="rili_top_ruqi" data-toggle="modal" data-target="#myModal1" style="outline:none" id="xz_riqi">2015/10/21</span>
+            </div>
+            <div class="rili_zhuti">
+
+            </div>
+            <div class="rili_botn">
+                <a id="qiandao" class="botn_quan rili_qiand_bton" >立即签到</a>
+            </div>
+        </div>
+    </div>
+    <div id="myModal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog1  rili_kongj">
+            <div class="modal-content" style="background:#F5F5F5">
+                <div class="modal-header riqi_tc_top">
+                    <h4 class="modal-title rili_tiqi text-center">选择月份</h4>
+                </div>
+                <div class="modal-body p0 text-center">
+                    <div class="rili_tc_index">
+                        <div class="dwrc">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <div class="dwwl0">
+                                            <div class="dwl">
+                                                年
+                                            </div>
+                                            <div class="dww">
+                                                <div class="dw-ul" style="-webkit-transition: all 0.100s ease-out;-webkit-transform: translate3d(0,70px,0);">
+                                                    <div>
+                                                        <div class="dw-li">
+                                                            2015
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="dwwo">
+
+                                                </div>
+                                            </div>
+                                            <div class="dwwol">
+
+                                            </div>
+                                        </div>
+
+                                    </td>
+                                    <td>
+                                        <div class="dwwl0">
+                                            <div class="dwl">
+                                                年
+                                            </div>
+                                            <div class="dww">
+                                                <div class="dw-ul" style="-webkit-transition: all 0.100s ease-out;-webkit-transform: translate3d(0,70px,0);" id="dw-uldw-ul">
+                                                    <div>
+                                                        <div class="dw-li">
+                                                            01
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            02
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            03
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            04
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            05
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            06
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            07
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            08
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            09
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            10
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            11
+                                                        </div>
+                                                        <div class="dw-li">
+                                                            12
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="dwwo" id="dwwo">
+
+                                                </div>
+                                            </div>
+                                            <div class="dwwol">
+
+                                            </div>
+                                        </div>
+
+                                    </td>
+
+                                </tr>
+
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer p0 rili_tc_boton" style="text-align:center">
+                    <a data-dismiss="modal" class="rili_tc_bton">取消</a>
+                    <a data-dismiss="modal" class="rili_tc_bton" id="queren_ruqi">确认</a>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <div id="myModal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog1" style="margin:90px auto;width:300px;">
+            <div class="modal-content qiiand_cg">
+                <div class="modal-body  qd_cg_index" style="display:none;">
+                    <div>
+                        <p class="dc_tg_top">天天签到领成长值 <a data-dismiss="modal" aria-label="Close">关闭</a></p>
+                    </div>
+                    <div class="qd_cg">
+                        <p class="qd_cg_p1">签到成功</p>
+                        <p class="qd_cg_p2">送您2点成长值,点滴累计成长不断.记得明天还要来签到哦</p>
+                        <span class="glyphicon glyphicon-ok-sign qd_cg_tb"></span>
+                    </div>
+                </div>
+                <div class="text-center tc_jz">
+                    <img src="images/loding.gif" />
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <div id="myModal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog1" style="margin:90px auto;width:300px;">
+            <div class="modal-content qiiand_cg">
+                <div class="modal-body  qd_cg_index" style="display:none;">
+                    <div>
+                        <p class="dc_tg_top">天天签到领成长值 <a data-dismiss="modal" aria-label="Close">关闭</a></p>
+                    </div>
+                    <div class="qd_cg text-center" style="padding-left:10px">
+                         <p class="qid_cg">您已经签到过来，谢谢您的参与!</p>
+                    </div>
+                </div>
+              
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
+    <script>
+        var xz_time = new Date();
+
+        $("#xz_riqi").text(xz_time.toLocaleDateString());
+
+        $(".rili_top").attr("data-yue", (xz_time.getMonth() + 1));
+        $(".rili_top").attr("data-ri", (xz_time.getDate()));
+        var mor_juli = 72 - (xz_time.getMonth()) * 36;
+        $("#dw-uldw-ul").attr("data-yue", xz_time.getMonth())
+
+        
+
+        $("#queren_ruqi").click(function () {
+            $('#myModal1').modal('hide');
+            var yuefen = parseInt($("#dw-uldw-ul").attr("data-yue")) - 1;
+            if ((yuefen+1) == $(".rili_top").attr("data-yue")) {
+                var tian = $(".rili_top").attr("data-ri");
+                var now_time = new Date(2015, yuefen, tian);
+            }
+            else {
+                var now_time1 = new Date(2015, (yuefen+1), 0);
+                var now_time = new Date(2015, (yuefen), now_time1.getDate());
+            }
+            rili(now_time)
+            $("#xz_riqi").text(now_time.toLocaleDateString())
+        })
+
+        //点击签到
+        $(".rili_qiand_bton").click(function () {
+          
+            if ($(this).text() == "立即签到") {
+                $('#myModal2').modal({
+                    keyboard: false
+                })
+
+                setTimeout(function () {
+                    $(".tc_jz").hide();
+                    $(".qd_cg_index").show()
+                }, 1000);
+                $(this).text("已经签到")
+            }
+            else {
+                $('#myModal3').modal({
+                    keyboard: false
+                })
+            }
+
+        })
+
+    </script>
+
+    <script>
+        var nstr1 = new Date(); //当前Date资讯
+        rili(nstr1);
+        function is_leap(year) {
+            return (year % 100 == 0 ? res = (year % 400 == 0 ? 1 : 0) : res = (year % 4 == 0 ? 1 : 0));
+        } //是否为闰年
+        function rili(nstr) {
+            var a = [1, 3, 5, 7, 8, 9, 11, 15, 21];
+            //  var a = [];
+            //$.ajax({
+            //    url: 'aaa2.txt?' + Math.random(),
+            //    dataType: "json",
+            //    success: function (data) {
+            //       for (var i = 0; i < data.length; i++) {
+            //           a[i] = data[i].riqi;
+            //         }
+            //    }
+            //});
+            //alert(a);
+            var b = [];
+            for (var key in a) {
+                b[a[key]] = 1;
+            }
+            var rili_zhuti = $(".rili_zhuti");
+            rili_zhuti.html("");
+            var geshi = "";
+
+
+            var ynow = nstr.getFullYear(); //年份
+            var mnow = nstr.getMonth(); //月份
+            var dnow = nstr.getDate(); //今日日期
+
+            var n1str = new Date(ynow, mnow, 1); //当月第一天Date资讯
+            var firstday = n1str.getDay(); //当月第一天星期几
+            var m_days = new Array(31, 28 + is_leap(ynow), 31, 30, 31, 30, 31, 31, 30, 31, 30, 31); //各月份的总天数
+            var tr_str = Math.ceil((m_days[mnow] + firstday) / 7); //表格所需要行数
+            //打印表格第一行（有星期标志）
+            geshi += ("<table border='1' align='center' class='rili_table'><tr><td align='center'>日</td><td align='center'>一</td><td align='center'>二</td><td align='center'>三</td><td align='center'>四</td><td align='center'>五</td><td align='center'>六</td></tr>");
+
+            for (i = 0; i < tr_str; i++) { //表格的行
+                geshi += ("<tr>");
+                for (k = 0; k < 7; k++) { //表格每行的单元格
+                    idx = i * 7 + k; //单元格自然序列号
+                    date_str = idx - firstday + 1; //计算日期
+                    //过滤无效日期（小于等于零的、大于月总天数的）
+                    (date_str <= 0 || date_str > m_days[mnow]) ? date_str = "&nbsp;" : date_str = idx - firstday + 1;
+                    //打印日期：今天底色为红
+
+                    //如果数组为空  则执行   只打印数字
+                    if (a == false) {
+                        geshi += ("<td >" + date_str + "</td>");
+                    }
+                    else
+                    {
+                            if (date_str == dnow)        //都dnow为今天日期    如果是本月  显示到当天
+                            {
+                                if ((mnow + 1) == $(".rili_top").attr("data-yue")) //判断今天是否已经签到
+                                {
+                                    if (b[date_str] == 1) {
+                                        geshi += ("<td >" + date_str + "<span class='glyphicon glyphicon-ok rili_yiqiandao'></span></td>");
+                                        $(".rili_qiand_bton").text("已签到");
+                                    }
+                                    else {
+                                        geshi += ("<td class='rili_tabay'>" + date_str + "</td>");
+                                    }
+                                }
+                                else {
+                                    if (b[date_str] == 1) {
+                                        geshi += ("<td >" + date_str + "<span class='glyphicon glyphicon-ok rili_yiqiandao'></span></td>");
+                                    }
+                                    else {
+                                        geshi += ("<td >" + date_str + "<span class='glyphicon glyphicon-remove rili_weiqiandao'></span></td>");
+                                    }
+                                }
+
+                            }
+                            else if (date_str % 1 == 0) {
+                                //判断有无签到
+                                if (date_str < dnow) {
+                                    if (b[date_str] == 1) {
+                                        geshi += ("<td >" + date_str + "<span class='glyphicon glyphicon-ok rili_yiqiandao'></span></td>");
+                                    }
+                                    else {
+                                        geshi += ("<td >" + date_str + "<span class='glyphicon glyphicon-remove rili_weiqiandao'></span></td>");
+                                    }
+                                }
+                                else {
+                                    geshi += ("<td >" + date_str + "</td>");
+                                }
+                            }
+                            else {
+                                //日期为空
+                                geshi += ("<td align='center'>" + date_str + "</td>");
+                            }
+                    }
+
+                }
+                geshi += ("</tr>"); //表格的行结束
+            }
+
+            geshi += ("</table>"); //表格结束
+            rili_zhuti.prepend(geshi);
+        }
+    </script>
+
+
+    <script>
+    var xiao = -324, da = 72;
+    var startX1,//触摸时的坐标
+    startY1,
+    x1, //滑动的距离
+    y1,
+    aboveX1 = mor_juli; //设一个全局变量记录上一次内部块滑动的位置
+
+
+
+    var inner1 = document.getElementById("dw-uldw-ul");
+    var yidong = $("#dw-uldw-ul");
+    yidong.css("-webkit-transform", "translate3d(0px, " + (mor_juli) + "px, 0px)")
+
+
+
+    function touchSatrt(e) {//触摸
+        e.preventDefault();
+        var touch = e.touches[0];
+        startX1 = touch.pageY; //刚触摸时的坐标
+    }
+
+    function touchMove(e) {//滑动
+        e.preventDefault();
+        var touch = e.touches[0];
+        x1 = touch.pageY - startX1;//滑动的距离
+        //inner.style.webkitTransform = 'translate(' + 0+ 'px, ' + y + 'px)'; //也可以用css3的方式
+        mor_juli = aboveX1 + x1;
+        yidong.css("-webkit-transform", "translate3d(0px, " + (mor_juli) + "px, 0px)");
+    }
+
+    function touchEnd(e) {//手指离开屏幕
+        var yuefen;
+        if (mor_juli < xiao) {
+            mor_juli = xiao;
+            yuefen = 11;
+        }
+        else if (mor_juli > da) {
+            mor_juli = da;
+            yuefen = 0;
+        }
+        else {
+            var yushu = Math.abs(mor_juli) % 36;
+            var shiji = (mor_juli - 72) * -1;
+            if (mor_juli < 32) {
+                shiji = (mor_juli - 72) * -1;
+            }
+            else {
+                shiji = mor_juli ;
+            }
+           yuefen = parseInt(shiji / 36);
+            if (yuefen < 2) {
+                mor_juli = (yuefen * 36);s
+            }
+            else {
+                mor_juli = (yuefen - 2) * 36 * -1;
+            }
+        }
+        $("#dw-uldw-ul").attr("data-yue", yuefen + 1)
+        aboveX1 = mor_juli;
+        yidong.css("-webkit-transform", "translate3d(0px, " + (mor_juli) + "px, 0px)")
+
+        e.preventDefault();
+    }//
+    document.getElementById("dwwo").addEventListener('touchstart', touchSatrt, false);
+    document.getElementById("dwwo").addEventListener('touchmove', touchMove, false);
+    document.getElementById("dwwo").addEventListener('touchend', touchEnd, false);
+    </script>
+
+
+
+
+</body>
+</html>

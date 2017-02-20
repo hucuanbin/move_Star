@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/toupiao.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid toup_index_bg p0">
+      <div class="toup_phb_index">
+          <div class="col-xs-5">
+              <p class="top_phb_img_top"><span>No.01</span></p>
+              <img src="images/weixuan.png" class="tu_man" />
+          </div>
+          <div class="col-xs-7 toup_phb_xx">
+              <p class="zi_big">2371号 花木兰</p>
+              <p class="phb_piaoshu m-5"><em class="z1_huang">1326</em>票</p>
+              <p class=" m-10"><a class="toup_2_a">为他投票</a></p>
+          </div>
+      </div>
+        <div class="toup_phb_index">
+            <div class="col-xs-5">
+                <p class="top_phb_img_top"><span>No.01</span></p>
+                <img src="images/weixuan.png" class="tu_man" />
+            </div>
+            <div class="col-xs-7 toup_phb_xx">
+                <p class="zi_big">2371号 花木兰</p>
+                <p class="phb_piaoshu m-5"><em class="z1_huang">1326</em>票</p>
+                <p class=" m-10"><a class="toup_2_a">为他投票</a></p>
+            </div>
+        </div>
+        <div class="toup_phb_index">
+            <div class="col-xs-5">
+                <p class="top_phb_img_top"><span>No.01</span></p>
+                <img src="images/weixuan.png" class="tu_man" />
+            </div>
+            <div class="col-xs-7 toup_phb_xx">
+                <p class="zi_big">2371号 花木兰</p>
+                <p class="phb_piaoshu m-5"><em class="z1_huang">1326</em>票</p>
+                <p class=" m-10"><a class="toup_2_a">为他投票</a></p>
+            </div>
+        </div>
+        <div class="toup_phb_index">
+            <div class="col-xs-5">
+                <p class="top_phb_img_top"><span>No.01</span></p>
+                <img src="images/weixuan.png" class="tu_man" />
+            </div>
+            <div class="col-xs-7 toup_phb_xx">
+                <p class="zi_big">2371号 花木兰</p>
+                <p class="phb_piaoshu m-5"><em class="z1_huang">1326</em>票</p>
+                <p class=" m-10"><a class="toup_2_a">为他投票</a></p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+  //  $(".huod_jies_index").width(($(".toup_huod_jies").width() - 76));
+    //  alert($(".huod_jies_index").width() + "::" + $(".toup_huod_jies").width());
+    </script>
+
+</body>
+</html>

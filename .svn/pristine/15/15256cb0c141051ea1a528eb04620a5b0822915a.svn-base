@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+
+<body>
+   <div class="loading">
+       <b></b>
+       <ul>
+           <li>
+               <span style="background:#FFCA08"></span>
+           </li>
+           <li>
+               <span style="background:#0099D2"></span>
+           </li> 
+           <li>
+               <span style="background:#A3248F"></span>
+           </li>
+           <li>
+               <span style="background:#A6CE3A"></span>
+           </li>
+           <li>
+               <span style="background:#C40F3A"></span>
+           </li>
+           <li>
+               <span style="background:#466F83"></span>
+           </li>
+           <li>
+               <span style="background:#00A77B"></span>
+           </li>
+           <li>
+               <span style="background:#F15C22"></span>
+           </li>
+       </ul>
+   </div>
+</body>
+</html>

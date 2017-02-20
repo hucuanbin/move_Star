@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <link href="css/jquery.Jcrop.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/layout.css" rel="stylesheet" />
+    <script src="js/jquery.Jcrop.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script src="js/bootstrap.js"></script>
+    <div class="container-fluid nr_top_1">
+        <a href="wode.html" class="glyphicon glyphicon-menu-left "></a>
+        <b class="text-center">修改头像</b>
+    </div>
+
+    <div class="container-fluid p0">
+        <div class="container p0">
+            <div class="main">
+                <div class="upload_form_cont">
+                    <form id="upload_form" enctype="multipart/form-data" method="post" action="">
+                        <div id="toux-index-top" style="max-width:100% !important">
+                            <div><label for="image_file" class="tx-gg-la" style="font-size:1.4rem">选择本地照片，上传编辑自己的头像</label></div>
+                            <div class="xz-tp">
+                                <input type="button" value="选择图片" id="tux-xuznze" /><span>支持jpg、gif、png、bmp格式的图片</span>
+                                <input type="file" name="image_file" id="image_file" onchange="fileSelected();" style="width:100%" />
+                            </div>
+                        </div>
+                        <div id="fileinfo">
+                            <div id="filename"></div>
+                            <div id="filesize"></div>
+                            <div id="filetype"></div>
+                            <div id="filedim"></div>
+                        </div>
+                        <div id="error">你应该选择有效的图像文件!</div>
+                        <div id="error2">上传文件时发生了错误</div>
+                        <div id="abort">The upload has been canceled by the user or the browser dropped the connection</div>
+                        <div id="warnsize">你的文件非常大。我们不能接受它。请选择更小的文件</div>
+
+                        <div id="progress_info">
+                            <div id="progress"></div>
+                            <div id="progress_percent">&nbsp;</div>
+                            <div class="clear_both"></div>
+                            <div>
+                                <div id="speed">&nbsp;</div>
+                                <div id="remaining">&nbsp;</div>
+                                <div id="b_transfered">&nbsp;</div>
+                                <div class="clear_both"></div>
+                            </div>
+                            <div id="upload_response"></div>
+                        </div>
+                    </form>
+                    <div style="text-align:center">
+                        <div class="example" id="quan" style="margin:0px 20px;position:absolute;top:75px;width:100%;margin-bottom:60px;height:450px;margin-top:-30px;">
+                            <label style="font-size:1.4rem;margin-bottom:15px;">请编辑头像后上传</label>
+                            <img id="target" style="width:100%;height:250px">
+                            <div id="preview-pane" style="display:inline-block;position:absolute;top:255px;left:auto;right:0px;margin-bottom:100px">
+                                <div class="preview-container" style="display:inline-block;position:relative;width:70px;height:70px">
+                                    <img class="jcrop-preview" id="suol" style="display:inline-block" src="">
+                                </div>
+                            </div>
+
+                            <div class="example" style="margin-top:10px;margin-bottom:60px;text-align:left;">
+                                <form method="post" onsubmit="return checkCoords();">
+                                    <input type="hidden" id="x" name="x">
+                                    <input type="hidden" id="y" name="y">
+                                    <input type="hidden" id="w" name="w">
+                                    <input type="hidden" id="h" name="h">
+                                    <input id="baocun-tx" class="cxbtn" type="button" value="保存头像" style="margin-top:15px;">
+                                    <input class="cxbtn" type="button" value="重选图片" id="quxiao-tx" style="margin-top:15px;margin-left:20px">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <script>
+        $("#baocun-tx").click(
+                function () {
+                    if (parseInt($('#w').val())) {
+                        $('#myModal1').modal({
+                            keyboard: false
+                        })
+                        return true;
+                    };
+                    alert('请先选择要裁剪的区域后，再提交。');
+                    return false;
+                });
+
+        $(".example").hide();
+        $("#image_file").change(function () {
+            $(".example").show();
+            $("#toux-index-top").hide()
+            $("#quan").width($(window).width() - 40);
+            var a11 = $("#quan").width();
+            // alert(a11)
+            $("#suol").height("109px");
+            $("#suol").width(a11 / 2.3);
+        })
+        $(".xz-tp #image_file").hover(function () {
+            $("#tux-xuznze").css("background", "#e4e4e4");
+        }, function () {
+            $("#tux-xuznze").css("background", "rgba(246,246,246,0.6)");
+        })
+        $("#quxiao-tx").click(function () {
+            location.href = "toux_genghuan.html";
+        })
+    </script>
+
+</body>
+</html>

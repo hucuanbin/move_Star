@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <style>
+        body {
+            background: #11132C !important;
+        }
+        body,html{
+            width:100%;
+        }
+    </style>
+    <div class="dingzhi_xq_zong container-fluid p0">
+        <div class="container-fluid p0">
+            <img src="images/dingzhi_toppng.png" class="img-responsive" />
+        </div>
+        <div class="container-fluid">
+            <div class="dingz_taocan m-20 dz_tc1">
+                <p class="dz_tc  text-center"><span class="taocanm">套餐 1</span></p>
+                <div class="dz_tc_xq dingzhi_tc_1">
+                    <p class="dz_xq"><span class="tc_fg"> M V风格 : </span><b class="tc_fg_js"> 学院风</b></p>
+                    <p class="dz_xq"><span class="tc_fg">拍摄时间 : </span><b class="tc_fg_js"> 12 min</b></p>
+                    <p class="dz_xq"><span class="tc_fg">拍摄景点 : </span><b class="tc_fg_js"> 福州公园</b></p>
+                    <p class="dz_xq"><span class="tc_fg">化妆造型 : </span><b class="tc_fg_js"> 彩妆</b></p>
+                    <p class="dz_xq"><span class="tc_fg">服装套系 : </span><b class="tc_fg_js"> 5套</b></p>
+                    <p class="dz_xq"><span class="tc_fg">拍摄服务 : </span><b class="tc_fg_js"> 首席摄影师</b></p>
+                    <p class="dz_xq"><span class="tc_fg">拍摄价格 : </span><b class="tc_fg_js"> ￥<em class="dz_jiage">5556</em></b></p>
+                </div>
+            </div>
+            <div class="dingz_taocan m-20 dz_tc2">
+                <p class="dz_tc  text-center"><span class="taocanm">套餐 2</span></p>
+                <div class="dz_tc_xq ">
+                    <p class="dz_xq"><span class="tc_fg"> M V风格 : </span><b class="tc_fg_js"> 学院风</b></p>
+                    <p class="dz_xq"><span class="tc_fg">拍摄时间 : </span><b class="tc_fg_js"> 12 min</b></p>
+                    <p class="dz_xq"><span class="tc_fg">拍摄景点 : </span><b class="tc_fg_js"> 福州公园</b></p>
+                    <p class="dz_xq"><span class="tc_fg">化妆造型 : </span><b class="tc_fg_js"> 彩妆</b></p>
+                    <p class="dz_xq"><span class="tc_fg">服装套系 : </span><b class="tc_fg_js"> 5套</b></p>
+                    <p class="dz_xq"><span class="tc_fg">拍摄服务 : </span><b class="tc_fg_js"> 首席摄影师</b></p>
+                    <p class="dz_xq"><span class="tc_fg">拍摄价格 : </span><b class="tc_fg_js"> ￥<em class="dz_jiage">5556</em></b></p>
+                </div>
+            </div>
+            <div class="dingz_taocan m-20 dz_tc3">
+                <p class="dz_tc  text-center"><span class="taocanm">套餐 3</span></p>
+                <div class="dz_tc_xq ">
+                    <p class="dz_xq"><span class="tc_fg"> M V风格 : </span><b class="tc_fg_js"> 学院风</b></p>
+                    <p class="dz_xq"><span class="tc_fg">拍摄时间 : </span><b class="tc_fg_js"> 12 min</b></p>
+                    <p class="dz_xq"><span class="tc_fg">拍摄景点 : </span><b class="tc_fg_js"> 福州公园</b></p>
+                    <p class="dz_xq"><span class="tc_fg">化妆造型 : </span><b class="tc_fg_js"> 彩妆</b></p>
+                    <p class="dz_xq"><span class="tc_fg">服装套系 : </span><b class="tc_fg_js"> 5套</b></p>
+                    <p class="dz_xq"><span class="tc_fg">拍摄服务 : </span><b class="tc_fg_js"> 首席摄影师</b></p>
+                    <p class="dz_xq"><span class="tc_fg">拍摄价格 : </span><b class="tc_fg_js"> ￥<em class="dz_jiage">5556</em></b></p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p0">
+            <a class="dz_xq_bton" id="dingzhi">立即定制</a>
+        </div>
+    </div>
+    <div class="dz_xq_tc container-fluid">
+        <p class="dz_tianx_top  m-10">定制信息</p>
+        <div class="m-10 dd_xx_input">
+            <input class="dz_name" placeholder="张三" />
+            <span class="xx_yd">姓名 :</span>
+        </div>
+        <div class="m-10 dd_xx_input">
+            <input type="number"/>
+            <span class="xx_yd">联系方式 :</span>
+        </div>
+        <div class="m-10 text-left dd_tc_xetc">
+            <p>套餐选择(可多选)</p>
+            <div class="m-5 dztc_xz">
+                <label>
+                    <input type="checkbox" />
+                     <span>套餐1</span>
+                </label>
+                <label>
+                    <input type="checkbox" />
+                    <span>套餐2</span>
+                </label>
+                <label>
+                    <input type="checkbox" />
+                    <span>套餐3</span>
+                </label>
+            </div>
+        </div>
+        <div class="m-10 dd_tc_shuom">
+            <textarea placeholder="补充说明："></textarea>
+        </div>
+        <div class="dzmv_bton">
+            <a class="dz_xq_bton">提交定制</a>
+            <a class="dz_xq_bton m-5 fanhui" id="fanhui">返回查看套餐详情</a>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            var zoing_hei = $(window).height()
+            $(".dz_xq_tc").height(zoing_hei);
+
+            $("#dingzhi").click(function () {
+                $(".dz_xq_tc").css("left", "0px");
+                //setTimeout(function () {
+                //    $(".dingzhi_xq_zong").hide();
+                //},300)
+                var handler = function (e) {
+                    e.preventDefault();
+                };                document.body.addEventListener('touchmove', handler, false);            })
+
+            $("#fanhui").click(function () { 
+                $(".dz_xq_tc").css("left", "100%");})
+        })
+    </script>
+</body>
+</html>

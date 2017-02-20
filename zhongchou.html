@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid nr_top_1">
+        <a href="index.html" class="glyphicon glyphicon-menu-left "></a>
+        <b class="text-center">与星共舞-发起众筹</b>
+    </div>
+    <div class="container-fluid zc_top p0">
+        <nav>
+            <span class="zc_dh zc_dh_now" data-data="13.5" id="geren">个人发起</span>
+            <span class="zc_dh" data-data="63.5">企业发起</span>
+            <b class="zc_xian"></b>
+        </nav>
+    </div>
+    <div class="container-fluid zc_index">
+        <div class="nz_ner nz_ner_0">
+            <div>
+                <label>姓名：</label>
+                <input />
+            </div>
+            <div>
+                <label>联系方式：</label>
+                <input />
+            </div>
+            <div>
+                <label>短信验证码：</label>
+                <input />
+                <a class="zhc_yzm " data-data="0" id="btn_send_code">获取验证码</a>
+            </div>
+            <div>
+                <label>项目类别：</label>
+                <select>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                </select>
+            </div>
+            <div>
+                <label>经费预算：</label>
+                <input />
+                <span class="zc_span">元</span>
+            </div>
+            <div>
+                <label>发起理由：</label>
+                <textarea></textarea>
+            </div>
+            <div>
+                <label>地址-省：</label>
+                <select>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                </select>
+            </div>
+            <div>
+                <label>地址-市：</label>
+                <select>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                </select>
+            </div>
+            <div>
+                <label>地址-县：</label>
+                <select>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                </select>
+            </div>
+            <div>
+                <label>街道地址：</label>
+                <select>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                </select>
+            </div>
+            <div class="text-center">
+                <a class="botn_quan zc_btn">提交申请</a>
+            </div>
+        </div>
+        <div class="nz_ner nz_ner_1">
+            <div>
+                <label>企业名称 ：</label>
+                <input />
+            </div>
+            <div>
+                <label>办公地址：</label>
+                <input />
+            </div>
+            <div>
+                <label>短信验证码：</label>
+                <input />
+                <a class="zhc_yzm " data-data="0" id="btn_send_code">获取验证码</a>
+            </div>
+            <div class="bor_bton" style="padding-bottom:10px;">
+                <label>短信验证码：</label>
+                <input />
+            </div>
+            <div>
+                <label>项目类别：</label>
+                <select>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                </select>
+            </div>
+            <div>
+                <label>经费预算：</label>
+                <input />
+                <span class="zc_span">元</span>
+            </div>
+            <div>
+                <label>发起理由：</label>
+                <textarea></textarea>
+            </div>
+            <div>
+                <label>地址-省：</label>
+                <select>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                </select>
+            </div>
+            <div>
+                <label>地址-市：</label>
+                <select>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                </select>
+            </div>
+            <div>
+                <label>地址-县：</label>
+                <select>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                </select>
+            </div>
+            <div>
+                <label>街道地址：</label>
+                <select>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                    <option>巴拉</option>
+                </select>
+            </div>
+            <div class="text-center">
+                <a class="botn_quan zc_btn">提交申请</a>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        $(".nz_ner_1").hide();
+        $(".zc_dh").click(function () {
+            var xian = $(this).attr("data-data");
+            var weizhi = $(this).index();
+            $(".zc_dh").attr("class", "zc_dh");
+            $(this).addClass("zc_dh_now");
+            $(".zc_xian").css("left", xian + "%");
+
+            $(".nz_ner").hide();
+            $(".nz_ner_" + weizhi).fadeIn();
+        })
+
+
+        $("#btn_send_code").click(function () {
+            var biaoji = $(this).attr("data-data");
+            if (biaoji == 0) {
+                var a = 6;
+                $(this).attr("data-data", "1");
+                $(this).addClass("zhc_no");
+                var mytime = setInterval(function () {
+                    getTime();
+                }, 1000);
+                function getTime() {
+                    if (a == 0) {
+                        $("#btn_send_code").attr("data-data", "0");
+                        $("#btn_send_code").removeClass("zhc_no");
+                        $("#btn_send_code").text("获取验证码");
+                        clearInterval(mytime);
+                    }
+                    else {
+                        a -= 1;
+                        $("#btn_send_code").text("重新发送(" + a + ")");
+                    }
+                }
+                //点击代码
+                var mobile = $("#mobile").val();
+                if (mobile == "") {
+                    alert('请填入手机号码！');
+                    return;
+                }
+                $.ajax({
+                    url: '/Register/Sent_Msg',
+                    data: { 'mobile': mobile },
+                    dataType: 'json',
+                    type: 'post',
+                    success: function (data) {
+                        if (data == true) {
+                        }
+                    }
+                });
+            }
+            else {
+                return;
+            }
+        });        //协议同意
+
+    </script>
+</body>
+</html>

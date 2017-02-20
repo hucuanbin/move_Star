@@ -1,0 +1,186 @@
+﻿
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <title>大转盘活动</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/zhuanp_css.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/zhuanp_js.js"></script>
+    <script type="text/javascript" src="js/zhuanpan_js2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</head>
+<body style="background:#691b4f;overflow-x:hidden;">
+    <img src="images/cj_shand.png" id="shan-img" style="display:none;" />
+    <img src="images/cj_kul.png" id="sorry-img" style="display:none;" />
+    <div class="banner" style="margin-top:20px;">
+        <div class="turnplate" style="background-image:url(images/cj_bg.png);background-size:100% 100%;">
+            <canvas class="item"  id="wheelcanvas" width="422" height="422" style="z-index:-10;"></canvas>
+            <img class="pointer" src="images/cj_kaishi.png" data-data="12" style="z-index:99;" />
+        </div>
+    </div>
+    <div class="zhuanp_jihui">
+        <p>您有<span id="zp_cishu">1</span>次抽奖机会</p>
+        <a id="zhuanop_fx" href="#" data-toggle="modal" data-target="#myModal1" style="outline:none">分享好友</a>
+    </div>
+    <div class="zhuanp_jl">
+        <div class="zhuanp_jl_bt">
+            <span class="span_show">中奖名单</span>
+            <span>我的中奖记录</span>
+        </div>
+        <div class="zhuanp_jl_mr">
+            <!--中奖名单-->
+            <div class="zp_nr_1">
+                <ul>
+                    <li>
+                        <span>小雨</span>
+                        <span>一等奖</span>
+                    </li>
+                    <li>
+                        <span>小小雨小雨小雨小雨小雨小雨小雨小雨小雨雨</span>
+                        <span>一等奖</span>
+                    </li>
+
+                    <li>
+                        <span>小雨</span>
+                        <span>一等奖</span>
+                    </li>
+                    <li>
+                        <span>小小雨小雨小雨小雨小雨小雨小雨小雨小雨雨</span>
+                        <span>一等奖</span>
+                    </li>
+                    <li>
+                        <span>小雨</span>
+                        <span>一等奖</span>
+                    </li>
+                    <li>
+                        <span>小小雨小雨小雨小雨小雨小雨小雨小雨小雨雨</span>
+                        <span>一等奖</span>
+                    </li>
+                </ul>
+            </div>
+            <!--我的中奖记录（有）-->
+            <div class="zp_nr_2" style="display:none;">
+                <ul>
+                    <li>
+                        <span>2015-08-12 11:11:11</span>
+                        <span>一等奖</span>
+                    </li>
+                    <li>
+                        <span>2015-08-12 11:11:11</span>
+                        <span>一等奖</span>
+                    </li>
+                    <li>
+                        <span>2015-08-12 11:11:11</span>
+                        <span>一等奖</span>
+                    </li>
+
+                    <li>
+                        <span>2015-08-12 11:11:11</span>
+                        <span>一等奖</span>
+                    </li>
+                    <li>
+                        <span>2015-08-12 11:11:11</span>
+                        <span>一等奖</span>
+                    </li>
+                    <li>
+                        <span>2015-08-12 11:11:11</span>
+                        <span>一等奖</span>
+                    </li>
+                </ul>
+            </div>
+            <!--我的中奖记录（无）-->
+            <!--<div class="zp_nr_2 nr_none">
+                <p>尚无中奖纪录</p>
+                <p class="zp_yc">分享好友参与转盘</p>
+                <p>即可获得1次抽奖机会哦!</p>
+            </div>-->
+        </div>
+    </div>
+    <div class="zhuanp_div zhuanp_shuom">
+        <label>活动说明</label>
+        <p>活动时间：2015年8月15日-8月20日</p>
+        <p>转盘说明：</p>
+        <ol>
+            <li>每人每天1次转盘机会;</li>
+            <li>分享给好友，每邀请一个好友成功参与转盘活动，您即获得1次转盘机会，邀请人次不限;</li>
+            <li>领取的云豆可以直接参与『天天一块』一元夺宝。</li>
+        </ol>
+    </div>
+    <div class="zhuanp_div zhuanp_huoj">
+        <label>获奖说明</label>
+        <ul>
+            <li>实物中奖信息以微信公众号『天天一块』您的个人中心的手机号为准，因未关注天天一块，导致客服无法联系到中奖用户的，视为用户自主放弃该奖品（实物奖品将统一在活动结束后5个工作日内发出）。</li>
+            <li>因未关注天天一块，导致客服无法联系到中奖用户的，视为用户自主放弃该奖品（实物奖品将统一在活动结束后5个工作日内发出）。</li>
+
+        </ul>
+        <p>本活动最终解释权归天天一块所有。</p>
+    </div>
+    <div id="myModal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog1  hongb_lingqu" style="width:80% !important;">
+            <div class="modal-content">
+                <div class="modal-body  huod_tc">
+                    <img src="images/huod_fenx_nr.png" />
+                    <a class="glyphicon glyphicon-remove" aria-hidden="true" id="quxiao"></a>
+                </div>
+                <div class="modal-footer huod_tc_btn" style="text-align:center">
+                    <button data-dismiss="modal"></button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <script>
+        $("#quxiao").click(function () {
+
+            $('#myModal1').modal('hide')
+
+        })
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+            var b = $(".zp_nr_1>ul>li").length;
+            if (b > 5) {
+               myar = setInterval('AutoScroll(".zp_nr_1")', 2000);
+            }
+            $("#zp_cishu").text($(".pointer").attr("data-data"));
+        })
+
+        $(".zhuanp_jl_bt>span").click(function () {
+            clearInterval(myar);
+            $(".zhuanp_jl_bt>span").attr("class", "");
+            $(this).attr("class", "span_show");
+            var a = parseInt($(this).index()) + 1;
+            $(".zhuanp_jl_mr>div").hide();
+            $(".zp_nr_" + a + "").show();
+            var b = $(".zp_nr_" + a + ">ul>li").length;
+            if (b > 5) {
+                myar = setInterval('AutoScroll(".zp_nr_' + a + '")', 2000);
+            }
+
+        })
+
+    
+      function AutoScroll(obj) {
+            $(obj).find("ul:first").animate({
+                marginTop: "-25px"
+            },
+            500,
+            function () {
+                $(this).css({
+                    marginTop: "0px"
+                }).find("li:first").appendTo(this);
+            })
+        }
+
+      
+    </script>
+</body>
+</html>

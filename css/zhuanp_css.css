@@ -1,0 +1,275 @@
+﻿body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, td, img, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    color: #333;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+select, input, img, select {
+    vertical-align: middle;
+}
+
+input {
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+    a:hover {
+        color: #c00;
+        text-decoration: none;
+    }
+
+.clear {
+    clear: both;
+}
+
+/* 大转盘样式 */
+.banner {
+    display: block;
+    width: 80%;
+    margin: 20px 10%;
+}
+
+    .banner .turnplate {
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+
+        .banner .turnplate canvas.item {
+            width: 100%;
+            transform: rotate(17deg);
+            -webkit-transform: rotate(17deg);
+            -moz-transform: rotate(17deg);
+            border-radius: 50%;
+        }
+
+      .pointer {
+            position: absolute;
+            width: 31.5%;
+            height: 42.5%;
+            left: 34.6%;
+            top: 23%;
+        }
+
+
+
+* {
+    font-family: 'Verdana','Microsoft';
+}
+
+.zhuanp_div {
+    background: #fff;
+    border-radius: 10px;
+    padding: 0px 0px;
+    overflow: hidden;
+    margin: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+    .zhuanp_div > label {
+        display: inline-block;
+        width: 100%;
+        background: #E41B46;
+        color: #fff;
+        text-align: center;
+        font-size: 5vw;
+        padding: 5px;
+        letter-spacing: 2px;
+    }
+
+.zhuanp_shuom ol {
+    padding-left: 15px;
+}
+
+.zhuanp_div li {
+    list-style-type: decimal;
+    margin-bottom: 5px;
+    padding-right: 5px;
+}
+
+.zhuanp_div > p {
+    font-size: 4vw;
+    padding-left: 10px;
+}
+
+.zhuanp_shuom > ol {
+    margin-left: 15px;
+}
+
+.zhuanp_huoj > ul {
+    margin-left: 25px;
+}
+
+.zhuanp_div > * {
+    margin-bottom: 5px;
+}
+
+.zhuanp_huoj li {
+    list-style-type: square;
+    list-style-position: outside;
+}
+
+.zhuanp_jihui {
+    margin-top: 20px;
+    text-align: center;
+}
+
+    .zhuanp_jihui > p {
+        text-align: center;
+        font-size: 6vw;
+        color: #fff;
+        letter-spacing: 2px;
+    }
+
+        .zhuanp_jihui > p > span {
+            color: #FFBE04;
+        }
+
+    .zhuanp_jihui > a {
+        display: inline-block;
+        background: #FFBE04;
+        color: #fff;
+        padding: 7px;
+        border-radius: 9px;
+        width: 40%;
+        margin-top: 10px;
+        border: none;
+        font-size: 5vw;
+        font-weight:bold
+    }
+
+.zhuanp_jl {
+    background: #fc8f8f;
+    margin: 20px 5px;
+    overflow: auto;
+}
+
+    .zhuanp_jl > div {
+        overflow: auto;
+    }
+
+        .zhuanp_jl > div:last-child {
+            padding-bottom: 5px;
+            height: 120px;
+            overflow: hidden;
+            background:#fff;
+        }
+
+.zhuanp_jl_bt > span {
+    float: left;
+    display: inline-block;
+    background: #FC8F8F;
+    color: #666;
+    border-bottom: 1px #E41B46 solid;
+    font-size: 14px;
+    width: 50%;
+    text-align: center;
+    padding: 5px 0px;
+    font-weight: bold;
+}
+
+.zhuanp_jl_bt > .span_show {
+    background: #E41B46;
+    color: #FFF;
+}
+
+.zhuanp_jl_mr span {
+    color: #E62D2D !important;
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    font-size: 13px;
+    float: left;
+    padding: 3px 0px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.zhuanp_jl_mr li > span:first-child {
+    width: 60%;
+}
+
+.nr_none p {
+    text-align: center;
+    color: #E62D2D;
+}
+
+.nr_none > p:first-child {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.nr_none > .zp_yc {
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.nr_none > p:last-child {
+    font-size: 12px;
+    margin-top: 3px;
+    letter-spacing: 1px;
+}
+
+.zp_nr_2 * {
+    color: #E62D2D !important;
+}
+
+.hongb_lingqu {
+    margin: 50px 10% !important;
+}
+
+.huod_tc {
+    position: relative;
+    padding: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+    .huod_tc > img {
+        width: 100%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .huod_tc > a {
+        font-size: 6vw;
+        color: #fff;
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+.huod_tc_btn {
+    text-align: center;
+    background: #191919;
+    border: none;
+}
+
+    .huod_tc_btn > button {
+        width: 40%;
+        height: 40px;
+        background: url(../images/huod_fenx_btn.png) no-repeat;
+        background-size: 100% 100%;
+        border: none;
+        outline: none;
+    }

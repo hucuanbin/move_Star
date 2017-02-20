@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <script src="js/bootstrap.js"></script>
+
+    <div class="container-fluid nr_top_1">
+        <a href="fax.html" class="glyphicon glyphicon-menu-left"></a>
+        <b class="text-center">热门推荐</b>
+    </div>
+    <div class="container-fluid remtj_top p0">
+        <div class="ddgl_top">
+            <nav>
+                <a class="ddgl_top_xq" href="#rem_zhuj" data-toggle="tab">专辑</a>
+                <a href="#rem_ship" data-toggle="tab">视频</a>
+            </nav>
+        </div>
+    </div>
+    <div class="container-fluid p0 huod_lb_index">
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade in active" id="rem_zhuj">
+                <div class="mm_zj p10">
+                 
+                  <a>
+                      <div>
+                          <div class="xinwen_tu_1">
+                              <img src="images/tiantian_Logo.png" class="mb_zj_1" />
+                              <b class="bof_tb"></b>
+                          </div>
+                          <p class="shengl">巴拉巴拉巴拉巴拉</p>
+                          <p>2015-06-03</p>
+                      </div>
+                  </a>
+                    <a href="index.html">
+                        <div>
+                            <div class="xinwen_tu_1">
+                                <img src="images/anqan_zhongxin.png" />
+                                <b class="bof_tb"></b>
+                            </div>
+                            <p class="shengl">巴拉巴拉巴拉巴拉</p>
+                            <p>2015-06-03</p>
+                        </div>
+                    </a>
+                    <a>
+                        <div>
+                            <div class="xinwen_tu_1">
+                                <img src="images/tiantian_Logo.png" class="mb_zj_1" />
+                                <b class="bof_tb"></b>
+                            </div>
+                            <p class="shengl">巴拉巴拉巴拉巴拉</p>
+                            <p>2015-06-03</p>
+                        </div>
+                    </a>
+                    <a href="index.html">
+                        <div>
+                            <div class="xinwen_tu_1">
+                                <img src="images/anqan_zhongxin.png" />
+                                <b class="bof_tb"></b>
+                            </div>
+                            <p class="shengl">巴拉巴拉巴拉巴拉</p>
+                            <p>2015-06-03</p>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+            <div class="tab-pane fade" id="rem_ship">
+                <div class="fx_indexx_tuij p10 re_sp">
+                    <a>
+                        <div>
+                            <div class="xinwen_tu_1">
+                                <img src="images/mingx_toux.png" />
+                                <p>12:10</p>
+                                <b class="bof_tb"></b>
+                            </div>
+                            <p>1111111</p>
+                        </div>
+                    </a>
+                    <a>
+                        <div>
+                            <div class="xinwen_tu_1">
+                                <img src="images/mingx_toux.png" />
+                                <p>12:10</p>
+                                <b class="bof_tb"></b>
+
+                            </div>
+                            <p>2222阿拉</p>
+                        </div>
+                    </a>
+                    <a>
+                        <div>
+                            <div class="xinwen_tu_1">
+                                <img src="images/mingx_toux.png" />
+                                <p>12:10</p>
+                                <b class="bof_tb"></b>
+
+                            </div>
+                            <p>333拉巴拉阿拉</p>
+                        </div>
+                    </a>
+                    <a>
+                        <div>
+                            <div class="xinwen_tu_1">
+                                <img src="images/mingx_toux.png" />
+                                <p>12:10</p>
+                                <b class="bof_tb"></b>
+
+                            </div>
+                            <p>44444444444444巴拉巴拉阿拉</p>
+                        </div>
+                    </a>
+                    <a>
+                        <div>
+                            <div class="xinwen_tu_1">
+                                <img src="images/mingx_toux.png" />
+                                <p>12:10</p>
+                                <b class="bof_tb"></b>
+
+                            </div>
+                            <p>5555拉巴拉阿拉</p>
+                        </div>
+                    </a>
+                    <a>
+                        <div>
+                            <div class="xinwen_tu_1">
+                                <img src="images/mingx_toux.png" />
+                                <p>12:10</p>
+                                <b class="bof_tb"></b>
+
+                            </div>
+                            <p>666拉巴拉阿拉</p>
+                        </div>
+                    </a>
+                    <a>
+                        <div>
+                            <div class="xinwen_tu_1">
+                                <img src="images/mingx_toux.png" />
+                                <p>12:10</p>
+                                <b class="bof_tb"></b>
+
+                            </div>
+                            <p>44444444444444巴拉巴拉阿拉</p>
+                        </div>
+                    </a>
+                    <a>
+                        <div>
+                            <div class="xinwen_tu_1">
+                                <img src="images/mingx_toux.png" />
+                                <p>12:10</p>
+                                <b class="bof_tb"></b>
+
+                            </div>
+                            <p>5555拉巴拉阿拉</p>
+                        </div>
+                    </a>
+                    <a>
+                        <div>
+                            <div class="xinwen_tu_1">
+                                <img src="images/mingx_toux.png" />
+                                <p>12:10</p>
+                                <b class="bof_tb"></b>
+
+                            </div>
+                            <p>666拉巴拉阿拉</p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+          
+        </div>
+    </div>
+    <script>
+     
+        $(document).ready(function () {
+            $(".ddgl_top a").click(function () {
+                $(this).siblings("a").attr("class", "");
+                $(this).attr("class", "ddgl_top_xq ");
+            })
+        })
+        var a = $(".mm_zj >a>div").height();
+        var max_hei = a;
+        $(".mm_zj >a>div").each(function () {
+            var heii = $(this).height();
+            if (heii > max_hei) {
+                max_hei = heii
+            }
+        });
+        $(".mm_zj >a>div").height(max_hei);
+
+    </script>
+
+
+</body>
+</html>

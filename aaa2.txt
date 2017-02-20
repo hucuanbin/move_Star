@@ -1,0 +1,8 @@
+[
+ {"status":true,"riqi":1},    
+ {"status":true,"riqi":3},
+ {"status":true,"riqi":5},
+ {"status":true,"riqi":7},
+ {"status":true,"riqi":9},
+ {"status":true,"riqi":11}
+]

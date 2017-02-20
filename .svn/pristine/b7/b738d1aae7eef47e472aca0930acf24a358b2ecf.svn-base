@@ -1,0 +1,320 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <style>
+        body {
+            background: #F0F2F5;
+        }
+    </style>
+    <div class="container-fluid nr_top">
+        <p class="text-center">新闻</p>
+        <a href="souSuo.html" class="sousuo"></a>
+    </div>
+    <div class="container-fluid p0" >
+        <div class=" wemz_1_lb" id="wemz_1_lb">
+            <div class="wen_lb_qieh" id="wen_lb_qieh" data-data="0">
+                <div>
+                    <a>
+                        <div class="xinwen_tu_1">
+                            <img src="images/index_yhc.png" class="tu_ei" />
+                            <p>巴拉巴拉巴拉巴拉看啊吧了撒旦撒旦</p>
+                            <span class="tu_rep">热评</span>
+                        </div>
+                    </a>
+                  
+                    <div class="xw_nr">
+                        <div class="col-xs-6">
+                           <div>
+                               <a>1111芝张柏芝张芝张柏芝张芝张柏芝张柏芝</a>
+                               <p class="wz_time">句子娱乐 1天前</p>
+                           </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div>
+                                <a>1111芝张柏芝张芝张柏芝张芝张柏芝张柏芝</a>
+                                <p><span class="shiping">时评</span></p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div>
+                                <a>1111芝张柏芝张芝张柏芝张芝张柏芝张柏芝</a>
+                                <p><span class="reping">热评</span></p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div>
+                                <a>1111芝张柏芝张芝张柏芝张芝张柏芝张柏芝</a>
+                                <p class="wz_time">句子娱乐 1天前</p>
+                            </div>
+                        </div>
+                        <div class="xz_di">
+                            <a>张柏芝张柏芝张芝张柏芝张芝张柏芝张柏芝</a>
+                            <p class="wz_time">句子娱乐 1天前</p>
+                            <span><b>1</b>/<b>6</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="images/index_yhc.png" class="tu_ei" />
+                    </div>
+                    <div class="xw_nr">
+                        <div class="col-xs-6">
+                            <div>
+                                <p>2222芝张柏芝张芝张柏芝张芝张柏芝张柏芝</p>
+                                <p class="wz_time">句子娱乐 1天前</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div>
+                                <p>1111芝张柏芝张芝张柏芝张芝张柏芝张柏芝</p>
+                                <p class="wz_time">句子娱乐 1天前</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div>
+                                <p>1111芝张柏芝张芝张柏芝张芝张柏芝张柏芝</p>
+                                <p class="wz_time">句子娱乐 1天前</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div>
+                                <p>1111芝张柏芝张芝张柏芝张芝张柏芝张柏芝</p>
+                                <p class="wz_time">句子娱乐 1天前</p>
+                            </div>
+                        </div>
+                        <div class="xz_di">
+                            <p>张柏芝张柏芝张芝张柏芝张芝张柏芝张柏芝</p>
+                            <p class="wz_time">句子娱乐 1天前</p>
+                            <span><b>2</b>/<b>6</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="images/index_yhc.png" class="tu_ei" />
+                    </div>
+                    <div class="xw_nr">
+                        <div class="col-xs-6">
+                            <div>
+                                <p>3333芝张柏芝张芝张柏芝张芝张柏芝张柏芝</p>
+                                <p class="wz_time">句子娱乐 1天前</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div>
+                                <p>1111芝张柏芝张芝张柏芝张芝张柏芝张柏芝</p>
+                                <p class="wz_time">句子娱乐 1天前</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div>
+                                <p>1111芝张柏芝张芝张柏芝张芝张柏芝张柏芝</p>
+                                <p class="wz_time">句子娱乐 1天前</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div>
+                                <p>1111芝张柏芝张芝张柏芝张芝张柏芝张柏芝</p>
+                                <p class="wz_time">句子娱乐 1天前</p>
+                            </div>
+                        </div>
+                        <div class="xz_di">
+                            <p>张柏芝张柏芝张芝张柏芝张芝张柏芝张柏芝</p>
+                            <p class="wz_time">句子娱乐 1天前</p>
+                            <span><b>3</b>/<b>6</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="images/index_yhc.png" class="tu_ei" />
+                    </div>
+                    <div class="xw_nr">
+                        <div class="col-xs-6">
+                            <div>
+                                <p>4444芝张柏芝张芝张柏芝张芝张柏芝张柏芝</p>
+                                <p class="wz_time">句子娱乐 1天前</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div>
+                                <p>1111芝张柏芝张芝张柏芝张芝张柏芝张柏芝</p>
+                                <p class="wz_time">句子娱乐 1天前</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div>
+                                <p>1111芝张柏芝张芝张柏芝张芝张柏芝张柏芝</p>
+                                <p class="wz_time">句子娱乐 1天前</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div>
+                                <p>1111芝张柏芝张芝张柏芝张芝张柏芝张柏芝</p>
+                                <p class="wz_time">句子娱乐 1天前</p>
+                            </div>
+                        </div>
+                        <div class="xz_di">
+                            <p>张柏芝张柏芝张芝张柏芝张芝张柏芝张柏芝</p>
+                            <p class="wz_time">句子娱乐 1天前</p>
+                            <span><b>4</b>/<b>6</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="images/index_yhc.png" class="tu_ei" />
+                    </div>
+                    <div class="xw_nr">
+                        <div class="col-xs-6">
+                            <div>
+                                <p>5555芝张柏芝张芝张柏芝张芝张柏芝张柏芝</p>
+                                <p class="wz_time">句子娱乐 1天前</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div>
+                                <p>1111芝张柏芝张芝张柏芝张芝张柏芝张柏芝</p>
+                                <p class="wz_time">句子娱乐 1天前</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div>
+                                <p>1111芝张柏芝张芝张柏芝张芝张柏芝张柏芝</p>
+                                <p class="wz_time">句子娱乐 1天前</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div>
+                                <p>1111芝张柏芝张芝张柏芝张芝张柏芝张柏芝</p>
+                                <p class="wz_time">句子娱乐 1天前</p>
+                            </div>
+                        </div>
+                        <div class="xz_di">
+                            <p>张柏芝张柏芝张芝张柏芝张芝张柏芝张柏芝</p>
+                            <p class="wz_time">句子娱乐 1天前</p>
+                            <span><b>5</b>/<b>6</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="images/index_yhc.png" class="tu_ei" />
+                    </div>
+                    <div class="xw_nr">
+                        <div class="col-xs-6">
+                            <div>
+                                <p>6666芝张柏芝张芝张柏芝张芝张柏芝张柏芝</p>
+                                <p class="wz_time">句子娱乐 1天前</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div>
+                                <p>1111芝张柏芝张芝张柏芝张芝张柏芝张柏芝</p>
+                                <p class="wz_time">句子娱乐 1天前</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div>
+                                <p>1111芝张柏芝张芝张柏芝张芝张柏芝张柏芝</p>
+                                <p class="wz_time">句子娱乐 1天前</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div>
+                                <p>1111芝张柏芝张芝张柏芝张芝张柏芝张柏芝</p>
+                                <p class="wz_time">句子娱乐 1天前</p>
+                            </div>
+                        </div>
+                        <div class="xz_di">
+                            <p>张柏芝张柏芝张芝张柏芝张芝张柏芝张柏芝</p>
+                            <p class="wz_time">句子娱乐 1天前</p>
+                            <span><b>6</b>/<b>6</b></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            var a = $(window).height() - 40;
+            $(".wen_lb_qieh>div").width($(window).width());
+            $("#wemz_1_lb").height(a);
+            $(".wen_lb_qieh").height(a);
+            $(".tu_ei").height(a * 0.4);
+            $(".xw_nr").height(a * 0.6);
+            var di_hei = $(".xw_nr").height();
+            var _gao_5 = $(".col-xs-6").height();
+            var pa_ga = _gao_5 * 0.12;
+            $(".col-xs-6").css("padding",pa_ga +"px 5px");
+        })
+    </script>
+
+    <script>
+    var startX1,//触摸时的坐标
+    startY1,
+    x1, //滑动的距离
+    y1,
+    aboveX1 = 0; //设一个全局变量记录上一次内部块滑动的位置
+    var zongshu = $("#wen_lb_qieh>div").length - 1;
+        alert(zongshu)
+    var inner1 = document.getElementById("wen_lb_qieh");
+    function touchSatrt(e) {//触摸
+        e.preventDefault();
+        var touch = e.touches[0];
+        startX1 = touch.pageX; //刚触摸时的坐标
+    }
+
+    function touchMove(e) {//滑动
+        e.preventDefault();
+        var touch = e.touches[0];
+        x1 = touch.pageX - startX1;//滑动的距离
+        //inner.style.webkitTransform = 'translate(' + 0+ 'px, ' + y + 'px)'; //也可以用css3的方式
+        inner1.style.left = aboveX1 + x1 + "px"; //这一句中的
+    }
+    function touchEnd(e) {//手指离开屏幕
+        var dangq = $("#wen_lb_qieh").attr("data-data");
+        if (x1 > 0) {
+            if (dangq == 0)
+                dangq = 0;
+            else
+                dangq--;
+        }
+        else if (x1 < 0) {
+            if (dangq == zongshu)
+                dangq = zongshu;
+            else
+                dangq++;
+        }
+        else
+        {
+            return;
+        }
+        var juli = dangq * $(window).width()*-1;
+     
+        $("#wen_lb_qieh").attr("data-data", dangq);
+        e.preventDefault();
+        aboveX1 = parseInt(juli);//touch结束后记录内部滑块滑动的位置 在全局变量中体现 一定要用parseInt()将其转化为整数字;
+        $('.wen_lb_qieh').animate({ left: juli }, 300);
+    }//
+    document.getElementById("wemz_1_lb").addEventListener('touchstart', touchSatrt, false);
+    document.getElementById("wemz_1_lb").addEventListener('touchmove', touchMove, false);
+    document.getElementById("wemz_1_lb").addEventListener('touchend', touchEnd, false);
+    </script>
+
+
+</body>
+</html>

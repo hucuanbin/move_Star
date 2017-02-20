@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/toupiao.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <style>
+        body {
+            background: #1F196F;
+        }
+    </style>
+    <div class="container-fluid p0 text-center posr">
+        <img src="images/toupiao_1_top.png" class="img-responsive" />
+        <p class="toupp_time">报名时间：10月10日-12月12日</p>
+    </div>
+    <div class="container-fluid top_1">
+        <div class="toup_huod_jies">
+            <span class="huod_jies_zi">活动介绍：</span>
+            <span class="huod_jies_index">我是活动介绍我是活动介绍我是活动介绍我是活动介绍我是活动介绍我是活动介绍</span>
+        </div>
+        <div class="text-center">
+            <a class="bton_quan  yijibaom">立即报名</a>
+        </div>
+        <div class="toup_1_index m-20">
+            <div class="toup_1_index_idv">
+                <a href="toup_xiangq.html">
+                    <img src="images/weixuan.png" class="img-responsive" />
+                </a>
+                <div class="toux_1_xx">
+                    <p class="m-b_7">2713号 <span class="right"><em class="piaoshu">0</em>票</span></p>
+                    <p class="text-center"><a class="bton_quan top_1_topp">投TA一票</a></p>
+                </div>
+            </div>
+            <div class="toup_1_index_idv">
+                <a href="toup_xiangq.html">
+                    <img src="images/weixuan.png" class="img-responsive" />
+                </a>
+                <div class="toux_1_xx">
+                    <p class="m-b_7">2713号 <span class="right"><em class="piaoshu">0</em>票</span></p>
+                    <p class="text-center"><a class="bton_quan top_1_topp">投TA一票</a></p>
+                </div>
+            </div>
+            <div class="toup_1_index_idv">
+                <a href="toup_xiangq.html">
+                    <img src="images/weixuan.png" class="img-responsive" />
+                </a>
+                <div class="toux_1_xx">
+                    <p class="m-b_7">2713号 <span class="right"><em class="piaoshu">0</em>票</span></p>
+                    <p class="text-center"><a class="bton_quan top_1_topp">投TA一票</a></p>
+                </div>
+            </div>
+            <div class="toup_1_index_idv">
+                <a href="toup_xiangq.html">
+                    <img src="images/weixuan.png" class="img-responsive" />
+                </a>
+                <div class="toux_1_xx">
+                    <p class="m-b_7">2713号 <span class="right"><em class="piaoshu">0</em>票</span></p>
+                    <p class="text-center"><a class="bton_quan top_1_topp">投TA一票</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-center toup_1_bton">
+        <a class="toup_phb">查看排行榜 >></a>
+    </div>
+    <script>
+        $(".huod_jies_index").width(($(".toup_huod_jies").width() - 76));
+      //  alert($(".huod_jies_index").width() + "::" + $(".toup_huod_jies").width());
+    </script>
+</body>
+</html>

@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="loding_wai">
+        <div class="loading">
+            <b></b>
+            <ul>
+                <li>
+                    <span style="background:#FFCA08"></span>
+                </li>
+                <li>
+                    <span style="background:#0099D2"></span>
+                </li>
+                <li>
+                    <span style="background:#A3248F"></span>
+                </li>
+                <li>
+                    <span style="background:#A6CE3A"></span>
+                </li>
+                <li>
+                    <span style="background:#C40F3A"></span>
+                </li>
+                <li>
+                    <span style="background:#466F83"></span>
+                </li>
+                <li>
+                    <span style="background:#00A77B"></span>
+                </li>
+                <li>
+                    <span style="background:#F15C22"></span>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <!--上门的是加载是对LO-->
+    <div class="container-fluid nr_top">
+        <span class="glyphicon glyphicon-th yh_tu1"></span>
+        <p class="text-center">演出</p>
+        <span class="glyphicon glyphicon-filter yh_tu3"></span>
+    </div>
+    <div class="container-fluid p0 ych_lb">
+        <a href="yanchu_xq.html">
+            <div class="ych_lb_nr">
+                <div class="col-xs-4">
+                    <img src="images/ych.png" />
+                </div>
+                <div class="col-xs-8 ych_lb_nr_2">
+                    <label>汪峰2015 "峰暴来临"超级巡回演唱会上海收官之战</label>
+                    <span>售票中</span>
+                    <div>
+                        <p class="m0">时间 : 2015.9.26</p>
+                        <p>场馆 : 上海体育馆</p>
+                        <p>票价 : <b class="mo_re"><span class="mo_re">180-1128</span> 元</b></p>
+                    </div>
+                </div>
+            </div>
+
+        </a>
+        <a href="yanchu_xq.html">
+            <div class="ych_lb_nr">
+                <div class="col-xs-4">
+                    <img src="images/ych.png" />
+                </div>
+                <div class="col-xs-8 ych_lb_nr_2">
+                    <label>汪峰2015 "峰暴来临"超级巡回演唱会上海收官之战</label>
+                    <span>售票中</span>
+                    <div>
+                        <p class="m0">时间 : 2015.9.26</p>
+                        <p>场馆 : 上海体育馆</p>
+                        <p>票价 : <b class="mo_re"><span class="mo_re">180-1128</span> 元</b></p>
+                    </div>
+                </div>
+            </div>
+
+        </a>
+        <a href="yanchu_xq.html">
+            <div class="ych_lb_nr">
+                <div class="col-xs-4">
+                    <img src="images/ych.png" />
+                </div>
+                <div class="col-xs-8 ych_lb_nr_2">
+                    <label>汪峰2015 "峰暴来临"超级巡回演唱会上海收官之战</label>
+                    <span>售票中</span>
+                    <div>
+                        <p class="m0">时间 : 2015.9.26</p>
+                        <p>场馆 : 上海体育馆</p>
+                        <p>票价 : <b class="mo_re"><span class="mo_re">180-1128</span> 元</b></p>
+                    </div>
+                </div>
+            </div>
+
+        </a>
+
+    </div>
+    <div class="hei_di">
+
+    </div>
+    <div class="container-fluid index_wei">
+        <a href="index.html">
+            <div>
+                <b class="wei_1"></b>
+                <p>首页</p>
+            </div>
+        </a>
+        <a>
+            <div>
+                <b class="wei_2"></b>
+                <p>新闻</p>
+            </div>
+        </a>
+        <a href="yanchu.html">
+            <div>
+                <b class="wei_31"></b>
+                <p class="mo_re">演出</p>
+            </div>
+        </a>
+        <a>
+            <div>
+                <b class="wei_4"></b>
+                <p>发现</p>
+            </div>
+        </a>
+        <a>
+            <div>
+                <b class="wei_5"></b>
+                <p>我的</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="yhc_shaixuan">
+    </div>
+
+    <div class="yhc_shaixuan_nr">
+        <div class="col-xs-5">
+            <ul class="sx_lei">
+                <li class="show_yc"><b class="yhc_sx_tu_1"></b> <span>时间范围</span></li>
+                <li><b class="yhc_sx_tu_2"></b> <span>排序方式</span></li>
+            </ul>
+        </div>
+        <div class="col-xs-7">
+            <ul class="yhc_shaixuan_nr_1 m0" style="display:block;">
+                <li class="yc_xz"><a href=" #">全部时间<span class="glyphicon glyphicon-ok"></span></a></li>
+                <li><a href=" #">今天<span></span></a></li>
+                <li><a href=" #">明天<span></span></a></li>
+                <li><a href=" #">一周内<span></span></a></li>
+                <li><a href=" #">一个月内<span></span></a></li>
+            </ul>
+            <ul class="yhc_shaixuan_nr_2 m0" style="display:none;">
+                <li class="yc_xz"><a href=" #">按热门<span class="glyphicon glyphicon-ok"></span></a></li>
+                <li><a href=" #">按更新时间<span></span></a></li>
+                <li><a href=" #">按演出时间<span></span></a></li>
+                <li><a href=" #">按演出时间<span></span></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container-fluid yhc_shaixuan_leix" >
+        <div class="col-xs-5">
+            <ul class="sx_lei ">
+                <li class="show_yc"><span><a>演唱会</a></span></li>
+                <li><span><a>音乐会</a></span></li>
+                <li><span><a>话剧歌剧</a></span></li>
+                <li><span><a>舞蹈芭蕾</a></span></li>
+                <li><span><a>曲苑杂谈</a></span></li>
+                <li><span><a>度假休闲</a></span></li>
+                <li><span><a>周边商品</a></span></li>
+            </ul>
+        </div>
+        <div>
+
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $(".yhc_shaixuan").height($(window).height());
+            $(".loding_wai").height($(window).height());
+            document.onreadystatechange = subSomething;//当页面加载状态改变的时候执行这个方法.
+            function subSomething() {
+                if (document.readyState == "complete") //当页面加载状态
+                    $(".ych_lb_nr_2").height($(".ych_lb_nr>div>img").height());
+                $(".loding_wai").hide();
+
+            }
+        })
+
+
+        //时间范围-排序方式 切换
+        $(".sx_lei li").click(function () {
+            var a = parseInt($(this).index()) + 1;
+            $(".yhc_shaixuan_nr>.col-xs-7>ul").hide();
+            $(".yhc_shaixuan_nr_" + a + "").show();
+            $(".sx_lei li").attr("class", "");
+            $(this).attr("class", "show_yc");
+        });
+        $(".yhc_shaixuan_nr>.col-xs-7 li").click(function () {
+            $(this).siblings("li").find("span").attr("class", "");
+            $(this).siblings("li").attr("class", "");
+            $(this).find("span").attr("class", "glyphicon glyphicon-ok");
+            $(this).attr("class", "yc_xz")
+        });
+
+        $(".yhc_shaixuan").click(function () {
+            $(".yhc_shaixuan_nr").hide();
+            $(this).hide();
+        });
+
+        $(".yh_tu3").click(function () {
+            $(".yhc_shaixuan").show();
+            $(".yhc_shaixuan_nr").show();
+        })
+    </script>
+
+
+</body>
+</html>

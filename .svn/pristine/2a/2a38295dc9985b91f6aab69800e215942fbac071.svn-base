@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <script src="js/bootstrap.js"></script>
+    <style>
+        body {
+            background: #EDEDED;
+        }
+    </style>
+    <div class="container-fluid nr_top_1">
+        <a href="fax.html" class="glyphicon glyphicon-menu-left"></a>
+        <b class="text-center">活动详情</b>
+    </div>
+    <div class="huod_xq_top container-fluid p0">
+        <div class="fx_huod">
+            <div class="yid_left">
+                <img src="images/mingx_toux.png" />
+            </div>
+            <p>名小星</p>
+            <p><span class="glyphicon glyphicon-time"></span><span>08月10日</span></p>
+        </div>
+        <!--进行中为 huod_xq_jinx -->
+        <b class=" huod_xq_jieshu "></b>
+    </div>
+    <div class="container-fluid huod_xq_nr">
+        <p>标题标题标题标题</p>
+        <p>地点：线上</p>
+        <p>活动开始:<span class="a_lan">2015-08-10 12:21:00</span></p>
+        <p>活动结束:<span class="se_huang">2015-08-15 12:21:00</span></p>
+        <div class="huo_nr_btn"><a class="botn_quan">参加</a> <span>246人已参加</span></div>
+        <div class="huo_nr_btn"><a class="botn_quan huod_jieshu_btn">活动已结束</a> <span>246人已参加</span></div>
+    </div>
+    <div class="container-fluid huod_xq">
+        <p>活动详情</p>
+        <div class="huod_nr_inex" style="height:40px;">
+            <p>巴拉巴拉我是内容</p>
+            <p>巴拉巴拉我是内容</p>
+            <p>巴拉巴拉我是内容</p>
+            <p>巴拉巴拉我是内容</p>
+            <p>巴拉巴拉我是内容</p>
+            <p>巴拉巴拉我是内容</p>
+            <p>巴拉巴拉我是内容</p>
+            <p>巴拉巴拉我是内容</p>
+            <p>巴拉巴拉我是内容</p>
+        </div>
+        <div class="huodx_xq_fq" data-data="0">
+            <p>展开详情</p>
+            <p><span class="glyphicon glyphicon-menu-down"></span></p>
+        </div>
+    </div>
+    <div class="container-fluid huod_pingl m-10 p0">
+        <div>
+            <div class="huod_pingl_top">
+                <img src="images/mingx_toux.png" />
+                <span class="left">ND6520</span>
+                <span class="right">718楼</span>
+            </div>
+            <div class="huod_pingl_nr">
+                <p>asdasda</p>
+                <img src="images/index_yhc.png" />
+            </div>
+            <p class="huifu_tima p10">
+                <span><b class="glyphicon glyphicon-time"></b>04月30日</span>
+                <span data-data="0" class="right pingl_dz"><b class="glyphicon glyphicon-thumbs-up"></b>0</span>
+            </p>
+        </div>
+        <div>
+            <div class="huod_pingl_top">
+                <img src="images/mingx_toux.png" />
+                <span class="left">ND6520</span>
+                <span class="right">718楼</span>
+            </div>
+            <div class="huod_pingl_nr">
+                <p>asdasda</p>
+                <img src="images/index_yhc.png" />
+            </div>
+            <p class="huifu_tima p10">
+                <span><b class="glyphicon glyphicon-time"></b>04月30日</span>
+                <span class="right pingl_dz" data-data="0"><b class="glyphicon glyphicon-thumbs-up"></b>0</span>
+            </p>
+        </div>
+
+    </div>
+    <div class="hei_di" style="height:35px;">
+
+    </div>
+    <div class="container-fluid dibu p0">
+        <div class="huod_xq_di">
+            <span id="huo_hifu"><b class="glyphicon glyphicon-comment"></b>回复</span>
+            <span id="huo_z"><b class="glyphicon glyphicon-thumbs-up"></b>赞<em data-data="3">(3)</em></span>
+        </div>
+        <div class="huod_xq_pingl">
+            <p><span id="huifu_xq">取消</span><span class="mo_re right">回复</span></p>
+            <textarea placeholder="我来说两句"></textarea>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $(".huodx_xq_fq").click(function () {
+                var a = $(this).attr("data-data");
+                if (a == 0) {
+                    $(".huod_nr_inex").addClass("hei_auto");
+                    $('html,body').animate({ scrollTop: '340px' }, 300);
+                    $(".huodx_xq_fq>p:first").text("收起详情")
+                    $(this).attr("data-data", "1");
+                    $(this).find("span").attr("class", "glyphicon glyphicon-menu-up")
+                }
+                else {
+                    $(".huod_nr_inex").removeClass("hei_auto");
+                    $(".huodx_xq_fq>p:first").text("展开详情")
+                    $(this).attr("data-data", "0");
+                    $(this).find("span").attr("class", "glyphicon glyphicon-menu-down")
+                }
+
+            })
+
+            //回复
+            $("#huo_hifu").click(function () {
+                $(".huod_xq_pingl").slideDown();
+            })
+            $("#huifu_xq").click(function () {
+                $(".huod_xq_pingl").slideUp();
+            })
+            //点赞
+
+            $("#huo_z").click(function () {
+
+                $(this).children("b").addClass("mo_re")
+                var a = parseInt($(this).children("em").attr("data-data")) + 1;
+                $(this).children("em").text("(" + a + ")");
+            })
+
+            //评论点咱
+            $(".pingl_dz").click(function () {
+                $(this).children("b").addClass("mo_re");
+                $(this).addClass("mo_re")
+                var a = parseInt($(this).attr("data-data")) + 1;
+                var b = '<b class="glyphicon glyphicon-thumbs-up mo_re"></b>';
+                $(this).html(b+a);
+            })
+        })
+    </script>
+</body>
+</html>

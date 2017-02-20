@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <style>
+        body {
+            background: #F0F2F5;
+        }
+    </style>
+    <div class="container-fluid nr_top">
+        <p class="text-center">微拍专场</p>
+        <a href="souSuo.html" class="sousuo"></a>
+    </div>
+    <div class="container-fluid weip_zc_nr">
+        <div class="m-10">
+            <div class="wp_zc_pmz">
+                <span class="wp_zc_tb">拍</span><span class="wp_zc_tb_zi">拍卖中</span>
+            </div>
+            <a href="weip_lb.html">
+                <div class="pm_zc_div">
+                    <img src="images/index_yhc.png" class="img-responsive" />
+                    <p class="p5 mo_re">明星周边明星周边明星周边</p>
+                    <p class="wp_zc_tima time_daoj">剩<span class="time_tian">00</span>天<span class="time_shi">00</span>时<span class="time_fen">00</span>分<span class="time_miao">00</span>秒</p>
+                </div>
+            </a>
+            <a href="weip_lb.html">
+                <div class="pm_zc_div">
+                    <img src="images/index_yhc.png" class="img-responsive" />
+                    <p class="p5 mo_re">明星周边明星周边明星周边</p>
+                    <p class="wp_zc_tima time_daoj">剩<span class="time_tian">00</span>天<span class="time_shi">00</span>时<span class="time_fen">00</span>分<span class="time_miao">00</span>秒</p>
+                </div>
+            </a>
+        </div>
+        <div class="m-10">
+            <div class="wp_zc_jj">
+                <span class="wp_zc_tb">预</span><span class="wp_zc_tb_zi">即将开拍</span>
+            </div>
+            <a href="weip_lb.html">
+                <div class="pm_zc_div">
+                    <img src="images/index_yhc.png" class="img-responsive" />
+                    <p class="p5 mo_re">明星周边明星周边明星周边</p>
+                    <p class="wp_zc_tima time_daoj">剩<span class="time_tian">00</span>天<span class="time_shi">00</span>时<span class="time_fen">00</span>分<span class="time_miao">00</span>秒</p>
+                </div>
+            </a>
+            <a href="weip_lb.html">
+                <div class="pm_zc_div">
+                    <img src="images/index_yhc.png" class="img-responsive" />
+                    <p class="p5 mo_re">明星周边明星周边明星周边</p>
+                    <p class="wp_zc_tima time_daoj">剩<span class="time_tian">00</span>天<span class="time_shi">00</span>时<span class="time_fen">00</span>分<span class="time_miao">00</span>秒</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <script src="js/weip_daojishi.js"></script>
+    <script>
+    //选择的时间+1小时  测试用
+    var a = parseInt(new Date().valueOf() / 1000 + (3600 * 36));
+    $(".wp_zc_tima").attr("data-data", a);
+    </script>
+
+</body>
+</html>

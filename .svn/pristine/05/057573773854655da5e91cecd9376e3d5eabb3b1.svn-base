@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid nr_top_1">
+        <a href="yanchu.html" class="glyphicon glyphicon-menu-left "></a>
+        <b class="text-center">登录</b>
+        <a class="right" href="zhuce.html">注册</a>
+    </div>
+    <div class="container-fluid dengl_index">
+        <input class="inpt_show" placeholder="请输入手机号码" autofocus />
+        <p class="cuowu_tishi">您输入的帐号不存在，可<a href="zhuce.html">立即注册</a></p>
+        <input placeholder="请输入密码" type="password"/>
+        <p class="cuowu_tishi">您输入的短信激活码有误</p>
+        <button class="botn_quan">登录</button>
+        <p><a>忘记密码</a></p>
+    </div>
+    <script>
+    $(document).ready(function () {
+        $(".dengl_index>input").focus(function () {
+            $(".dengl_index>input").attr("class", "");
+            $(this).attr("class", "inpt_show");
+        })
+
+    })
+    </script>
+
+</body>
+</html>

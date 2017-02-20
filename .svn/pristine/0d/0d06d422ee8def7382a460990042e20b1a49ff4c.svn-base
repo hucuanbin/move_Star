@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <style>
+        body {
+            background: #F0F2F5;
+        }
+    </style>
+    <div class="container-fluid nr_top">
+        <p class="text-center">新闻</p>
+        <a href="souSuo.html" class="sousuo"></a>
+    </div>
+
+    <div class="container-fluid xinw_indexx_top p0">
+       <img src="images/index_yhc.png"/>
+        <div>
+            <a>我是新闻新闻新闻我是新闻新闻新闻我是新闻新闻新闻</a>
+            <p class="wz_time">新华网提供</p>
+        </div>
+    </div>
+    <div class="container-fluid p0 xinw_index_nr">
+        <div>
+            <a>我是新闻新闻新闻我是新闻新闻新闻我是新闻新闻新闻</a>
+            <p class="wz_time">新华网提供</p>
+            <img src="images/mingx_toux.png"/>
+        </div>
+        <div>
+            <a>我是新闻新闻新闻我是</a>
+            <p class="wz_time">新华网提供</p>
+            <img src="images/mingx_toux.png" />
+        </div>
+        <div>
+            <a>我是新闻新闻新闻我是新闻新闻新闻我是新闻新闻新闻</a>
+            <p class="wz_time">新华网提供</p>
+            <img src="images/mingx_toux.png" />
+        </div>
+        <div>
+            <a>我是新闻新闻新闻我是</a>
+            <p class="wz_time">新华网提供</p>
+            <img src="images/mingx_toux.png" />
+        </div>
+    </div>
+    <div class="hei_di">
+
+    </div>
+    <div class="container-fluid index_wei">
+        <a>
+            <div>
+                <b class="wei_1"></b>
+                <p>首页</p>
+            </div>
+        </a>
+        <a href="xinwen_index.html">
+            <div>
+                <b class="wei_21"></b>
+                <p class="mo_re">新闻</p>
+            </div>
+        </a>
+        <a href="yanchu.html">
+            <div>
+                <b class="wei_3"></b>
+                <p>演出</p>
+            </div>
+        </a>
+        <a href="fax.html">
+            <div>
+                <b class="wei_4"></b>
+                <p>发现</p>
+            </div>
+        </a>
+        <a href="wode.html">
+            <div>
+                <b class="wei_5"></b>
+                <p>我的</p>
+            </div>
+        </a>
+    </div>
+</body>
+</html>

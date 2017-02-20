@@ -1,0 +1,304 @@
+﻿body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 12px"宋体","Arial Narrow",HELVETICA;
+    background: #fff;
+    -webkit-text-size-adjust: 100%;
+}
+
+a {
+    color: #2d374b;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #cd0200;
+        text-decoration: underline;
+    }
+
+em {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+span, b {
+    display: inline-block;
+}
+
+p {
+    word-wrap: break-word;
+}
+
+.p10 {
+    padding: 10px !important;
+}
+
+.p0 {
+    padding: 0px !important;
+}
+
+.shengl {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.right {
+    float: right !important;
+}
+
+.left {
+    float: left;
+}
+
+.tu_index {
+    position: relative;
+    padding: 0px;
+}
+
+    .tu_index img {
+        width: 100%;
+    }
+
+.kanj_nr_bj {
+    background: url(../images/kanj_nriy.png) repeat-y;
+    background-size: 100% auto;
+}
+
+.kanj_kaishi {
+    padding: 10px 0px;
+    padding-bottom: 70px;
+    box-sizing: content-box;
+}
+
+    .kanj_kaishi > img {
+        width: 55%;
+    }
+
+    .kanj_kaishi > * {
+        margin-bottom: 15px;
+    }
+
+    .kanj_kaishi > .kanj1_p {
+        color: #B39330;
+        font-size: 1.4rem;
+    }
+
+.kanj_btn > img {
+    width: 70%;
+}
+
+.mo_se {
+    color: #DE3C00;
+}
+
+.zi_big {
+    font-size: 3rem;
+}
+
+.m-40 {
+    margin-top: 40px;
+}
+
+.kanj1_p .mo_se {
+    padding: 0px 5px;
+    border: #D4CCA8 1px solid;
+    margin-right: 5px;
+    margin: 0px 10px;
+}
+
+.hei_30 {
+    height: 34px;
+    line-height: 34px;
+    vertical-align: top;
+}
+
+.kanj_2_p {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.kanj_2 > P > .zi_big:first-child {
+    color: #BDB189;
+    width: 60%;
+    text-align: right;
+}
+
+.kanj_2 .zi_big {
+    font-size: 2.3rem;
+}
+
+.kanj_2_p b.zi_big {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.kanj_2_p:first-child em.zi_big, .kanj_2_p {
+    color: #9D8441;
+}
+
+.tu_index_2 {
+    background: url(../images/kanj_index_2.png) no-repeat;
+    background-size: 100% 52px;
+    height: 52px;
+}
+
+.kanj_index_2_p, .kanj_index_2_span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.kanj_index_2_p {
+    color: #904617;
+    margin-top: 6px;
+}
+
+.kanj_index_2_span {
+    color: #FF6200;
+    margin-left: 2px;
+    letter-spacing: 1px;
+}
+
+.tu_index_btn {
+    background: #F4CF5C;
+    padding: 10px;
+}
+
+.kanj_index_nr {
+    background: url(../images/kanj_index_4.png) no-repeat;
+    background-size: 100% auto;
+    padding: 0px 7%;
+}
+
+.kanj_index {
+    position: relative;
+    padding: 10px 0px;
+    overflow: auto;
+    height: 70px;
+    padding-left: 55px;
+}
+
+.kanj_index {
+    border-bottom: 1px #D5CDA6 solid;
+}
+
+.kanj_toux {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+}
+
+.shengl {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.kj_lf {
+    padding: 2px 0px;
+}
+
+.kaj_left {
+    font-size: 1.4rem;
+}
+
+.kanj_time {
+    color: #D7CEAF;
+}
+
+.kanj_name {
+    color: #A08C45;
+    margin-top: 10px;
+}
+
+.kaj_rg {
+    height: 49px;
+    line-height: 49px;
+    color: #A08C45;
+    font-size: 1.4rem;
+}
+
+.kanj_jt {
+    font-size: 1.6rem;
+    margin-left: 5px;
+}
+
+.kanj_chak {
+    padding: 10px;
+    font-size: 1.4rem;
+    color: #A08C45;
+    text-align: center;
+    display: block;
+    letter-spacing: 1px;
+}
+
+.kanjia_time{
+    position:absolute;text-align:right;top:10px;right:10px;font-size:22px;color:#fff;z-index:999;
+}
+.color_fff{
+    color:#fff;
+}
+.ka_qued{
+    width:90% !important;
+    margin-top:50px !important;
+}
+.font_sizr_16px{
+    font-size:1.4rem;
+}
+/* 分享弹窗*/
+.huod_tc {
+  position: relative;
+  padding: 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.huod_tc > img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.huod_tc > a {
+  font-size: 6vw;
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.huod_tc_btn {
+  text-align: center;
+  background: #191919;
+  border: none;
+}
+.huod_tc_btn > button {
+  width: 40%;
+  height: 40px;
+  background: url(../images/huod_fenx_btn.png) no-repeat;
+  background-size: 100% 100%;
+  border: none;
+  outline: none;
+}
+.ann{
+    width:100%;
+    padding:5px;
+    display:inline-block;
+}

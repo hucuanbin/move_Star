@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <style>
+        body {
+            background: #F0F2F5;
+        }
+    </style>
+    <div class="container-fluid nr_top">
+        <p class="text-center">发现</p>
+        <a href="souSuo.html" class="sousuo"></a>
+    </div>
+
+    <div class="container-fluid p0 fa_index fx_huod">
+        <div class="fa_bt">
+            <b class="b_1"></b>
+            <em>活动</em>
+            <a class="glyphicon glyphicon-menu-right jz_wd"></a>
+        </div>
+        <div>
+            <div class="fx_huod">
+                <div class="yid_left">
+                    <img src="images/mingx_toux.png" />
+                    <b class="huod_remen"></b>
+                </div>
+                <p class="fax_huod_bti shengl">标题标标题标标题标标题标标题标标题标标题标</p>
+                <p class="fx_time">开始时间:2015-08-10</p>
+                <p class="fx_time">结束时间:2015-08-15</p>
+                <p><b class="mo_re">233</b>人参与</p>
+            </div>
+            <div class="fx_huod">
+                <div class="yid_left">
+                    <img src="images/mingx_toux.png" />
+                    <b class="huod_remen"></b>
+                </div>
+                <p class="fax_huod_bti shengl">标题标标题标标题标标题标标题标标题标标题标</p>
+                <p class="fx_time">开始时间:2015-08-10</p>
+                <p class="fx_time">结束时间:2015-08-15</p>
+                <p><b class="mo_re">233</b>人参与</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p0 fa_index fx_paih m-10">
+        <div class="fa_bt">
+            <b class="b_2"></b>
+            <em>排行榜</em>
+            <a class="glyphicon glyphicon-menu-right jz_wd"></a>
+        </div>
+        <div>
+            <div class="fax_ph">
+                <img src="images/mingx_toux.png" />
+                <b class="b_di_1"></b>
+                <p class="zi_big">火箭坏</p>
+                <p class="zi_big"><span>周人气</span><b class="zi_big">66647</b> <em class="sheng glyphicon glyphicon-arrow-up"></em></p>
+            </div>
+            <div class="fax_ph">
+                <img src="images/mingx_toux.png" />
+                <b class="b_di_2"></b>
+                <p class="zi_big">火箭坏</p>
+                <p class="zi_big"><span>周人气</span><b class="zi_big">66647</b> <em class="jiang glyphicon glyphicon-arrow-down"></em></p>
+            </div>
+            <div class="fax_ph">
+                <img src="images/mingx_toux.png" />
+                <b class="b_di_3"></b>
+                <p class="zi_big">火箭坏</p>
+                <p class="zi_big"><span>周人气</span><b class="zi_big">66647</b> <em class="ping">-</em></p>
+            </div>
+            <div class="fax_ph">
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p0 fa_index fx_tuij m-10">
+        <div class="fa_bt">
+            <b class="b_3"></b>
+            <em>热门推荐</em>
+            <a class="glyphicon glyphicon-menu-right jz_wd"></a>
+        </div>
+        <div class="fx_indexx_tuij p10">
+            <div>
+                <div class="xinwen_tu_1">
+                    <img src="images/mingx_toux.png" />
+                    <p>12:10</p>
+                    <b class="bof_tb"></b>
+                </div>
+                <p>1111111</p>
+            </div>
+            <div>
+                <div class="xinwen_tu_1">
+                    <img src="images/mingx_toux.png" />
+                    <p>12:10</p>
+                    <b class="bof_tb"></b>
+
+                </div>
+                <p>2222阿拉</p>
+            </div>
+            <div>
+                <div class="xinwen_tu_1">
+                    <img src="images/mingx_toux.png" />
+                    <p>12:10</p>
+                    <b class="bof_tb"></b>
+
+                </div>
+                <p>333拉巴拉阿拉</p>
+            </div>
+            <div>
+                <div class="xinwen_tu_1">
+                    <img src="images/mingx_toux.png" />
+                    <p>12:10</p>
+                    <b class="bof_tb"></b>
+
+                </div>
+                <p>44444444444444巴拉巴拉阿拉</p>
+            </div>
+            <div>
+                <div class="xinwen_tu_1">
+                    <img src="images/mingx_toux.png" />
+                    <p>12:10</p>
+                    <b class="bof_tb"></b>
+
+                </div>
+                <p>5555拉巴拉阿拉</p>
+            </div>
+            <div>
+                <div class="xinwen_tu_1">
+                    <img src="images/mingx_toux.png" />
+                    <p>12:10</p>
+                    <b class="bof_tb"></b>
+
+                </div>
+                <p>666拉巴拉阿拉</p>
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+    <div class="hei_di">
+
+    </div>
+    <div class="container-fluid index_wei">
+        <a>
+            <div>
+                <b class="wei_1"></b>
+                <p>首页</p>
+            </div>
+        </a>
+        <a href="xinwen_index.html">
+            <div>
+                <b class="wei_2"></b>
+                <p>新闻</p>
+            </div>
+        </a>
+        <a href="yanchu.html">
+            <div>
+                <b class="wei_3"></b>
+                <p>演出</p>
+            </div>
+        </a>
+        <a href="fax.html">
+            <div>
+                <b class="wei_41"></b>
+                <p class="mo_re">发现</p>
+            </div>
+        </a>
+        <a href="wode.html">
+            <div>
+                <b class="wei_5"></b>
+                <p>我的</p>
+            </div>
+        </a>
+    </div>
+    <script>
+        $(".fx_indexx_tuij>div").each(function () {
+            var a = $(this).index();
+            if (a % 3 == 0) {
+              
+                $(this).css("margin-left", "0");
+            }
+        })
+    </script>
+</body>
+</html>

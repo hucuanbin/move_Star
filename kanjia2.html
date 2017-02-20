@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/kanjia.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/kanj_js.js"></script>
+    <title></title>
+</head>
+<body>
+    <script src="js/bootstrap.js"></script>
+    <div style="position:relative;" id="can_car">
+        <canvas style="background-size:contain;background-size:100% 100%" id="demo">
+            您的浏览器不支持次应用，请更新浏览器
+        </canvas>
+        <p class="kanjia_time" data-data="2" id="kanj_time"><span class="color_fff" id="time_miao">03</span>秒</p>
+        <img src="images/wokan.gif" style="width:100%;height:100%;position:absolute;top:0px;left:0px;z-index:999;" id="jieshao" />
+    </div>
+    <div class="container-fluid tu_index kj_top xiaoshi_yiqi">
+        <img src="images/kanj_top.png" />
+    </div>
+    <div class="container-fluid kanj_nr_bj p0 xiaoshi_yiqi">
+        <div class="kanj_2 text-center kanj_kaishi">
+            <p class="kanj_2_p"><span class="zi_big">实际价格:</span><b class="zi_big">1700</b>元</p>
+            <p class="kanj_2_p"><span class="zi_big">砍掉价格:</span><b class="mo_se zi_big">7</b>元</p>
+            <p class="kanj_2_p"><span class="zi_big">理想价格:</span><b class="mo_se zi_big">700</b>元</p>
+            <p class="kanj_2_p"><span class="zi_big">你要砍掉的价格:</span><b class="mo_se zi_big">1000</b>元</p>
+            <a class="kanj_btn" href="kanjia_index.html">
+                <img src="images/kanj_btn2.png" class=" m-40" />
+            </a>
+        </div>
+    </div>
+    <div class="container-fluid tu_index kj_botn xiaoshi_yiqi">
+        <img src="images/kanj_botn.png" />
+    </div>
+
+
+    <div id="myModal1" data-backdrop="static" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog1  ka_qued" style="">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p class="text-center font_sizr_16px">准备好了吗？</p>
+                </div>
+                <div class="modal-footer" style="text-align:center">
+                    <a data-dismiss="modal" id="qued" class="ann">确定</a>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <div id="myModal2" data-backdrop="static" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog1  ka_qued" style="">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p class="text-center font_sizr_16px">您本次砍掉价格<span class="mo_se zi_big">7</span>元</p>
+                </div>
+                <div class="modal-footer" style="text-align:center">
+                    <a data-dismiss="modal" id="qued_hd" class="ann">确定</a>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <script>
+    //倒计时
+        $(document).ready(function () {
+            $(".xiaoshi_yiqi").hide();
+            $(function () {
+                setTimeout(function () {
+                    $('#myModal1').modal({
+                        keyboard: false
+                    });
+                    $("#jieshao").hide();
+                    $(".xiaoshi_yiqi").show();
+                }, 2000)
+            });            $("#qued").click(function () {
+                $("#jieshao").hide();
+                var a44 = setInterval(
+          function () {
+              var a = parseInt($("#kanj_time").attr("data-data"));
+              if (a < 10) {
+                  $("#time_miao").text("0" + a);
+              }
+              else {
+                  $("#time_miao").text(a);
+              }
+              if (a == 0) {
+                  $(function () {
+                      $('#myModal2').modal({
+                          keyboard: false
+                      })
+                  });
+                  clearInterval(a44);
+              }
+              else {
+                  $("#kanj_time").attr("data-data", a - 1);
+              }
+          }, 1000);
+            });
+            $("#qued_hd").click(function () {
+                var a =parseInt( $(window).height())+10;
+                $('html,body').animate({ scrollTop: a + 'px' }, 300);
+
+             setTimeout(
+               function () {
+                   $("#can_car").hide();
+               }, 400);
+            })
+    })
+    </script>
+
+
+    <script>
+        var canvas = document.querySelector('canvas');
+        var zong_hei = $(window).height();
+        var zong_wid = $(window).width();
+        canvas.height = zong_hei;
+        canvas.width = zong_wid;
+        canvas.style.backgroundImage = 'url(images/kanjia.png)';
+        var ctx = canvas.getContext('2d');
+        var mousedown = false;
+        var qian_x, qian_y, cishu = 0;
+        var offsetX = canvas.offsetLeft,
+         offsetY = canvas.offsetTop;
+
+
+        var img_tu = new Image();
+        img_tu.src = 'images/kanjia.png';
+
+
+        function eventDown(e) {
+            e.preventDefault();
+            mousedown = true;
+        }
+
+        function eventUp(e) {
+            e.preventDefault();
+            mousedown = false;
+            cishu = 0;
+        }
+
+        function eventMove(e) {
+            e.preventDefault();
+            if (mousedown) {
+                if (e.changedTouches) {
+                    e = e.changedTouches[e.changedTouches.length - 1];
+                }
+                var x = (e.clientX + document.body.scrollLeft || e.pageX) - offsetX || 0,
+                    y = (e.clientY + document.body.scrollTop || e.pageY) - offsetY || 0;
+                if (cishu == 0) {
+                    qian_x = x;
+                    qian_y = y;
+                }
+                console.log(x + ":" + y + ",qian:" + qian_x + ":" + qian_y);
+                with (ctx) {
+                    beginPath();
+                    lineWidth = 3;
+                    strokeStyle = "rgb(255,255,255)";
+                    moveTo(qian_x, qian_y);
+                    lineTo(x, y);
+                    stroke();
+                    fill();
+                }
+                cishu++;
+                qian_x = x;
+                qian_y = y;
+            }
+        }
+        var a4 = setInterval(
+              function () {
+                  ctx.drawImage(img_tu, 0, 0, zong_wid, zong_hei);
+              }, 500);
+
+
+        canvas.addEventListener('touchstart', eventDown);
+        canvas.addEventListener('touchend', eventUp);
+        canvas.addEventListener('touchmove', eventMove);
+        canvas.addEventListener('mousedown', eventDown);
+        canvas.addEventListener('mouseup', eventUp);
+        canvas.addEventListener('mousemove', eventMove);
+    </script>
+
+
+
+
+</body>
+</html>

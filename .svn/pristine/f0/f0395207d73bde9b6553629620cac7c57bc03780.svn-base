@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <script src="js/bootstrap.js"></script>
+    <style>
+        body {
+            background: #F0F2F4;
+        }
+    </style>
+    <div class="container-fluid nr_top_1">
+        <a href="wode.html" class="glyphicon glyphicon-menu-left "></a>
+        <b class="text-center">个人资料</b>
+        <a class="right">保存</a>
+    </div>
+    <div class="m-10 container-fluid wo_zl">
+         <div>
+             <div>
+                 <img src="images/mingx_toux.png" class="img-circle"/>
+                 <span></span>
+             </div>
+             <a class="m-20" data-toggle="modal" data-target="#myModal1" style="outline:none">昵称<span class="right" id="now_nic">肉包子</span></a>
+             <a class ="m-20" data-toggle="modal" data-target="#myModal2" style="outline:none">姓名<span class="right">包子</span></a>
+             <a class="m-20" data-toggle="modal" data-target="#myModal3" style="outline:none">性别<span class="right">女</span></a>
+             <a class="m-20" data-toggle="modal" data-target="#myModal4" style="outline:none">生日<span class="right">2015年8月10日</span></a>
+         </div>
+    </div>
+
+
+    <div id="myModal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog1  anq-sz-jymm" style="width:90% !important">
+            <div class="modal-content">
+                <div class="modal-body dz_xiugai_tc">
+                    <input placeholder="请输入新的昵称" id="user_nic" />
+                </div>
+                <div class="modal-footer tx_tc_btn" style="text-align:center">
+                    <a data-dismiss="modal" class="botn_quan">取消</a>
+                    <a id="ni_cheng" class="botn_quan">确认</a>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <div id="myModal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog1  anq-sz-jymm" style="width:90% !important">
+            <div class="modal-content">
+                <div class="modal-body dz_xiugai_tc">
+                    <input placeholder="请输入您的姓名" id="" />
+                </div>
+                <div class="modal-footer tx_tc_btn" style="text-align:center">
+                    <a data-dismiss="modal" id="" class="botn_quan">确认</a>
+                    <a data-dismiss="modal" id="go-ye" class="botn_quan">取消</a>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <div id="myModal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog1  anq-sz-jymm" style="width:90% !important">
+            <div class="modal-content zil_xb">
+                <div class="modal-body">
+                    <a data-dismiss="modal" id="go-ye" class="botn_quan radius_top">男</a>
+                    <a data-dismiss="modal" id="go-ye" class="botn_quan radius_bot">女</a>
+                </div>
+                <div class="modal-footer m-10" style="text-align:center">
+                    <a data-dismiss="modal" id="go-ye" class="botn_quan a_lan radius_quan">取消</a>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <div id="myModal4" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog1  anq-sz-jymm" style="width:90% !important">
+            <div class="modal-content">
+                <div class="modal-body zi_riqi">
+                   <select>
+                       <option>2014</option>
+                   </select>
+                    <span>年</span>
+                    <select>
+                        <option>7</option>
+                    </select>
+                    <span>月</span>
+                    <select>
+                        <option>12</option>
+                    </select>
+                    <span>日</span>
+                </div>
+                <div class="modal-footer m-10" style="text-align:center">
+                    <a data-dismiss="modal" id="go-ye" class="botn_quan" style="width:50%;padding:10px;">确定</a>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <script>
+        $(".wo_zl a").click(function () {
+        })
+        $("#ni_cheng").click(function () {
+            var a = $("#user_nic").val();
+            if (a == "") {
+                alert("请输入修改后的用户名");
+            }
+            else {
+                $("#now_nic").text(a);
+                $('#myModal1').modal('hide')
+            }
+
+        })
+    </script>
+</body>
+</html>

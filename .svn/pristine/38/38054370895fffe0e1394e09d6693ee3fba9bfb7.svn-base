@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/kanjia.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/kanj_js.js"></script>
+    <title></title>
+</head>
+<body>
+    <script src="js/bootstrap.js"></script>
+    <div class="container-fluid tu_index kj_top">
+        <img src="images/kanj_index_1.png" />
+    </div>
+    <div class="container-fluid p0 tu_index_2 text-center">
+        <p class="kanj_index_2_p">好友已帮你砍掉 <span class="kanj_index_2_span">888元</span></p>
+        <p class="kanj_index_2_p">你离目标还差 <span class="kanj_index_2_span">888元</span></p>
+    </div>
+    <div class="container-fluid tu_index_btn text-center">
+        <a  href="#" data-toggle="modal" data-target="#myModal1" style="outline:none">
+            <img src="images/kanj_index_btn1.png" style="width:30%" />
+        </a>
+        <a>
+            <img src="images/kanj_index_btn2.png" style="width:60%;float:right;" />
+        </a>
+        <p><a class="tebie_bton">继续完成我的订单</a></p>
+    </div>
+    <div class="container-fluid tu_index kj_top">
+        <img src="images/kanj_index_3.png" />
+    </div>
+    <div class="container-fluid kanj_index_nr">
+        <div class="kanj_index">
+            <div class="col-xs-6 kj_lf">
+                <p class="kaj_left kanj_time">12-05 14:38</p>
+                <p class="kaj_left kanj_name shengl">什么仇什么缘</p>
+            </div>
+            <div class="col-xs-6 p0">
+                <p class="kaj_rg">砍掉<b class="kanj_jt mo_se">-1000元</b></p>
+            </div>
+            <img src="images/mingx_toux.png" class="kanj_toux" />
+        </div>
+        <div class="kanj_index">
+            <div class="col-xs-6 kj_lf" >
+                <p class="kaj_left kanj_time">12-05 14:38</p>
+                <p class="kaj_left kanj_name shengl">什么仇什么缘</p>
+            </div>
+            <div class="col-xs-6 p0">
+                <p class="kaj_rg">砍掉<b class="kanj_jt mo_se">-1000元</b></p>
+            </div>
+            <img src="images/mingx_toux.png" class="kanj_toux" />
+        </div>
+        <div class="kanj_index">
+            <div class="col-xs-6 kj_lf">
+                <p class="kaj_left kanj_time">12-05 14:38</p>
+                <p class="kaj_left kanj_name shengl">什么仇什么缘</p>
+            </div>
+            <div class="col-xs-6 p0">
+                <p class="kaj_rg">砍掉<b class="kanj_jt mo_se">-1000元</b></p>
+            </div>
+            <img src="images/mingx_toux.png" class="kanj_toux" />
+        </div>
+        <div class="kanj_index">
+            <div class="col-xs-6 kj_lf">
+                <p class="kaj_left kanj_time">12-05 14:38</p>
+                <p class="kaj_left kanj_name shengl">什么仇什么缘</p>
+            </div>
+            <div class="col-xs-6 p0">
+                <p class="kaj_rg">砍掉<b class="kanj_jt mo_se">-1000元</b></p>
+            </div>
+            <img src="images/mingx_toux.png" class="kanj_toux" />
+        </div>
+        <div>
+            <a class="kanj_chak" id="jiazai">点击加载更多</a>
+        </div>
+    </div>
+    <div class="container-fluid tu_index kj_top">
+        <img src="images/kanj_index_5.png" />
+    </div>
+
+    <div id="myModal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog1  hongb_lingqu" style="width:80% !important;margin:40px auto;">
+            <div class="modal-content">
+                <div class="modal-body  huod_tc">
+                    <img src="images/huod_fenx_nr.png" />
+                    <a class="glyphicon glyphicon-remove" aria-hidden="true" id="quxiao"></a>
+                </div>
+                <div class="modal-footer huod_tc_btn" style="text-align:center">
+                    <button data-dismiss="modal"></button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
+    <script>
+        $("#quxiao").click(function () {
+            $('#myModal1').modal('hide')
+        })
+
+        $(document).ready(function () {
+            zhanguo_bj_height();
+          
+
+            $("#jiazai").click(function () {
+                var a = '';
+                a += '<div class="kanj_index">';
+                a += '<div class="col-xs-6 kj_lf">';
+                a += '<p class="kaj_left kanj_time">12-05 14:38</p>';
+                a += '<p class="kaj_left kanj_name shengl">什么仇什么缘</p>';
+                a += '</div>';
+                a += '<div class="col-xs-6 p0">';
+                a += ' <p class="kaj_rg">砍掉<b class="kanj_jt mo_se">-1000元</b></p>';
+                a += ' </div>';
+                a += '<img src="images/mingx_toux.png" class="kanj_toux" />';
+                a += ' </div>';
+                $("#jiazai").before(a);
+                zhanguo_bj_height();
+
+                var st = parseInt($(document).scrollTop());                               // 70是一个DIV的高度                $('html,body').animate({ scrollTop: st + 70 + 'px' }, 300);               
+            })
+
+            function zhanguo_bj_height() {
+                var hei = $(".kanj_index_nr").height();
+                $(".kanj_index_nr").css("background-size", "100% " + hei + "px");
+            }
+        })
+    </script>
+</body>
+</html>

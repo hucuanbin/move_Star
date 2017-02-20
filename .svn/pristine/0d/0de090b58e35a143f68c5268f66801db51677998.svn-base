@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <script src="js/bootstrap.js"></script>
+    <style>
+        body {
+            background: #EDEDED;
+        }
+    </style>
+    <div class="container-fluid nr_top_1">
+        <a href="fax.html" class="glyphicon glyphicon-menu-left" ></a>
+        <b class="text-center">活动列表</b>
+    </div>
+    <div  class="container-fluid huod_lb_top p0">
+        <div class="ddgl_top">
+            <nav>
+                <a class="ddgl_top_xq" href="#huod_all" data-toggle="tab">全部</a>
+                <a href="#hd_jinx" data-toggle="tab">进行中</a>
+                <a href="#hd_jieshu" data-toggle="tab">已结束</a>
+            </nav>
+        </div>
+    </div>
+    <div class="container-fluid p0  m-10 huod_lb_index">
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade in active" id="huod_all">
+                <div class="fx_huod">
+                    <div class="yid_left">
+                        <a href="huod_kaishi_xq.html">
+                            <img src="images/mingx_toux.png" />
+                        </a> 
+                        <b class="huod_remen"></b>
+                    </div>
+                    <a href="huod_kaishi_xq.html" class="fax_huod_bti">标题标标题标标题标标题标标题标标题标标题标</a>
+                    <p class="fx_time">开始时间:2015-08-10</p>
+                    <p class="fx_time">结束时间:2015-08-15</p>
+                    <p><b class="mo_re">233</b>人参与</p>
+                </div>
+                <div class="fx_huod">
+                    <div class="yid_left">
+                       <a>
+                           <img src="images/mingx_toux.png" />
+                        </a> 
+                        <b class="huod_jieshu"></b>
+                    </div>
+                    <a class="fax_huod_bti">标题标标题标标题标标题标标题标标题标标题标</a>
+                    <p class="fx_time">开始时间:2015-08-10</p>
+                    <p class="fx_time">结束时间:2015-08-15</p>
+                    <p><b class="mo_re">233</b>人参与</p>
+                </div>
+                <div class="fx_huod">
+                    <div class="yid_left">
+                        <a>
+                            <img src="images/mingx_toux.png" />
+                        </a>
+                        <b class="huod_jieshu"></b>
+                    </div>
+                    <a class="fax_huod_bti">标题标标题标标题标标题标标题标标题标标题标</a>
+                    <p class="fx_time">开始时间:2015-08-10</p>
+                    <p class="fx_time">结束时间:2015-08-15</p>
+                    <p><a href="huoj_mingd.html" class="huoj_md botn_quan left">获奖名单</a>  <b class="mo_re">233</b>人参与</p>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="hd_jinx">
+                <div class="fx_huod">
+                    <div class="yid_left">
+                        <a>
+                            <img src="images/mingx_toux.png" />
+                        </a>
+                        <b class="huod_remen"></b>
+                    </div>
+                    <a class="fax_huod_bti">标题标标题标标题标标题标标题标标题标标题标</a>
+                    <p class="fx_time">开始时间:2015-08-10</p>
+                    <p class="fx_time">结束时间:2015-08-15</p>
+                    <p><b class="mo_re">233</b>人参与</p>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="hd_jieshu">
+                <div class="fx_huod">
+                    <div class="yid_left">
+                        <a href="huod_kaishi_xq.html">
+                            <img src="images/mingx_toux.png" />
+                        </a>
+                        <b class="huod_jieshu"></b>
+                    </div>
+                    <a href="huod_kaishi_xq.html" class="fax_huod_bti">标题标标题标标题标标题标标题标标题标标题标</a>
+                    <p class="fx_time">开始时间:2015-08-10</p>
+                    <p class="fx_time">结束时间:2015-08-15</p>
+                    <p><b class="mo_re">233</b>人参与</p>
+                </div>
+                <div class="fx_huod">
+                    <div class="yid_left">
+                        <a>
+                            <img src="images/mingx_toux.png" />
+                        </a>
+                        <b class="huod_jieshu"></b>
+                    </div>
+                    <a class="fax_huod_bti">标题标标题标标题标标题标标题标标题标标题标</a>
+                    <p class="fx_time">开始时间:2015-08-10</p>
+                    <p class="fx_time">结束时间:2015-08-15</p>
+                    <p><a href="huoj_mingd.html" class="huoj_md botn_quan left">获奖名单</a>  <b class="mo_re">233</b>人参与</p>
+                </div>            </div>
+        </div>
+    </div>
+        <script>
+            $(".ddgl_top a").click(function () {
+                $(this).siblings("a").attr("class", "");
+                $(this).attr("class", "ddgl_top_xq");
+            })
+        </script>
+
+</body>
+</html>

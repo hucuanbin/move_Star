@@ -1,0 +1,53 @@
+﻿
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/yanyuan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="font_0">
+        <img src="images/zhaomu_top.png" class="img_wid" />
+    </div>
+    <div class="font_0">
+        <img src="images/zhaomu_top2.png" class="img_wid" />
+    </div>
+    <div class="zhaomu_index">
+        <div class="zhaomuxiao zhu_nan">
+            <img src="images/zhu_nan.png" class="zhaomu_img" />
+            <p><span>招募角色:<em>男主</em></span><span>招募人数:<em>1名</em></span></p>
+            <p>角色介绍:</p>
+            <p>奥尼尔，男 22-28岁 个性鲜明，演技突出搞笑，性格外向，长相具有喜剧色彩或者喜剧明星长相。智商情商较低。</p>
+        </div>
+        <div class="zhaomuxiao zhu_nv">
+            <img src="images/zhu_nv.png" class="zhaomu_img" />
+            <p><span>招募角色:<em>女主</em></span><span>招募人数:<em>1名</em></span></p>
+            <p>角色介绍:</p>
+            <p>天天，女 18-28岁 有气质，女神级别，S型身材，特别吸引男人，能静能动，不拘小节，情商较高。</p>
+        </div>
+        <div class="zhaomuxiao zhu_pei">
+            <img src="images/zhu_pei.png" class="zhaomu_img" />
+            <p><span>招募角色:<em>配角</em></span><span>招募人数:<em>2名</em></span></p>
+            <p><span>角色介绍:<em>皇儿、无阳刚（人物特点待定）</em></span></p>
+        </div>
+        <div class="zhaomuxiao zhu_fax">
+            <img src="images/zhu_jieshao.png" class="zhaomu_img" />
+            <p><span class="">影片名称:<em>《天天乐翻天》</em></span><span>发行周期:<em>每周一集</em></span></p>
+            <p><span>影片题材:<em>无厘头喜剧/系列微剧</em></span></p>
+            <p><span>发行媒介:<em>电视/网络/移动端/户外媒体</em></span></p>
+            <p><span>出品单位:<em>福州妇婴文化传播有限公司</em></span></p>
+            <p style="padding-left:4rem;">福建中闽文化投资管理有限公司</p>
+        </div>
+        <div class="zhaomu_dianhu">
+            <p>招募热线：0591-11111111</p>
+            <p>截止日期：2015.11.30</p>
+        </div>
+    </div>
+  
+</body>
+</html>

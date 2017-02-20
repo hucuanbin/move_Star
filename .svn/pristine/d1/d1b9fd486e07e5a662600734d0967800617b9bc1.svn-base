@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <script src="js/bootstrap.js"></script>
+    <style>
+        body {
+            background: #EDEDED;
+        }
+    </style>
+    <div class="container-fluid nr_top_1">
+        <a href="wode.html" class="glyphicon glyphicon-menu-left "></a>
+        <b class="text-center">电子钱包</b>
+    </div>
+    <div class="container-fluid wod_qb_index">
+        <div>
+            <p>现金账户</p>
+            <p><span>可消费金额</span><span class="right">0.00</span></p>
+            <p><span>冻结</span><span class="right">0.00</span></p>
+            <p><a href="qianb_chongzhi.html">充值</a><a>提现</a><a>历史</a></p>
+        </div>
+        <div>
+            <p>现金账户</p>
+            <p><span>可消费金额</span><span class="right">0.00</span></p>
+            <p><span>冻结</span><span class="right">0.00</span></p>
+            <p><a href="qianb_chongzhi.html">充值</a><a>提现</a><a>历史</a></p>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <a id="jineu" href="wode_dizhi_tj.html" class="botn_quan" style="width:100%;padding:10px;margin-bottom:10px;" data-data="0">安全设置</a>
+        <a id="jineu" href="wode_dizhi_tj.html" class="botn_quan" style="width:100%;padding:10px;margin-bottom:10px;" data-data="0">设置银行卡</a>
+         <p class="text-center"><a href="">服务协议</a></p>
+    </div>
+</body>
+</html>

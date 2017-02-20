@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <style>
+        body {
+            background: #F0F2F5;
+        }
+    </style>
+    <!--上门的是加载是对LO-->
+    <div class="container-fluid nr_top_1">
+        <a href="weipai_zhuangc.html" class="glyphicon glyphicon-menu-left "></a>
+        <b class="text-center">项目介绍</b>
+    </div>
+    <div class="container-fluid weib_lb_top p0">
+        <p>
+            <span class="weib_lb_top_left mo_re shengl">
+                周边主编周边周边主编周边
+            </span>
+            <img src="images/weip_lb_bao.png" class="weip_lb_tb" />
+            <img src="images/weip_lb_zhen.png" class="weip_lb_tb" />
+            <a class="right weib_lb_top_right" href="weipai_zhuangc.html">
+                <b class="weib_lb_sanj"></b>
+                更多专场
+            </a>
+        </p>
+    </div>
+    <div class="container-fluid">
+        <a href="weip_xq.html">
+            <div style="background:#fff;">
+                <div class="weip_lb_index">
+                    <p class="weip_lb_name mo_re">明星明星明星</p>
+                    <div class="weip_lb_index_nei">
+                        <p class="m-b-5">
+                            <span class="weip_lb_jg">￥1</span>
+                            <span class="right weip_lb_cj"><img src="images/chuiz.png" class="weip_lb_cz se_he" /> 1次出价</span>
+                        </p>
+                        <p class="se_he weip_lb_js time_daoj">距结束：<span class="time_tian">00</span>天<span class="time_shi">00</span>时<span class="time_fen">00</span>分<span class="time_miao">00</span>秒</p>
+                    </div>
+                    <div class="weip_lb_img">
+                        <img src="images/index_yhc.png" class="img-responsive" />
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="weip_xq.html">
+            <div style="background:#fff;">
+                <div class="weip_lb_index">
+                    <p class="weip_lb_name mo_re">明星明星明星</p>
+                    <div class="weip_lb_index_nei">
+                        <p class="m-b-5">
+                            <span class="weip_lb_jg">￥1</span>
+                            <span class="right weip_lb_cj"><img src="images/chuiz.png" class="weip_lb_cz se_he" /> 1次出价</span>
+                        </p>
+                        <p class="se_he weip_lb_js time_daoj">距结束：<span class="time_tian">00</span>天<span class="time_shi">00</span>时<span class="time_fen">00</span>分<span class="time_miao">00</span>秒</p>
+                    </div>
+                    <div class="weip_lb_img">
+                        <img src="images/index_yhc.png" class="img-responsive" />
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="weip_xq.html">
+            <div style="background:#fff;">
+                <div class="weip_lb_index">
+                    <p class="weip_lb_name mo_re">明星明星明星</p>
+                    <div class="weip_lb_index_nei">
+                        <p class="m-b-5">
+                            <span class="weip_lb_jg">￥1</span>
+                            <span class="right weip_lb_cj"><img src="images/chuiz.png" class="weip_lb_cz se_he" /> 1次出价</span>
+                        </p>
+                        <p class="se_he weip_lb_js time_daoj">距结束：<span class="time_tian">00</span>天<span class="time_shi">00</span>时<span class="time_fen">00</span>分<span class="time_miao">00</span>秒</p>
+                    </div>
+                    <div class="weip_lb_img">
+                        <img src="images/index_yhc.png" class="img-responsive" />
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <script src="js/weip_daojishi.js"></script>
+    <script>
+        //选择的时间+36小时  测试用
+        var a = parseInt(new Date().valueOf() / 1000 + (3600 * 36));
+        $(".time_daoj").attr("data-data", a);
+    </script>
+</body>
+</html>

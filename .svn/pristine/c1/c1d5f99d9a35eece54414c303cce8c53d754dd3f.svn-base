@@ -1,0 +1,253 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid nr_top">
+        <span class="glyphicon glyphicon-th yh_tu1" data-data="0"></span>
+        <p class="text-center">演出</p>
+        <span class="glyphicon glyphicon-filter yh_tu3" data-data="0"></span>
+    </div>
+    <div class="container-fluid p0 ych_lb">
+        <a href="yanchu_xq.html">
+            <div class="ych_lb_nr">
+                <div class="col-xs-4">
+                    <img src="images/ych.png" />
+                </div>
+                <div class="col-xs-8 ych_lb_nr_2">
+                    <label>汪峰2015 "峰暴来临"超级巡回演唱会上海收官之战</label>
+                    <span>售票中</span>
+                    <div>
+                        <p class="m0">时间 : 2015.9.26</p>
+                        <p>场馆 : 上海体育馆</p>
+                        <p>票价 : <b class="mo_re"><span class="mo_re">180-1128</span> 元</b></p>
+                    </div>
+                </div>
+            </div>
+
+        </a>
+        <a href="yanchu_xq.html">
+            <div class="ych_lb_nr">
+                <div class="col-xs-4">
+                    <img src="images/ych.png" />
+                </div>
+                <div class="col-xs-8 ych_lb_nr_2">
+                    <label>汪峰2015 "峰暴来临"超级巡回演唱会上海收官之战</label>
+                    <span>售票中</span>
+                    <div>
+                        <p class="m0">时间 : 2015.9.26</p>
+                        <p>场馆 : 上海体育馆</p>
+                        <p>票价 : <b class="mo_re"><span class="mo_re">180-1128</span> 元</b></p>
+                    </div>
+                </div>
+            </div>
+
+        </a>
+        <a href="yanchu_xq.html">
+            <div class="ych_lb_nr">
+                <div class="col-xs-4">
+                    <img src="images/ych.png" />
+                </div>
+                <div class="col-xs-8 ych_lb_nr_2">
+                    <label>汪峰2015 "峰暴来临"超级巡回演唱会上海收官之战</label>
+                    <span>售票中</span>
+                    <div>
+                        <p class="m0">时间 : 2015.9.26</p>
+                        <p>场馆 : 上海体育馆</p>
+                        <p>票价 : <b class="mo_re"><span class="mo_re">180-1128</span> 元</b></p>
+                    </div>
+                </div>
+            </div>
+
+        </a>
+
+    </div>
+    <div class="hei_di">
+
+    </div>
+    <div class="container-fluid index_wei">
+        <a href="index.html">
+            <div>
+                <b class="wei_1"></b>
+                <p>首页</p>
+            </div>
+        </a>
+        <a href="xinwen.html">
+            <div>
+                <b class="wei_2"></b>
+                <p>新闻</p>
+            </div>
+        </a>
+        <a href="yanchu.html">
+            <div>
+                <b class="wei_31"></b>
+                <p class="mo_re">演出</p>
+            </div>
+        </a>
+        <a href="fax.html">
+            <div>
+                <b class="wei_4"></b>
+                <p>发现</p>
+            </div>
+        </a>
+        <a href="wode.html">
+            <div>
+                <b class="wei_5"></b>
+                <p>我的</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="yhc_shaixuan">
+    </div>
+
+    <div class="yhc_shaixuan_nr">
+        <div class="col-xs-5">
+            <ul class="sx_lei">
+                <li class="show_yc"><b class="yhc_sx_tu_1"></b> <span>时间范围</span></li>
+                <li><b class="yhc_sx_tu_2"></b> <span>排序方式</span></li>
+            </ul>
+        </div>
+        <div class="col-xs-7">
+            <ul class="yhc_shaixuan_nr_1 m0" style="display:block;">
+                <li class="yc_xz"><a href=" #">全部时间<span class="glyphicon glyphicon-ok"></span></a></li>
+                <li><a href=" #">今天<span></span></a></li>
+                <li><a href=" #">明天<span></span></a></li>
+                <li><a href=" #">一周内<span></span></a></li>
+                <li><a href=" #">一个月内<span></span></a></li>
+            </ul>
+            <ul class="yhc_shaixuan_nr_2 m0" style="display:none;">
+                <li class="yc_xz"><a href=" #">按热门<span class="glyphicon glyphicon-ok"></span></a></li>
+                <li><a href=" #">按更新时间<span></span></a></li>
+                <li><a href=" #">按演出时间<span></span></a></li>
+                <li><a href=" #">按演出时间<span></span></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container-fluid yhc_shaixuan_leix">
+        <div class="col-xs-5">
+            <ul class="sx_lei ">
+                <li class="show_yc"><span><a>演唱会</a></span></li>
+                <li><span><a>音乐会</a></span></li>
+                <li><span><a>话剧歌剧</a></span></li>
+                <li><span><a>舞蹈芭蕾</a></span></li>
+                <li><span><a>曲苑杂谈</a></span></li>
+                <li><span><a>度假休闲</a></span></li>
+                <li><span><a>周边商品</a></span></li>
+            </ul>
+        </div>
+        <div>
+
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $(".yhc_shaixuan").height($(window).height());
+        })
+
+
+        //时间范围-排序方式 切换
+        $(".sx_lei li").click(function () {
+            var a = parseInt($(this).index()) + 1;
+            $(".yhc_shaixuan_nr>.col-xs-7>ul").hide();
+            $(".yhc_shaixuan_nr_" + a + "").show();
+            $(".sx_lei li").attr("class", "");
+            $(this).attr("class", "show_yc");
+        });
+        $(".yhc_shaixuan_nr>.col-xs-7 li").click(function () {
+            $(this).siblings("li").find("span").attr("class", "");
+            $(this).siblings("li").attr("class", "");
+            $(this).find("span").attr("class", "glyphicon glyphicon-ok");
+            $(this).attr("class", "yc_xz")
+        });
+
+        $(".yhc_shaixuan").click(function () {
+            $(".yhc_shaixuan_nr").hide();
+            $(".yhc_shaixuan_leix").hide();
+            $("body").css("overflow", "auto");            $(this).hide();
+        });
+
+        $(".yh_tu3").click(function () {
+            var a = $(this).attr("data-data");
+            if (a == 0)
+            {
+                $(".yhc_shaixuan_leix").hide();
+                $(".yhc_shaixuan").show();
+                $(".yhc_shaixuan_nr").slideDown();
+                $(".yh_tu1").attr("data-data", "0");
+                $(this).attr("data-data", "1");
+                jz_gdl();
+            }
+            else {
+                $(".yhc_shaixuan_nr").hide();
+                $(".yhc_shaixuan").hide();
+                $("body").css("overflow", "auto");
+                $(this).attr("data-data", "0");
+            }
+        })
+        //按照演唱会类别筛选 切换
+        $(".yh_tu1").click(function () {
+            var a = $(this).attr("data-data");
+            if (a == 0) {
+                $(".yhc_shaixuan_nr").hide();
+                $(".yh_tu3").attr("data-data", "0");
+                $(".yhc_shaixuan").show();
+                $(".yhc_shaixuan_leix").slideDown();
+                $(this).attr("data-data", "1");
+                jz_gdl();
+            }
+            else {
+                $(".yhc_shaixuan_leix").hide();
+                $(".yhc_shaixuan").hide();
+                $(this).attr("data-data", "0");
+                $("body").css("overflow", "auto");
+            }
+        })
+
+
+        //移动端禁止滚动条方法
+        function jz_gdl() {
+            $("body").css("overflow-y", "hidden");
+            $("body").css("height", $(window).height() + "px");            var a = $(window).width();
+            var move = function (e) {
+                e.preventDefault && e.preventDefault();
+                e.returnValue = false;
+                e.stopPropagation && e.stopPropagation();
+                return false;
+            }
+            var start = function (e) {
+                pos.y = e.targetTouches[0].pageY;
+                pos.x = e.targetTouches[0].pageX;
+            }
+            var end = function (e) {
+                //stop the zoom in event be motivated ,for the handle equipment's dobule click event.
+                move(e);
+                y = e.targetTouches[0].pageY;
+                x = e.targetTouches[0].pageX;
+                if (Math.abs(pos.y - y) < 3 || Math.abs(pos.x - x) < 3) {
+                    setTimeout(function () { fireEvent(e.target, 'click'); }, 2);
+                }
+                pos = null;
+                return false;
+            }
+
+            document.documentElement.style.overflow = 'hidden'; //低版本需要
+            document.body.style.overflow = 'hidden';//mobile 低版本不生效
+            eventUtil.addEvent(document.body, 'touchmove', move);
+            eventUtil.addEvent(document.body, 'touchstart', start);
+            eventUtil.addEvent(document.body, 'touchend', end);
+
+        }
+    </script>
+
+
+</body>
+</html>

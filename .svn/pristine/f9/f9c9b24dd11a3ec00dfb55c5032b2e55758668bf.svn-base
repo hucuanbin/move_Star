@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid nr_top_1">
+        <a href="index.html" class="glyphicon glyphicon-menu-left "></a>
+        <b class="text-center bt_jz">订单详情</b>
+    </div>
+    <div class="guom_cg_index container-fluid p0">
+        <p class="cg_name">LOGO</p>
+    </div>
+    <div class="guom_cg_index container-fluid goum_cg">
+        <div>
+            <p class="cg_xiao_bt">交易金额</p>
+            <p class="text-right"><span class="zi_big" style="font-size:30px !important;">-329</span>.00</p>
+        </div>
+        <div>
+            <p class="cg_xiao_bt">商品名称</p>
+            <div class="dich_xx">
+                <img src="images/mingx_toux.png" />
+                <p>商品商品商品</p>
+            </div>
+        </div>
+        <div>
+            <p class="cg_xiao_bt">订单信息</p>
+            <table class="dingd_xx">
+                <tr>
+                    <td>付款方式</td>
+                    <td>
+                        <p>支付宝余额 105.94</p>
+                        <p>中国建设银行 132.06</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>交易类型</td>
+                    <td>
+                        <p>即时到帐</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>创建时间</td>
+                    <td>
+                        <p>2011-04-28  09:24</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>交易号</td>
+                    <td>
+                        <p>2014042820772442</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>商户订单号</td>
+                    <td>
+                        <p>40607902</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+</html>

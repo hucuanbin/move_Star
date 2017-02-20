@@ -1,0 +1,262 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+  
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <link href="css/xiugai_styles.css" rel="stylesheet" />
+    <script src="js/yxMobileSlider1.js"></script>
+    <div class="container-fluid index_sousuo">
+        <div class="col-xs-4">与星共舞</div>
+        <div class="col-xs-8">
+            <input placeholder="搜索明星、演唱会" type="text" />
+            <img src="images/sousuo.png" />
+        </div>
+    </div>
+    <div class="container-fluid  p0">
+        <div class="kePublic kePublic1">
+            <!--效果html开始-->
+            <div class="slider1">
+                <ul>
+                    <li>
+                        <a href="denglu.html">
+                            <img src="images/lunbo.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/lunbo.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/lunbo.jpg">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            $(".slider1").yxMobileSlider1({ width: 640, height: 240, during: 5000 })
+        </script>
+    </div>
+    <div class="container-fluid p0 index_fenl">
+        <a class="col-xs-3">
+            <div class="text-center">
+                <img src="images/mingx_lg.png" />
+                <p>明星</p>
+            </div>
+        </a>
+        <a class="col-xs-3">
+            <div class="text-center">
+                <img src="images/xinwen_lg.png" />
+                <p>新闻</p>
+            </div>
+        </a>
+        <a class="col-xs-3">
+            <div class="text-center">
+                <img src="images/huod_lg.png" />
+                <p>活动</p>
+            </div>
+        </a>
+        <a class="col-xs-3">
+            <div class="text-center">
+                <img src="images/yanch_lg.png" />
+                <p>演唱会</p>
+            </div>
+        </a>
+    </div>
+    <div class="container-fluid p0 index_nr">
+        <div class="index_xinw">
+            <p class="index_bt"><span>热点新闻</span></p>
+            <a>
+                <div class="col-xs-3">
+                    <img src="images/mingx_toux.png" />
+                </div>
+                <div class="col-xs-9 index_xw_nr">
+                    <p class="shengl"><b>【姜超】</b>最新写真曝光 一身红妆美丽身红妆尽显</p>
+                    <p>
+                        我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容
+                        我是内容我是内容我是内容我是内容我是
+                    </p>
+                </div>
+            </a>
+            <a>
+                <div class="col-xs-3">
+                    <img src="images/mingx_toux.png" />
+                </div>
+                <div class="col-xs-9 index_xw_nr">
+                    <p class="shengl"><b>【姜超】</b>最新写真曝光 一身红妆美丽身红妆尽显</p>
+                    <p>
+                        我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容
+                        我是内容我是内容我是内容我是内容我是
+                    </p>
+                </div>
+            </a>
+            <a>
+                <div class="col-xs-3">
+                    <img src="images/mingx_toux.png" />
+                </div>
+                <div class="col-xs-9 index_xw_nr">
+                    <p class="shengl"><b>【姜超】</b>最新写真曝光 一身红妆美丽身红妆尽显</p>
+                    <p>
+                        我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容
+                        我是内容我是内容我是内容我是内容我是
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="index_ych">
+            <p class="index_bt"><span>最新演唱会</span></p>
+            <a>
+                <img src="images/index_yhc.png" />
+            </a>
+            <a>
+                <img src="images/index_yhc.png" />
+            </a>
+            <a>
+                <img src="images/index_yhc.png" />
+            </a>
+        </div>
+        <div class="index_mingx">
+            <p class="index_bt"><span>今日明星</span></p>
+            <a class="col-xs-4">
+                <div>
+                    <img src="images/mingx_toux.png" />
+                    <p>李孝利</p>
+                </div>
+            </a>
+            <a class="col-xs-4">
+                <div>
+                    <img src="images/mingx_toux.png" />
+                    <p>李孝利</p>
+                </div>
+            </a>
+            <a class="col-xs-4">
+                <div>
+                    <img src="images/mingx_toux.png" />
+                    <p>李孝利</p>
+                </div>
+            </a>
+            <a class="col-xs-4">
+                <div>
+                    <img src="images/mingx_toux.png" />
+                    <p>李孝利</p>
+                </div>
+            </a>
+            <a class="col-xs-4">
+                <div>
+                    <img src="images/mingx_toux.png" />
+                    <p>李孝利</p>
+                </div>
+            </a>
+            <a class="col-xs-4">
+                <div>
+                    <img src="images/mingx_toux.png" />
+                    <p>李孝利</p>
+                </div>
+            </a>
+        </div>
+        <div class="index_diany">
+            <p class="index_bt"><span>最新微电影</span></p>
+            <a class="col-xs-6">
+                <div>
+                    <img src="images/index_diany.png" />
+                    <img src="images/player_icon_5c67475.png" class="bf_icon" />
+                    <b>10:41</b>
+                    <p>《交换旅行》</p>
+                </div>
+            </a>
+            <a class="col-xs-6">
+                <div>
+                    <img src="images/index_diany.png" />
+                    <img src="images/player_icon_5c67475.png" class="bf_icon" />
+                    <b>10:41</b>
+                    <p>《交换旅行》</p>
+                </div>
+            </a>
+            <a class="col-xs-6">
+                <div>
+                    <img src="images/index_diany.png" />
+                    <img src="images/player_icon_5c67475.png" class="bf_icon" />
+                    <b>10:41</b>
+                    <p>《交换旅行》</p>
+                </div>
+            </a>
+            <a class="col-xs-6">
+                <div>
+                    <img src="images/index_diany.png" />
+                    <img src="images/player_icon_5c67475.png" class="bf_icon" />
+                    <b>10:41</b>
+                    <p>《交换旅行》</p>
+                </div>
+            </a>
+
+        </div>
+    </div>
+    <div class="hei_di">
+
+    </div>
+    <div class="container-fluid index_wei">
+        <a>
+            <div>
+                <b class="wei_11"></b>
+                <p class="mo_re">首页</p>
+            </div>
+        </a>
+        <a href="xinwen_index.html">
+            <div>
+                <b class="wei_2"></b>
+                <p>新闻</p>
+            </div>
+        </a>
+        <a href="yanchu.html">
+            <div>
+                <b class="wei_3"></b>
+                <p>演出</p>
+            </div>
+        </a>
+        <a href="fax.html">
+            <div>
+                <b class="wei_4"></b>
+                <p>发现</p>
+            </div>
+        </a>
+        <a href="wode.html">
+            <div>
+                <b class="wei_5"></b>
+                <p>我的</p>
+            </div>
+        </a>
+    </div>
+    <script>
+        $(document).ready(function () {
+            var a = parseInt($(".index_diany div>img:first").height()) / 2;
+            $(".bf_icon").css("top", (a - 25));
+
+             document.onkeydown=keyDownSearch;  
+      
+             function keyDownSearch(e) {
+                 // 兼容FF和IE和Opera    
+                 var theEvent = e || window.event;
+                 var code = theEvent.keyCode || theEvent.which || theEvent.charCode;
+                 if (code == 13) {
+                     //  getTableListData();//具体处理函数    
+                     alert("我按下了回车键");
+                 }
+             }
+        })
+    </script>
+
+
+
+</body>
+</html>

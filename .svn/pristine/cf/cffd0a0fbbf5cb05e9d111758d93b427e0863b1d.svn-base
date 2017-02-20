@@ -1,0 +1,257 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link href="css/yyy.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="YYY_pd_zong" data-data="10">
+        <img src="images/mingx_toux.png" id="c" data-mingci="1" />
+        <img src="images/mingx_toux.png" id="b" data-mingci="2" />
+        <img src="images/ych.png" id="a" data-mingci="3" />
+        <div class="YYY_pd">
+            <div class="YYY_pd_tou">
+                <span>1</span>
+                <img src="images/YYY_paodao_top1.png" class="pd_gan right" />
+            </div>
+            <div class="YYY_pd_zhong">
+
+            </div>
+            <div class="YYY_pd_wei">
+                <img src="images/YYY_paodao_wei1.png" class="pd_gan left" />
+            </div>
+        </div>
+        <div class="YYY_pd">
+            <div class="YYY_pd_tou">
+                <span>2</span>
+                <img src="images/YYY_paodao_top1.png" class="pd_gan right" />
+            </div>
+            <div class="YYY_pd_zhong">
+
+            </div>
+            <div class="YYY_pd_wei">
+                <img src="images/YYY_paodao_wei1.png" class="pd_gan left" />
+            </div>
+        </div>
+        <div class="YYY_pd">
+            <div class="YYY_pd_tou">
+                <span>3</span>
+                <img src="images/YYY_paodao_top1.png" class="pd_gan right" />
+            </div>
+            <div class="YYY_pd_zhong">
+
+            </div>
+            <div class="YYY_pd_wei">
+                <img src="images/YYY_paodao_wei1.png" class="pd_gan left" />
+            </div>
+        </div>
+        <div class="YYY_pd">
+            <div class="YYY_pd_tou">
+                <span>4</span>
+                <img src="images/YYY_paodao_top1.png" class="pd_gan right" />
+            </div>
+            <div class="YYY_pd_zhong">
+
+            </div>
+            <div class="YYY_pd_wei">
+                <img src="images/YYY_paodao_wei1.png" class="pd_gan left" />
+            </div>
+        </div>
+        <div class="YYY_pd">
+            <div class="YYY_pd_tou">
+                <span>5</span>
+                <img src="images/YYY_paodao_top1.png" class="pd_gan right" />
+            </div>
+            <div class="YYY_pd_zhong">
+
+            </div>
+            <div class="YYY_pd_wei">
+                <img src="images/YYY_paodao_wei1.png" class="pd_gan left" />
+            </div>
+        </div>
+        <div class="YYY_pd">
+            <div class="YYY_pd_tou">
+                <span>6</span>
+                <img src="images/YYY_paodao_top1.png" class="pd_gan right" />
+            </div>
+            <div class="YYY_pd_zhong">
+
+            </div>
+            <div class="YYY_pd_wei">
+                <img src="images/YYY_paodao_wei1.png" class="pd_gan left" />
+            </div>
+        </div>
+        <div class="YYY_pd">
+            <div class="YYY_pd_tou">
+                <span>7</span>
+                <img src="images/YYY_paodao_top1.png" class="pd_gan right" />
+            </div>
+            <div class="YYY_pd_zhong">
+
+            </div>
+            <div class="YYY_pd_wei">
+                <img src="images/YYY_paodao_wei1.png" class="pd_gan left" />
+            </div>
+        </div>
+        <div class="YYY_pd">
+            <div class="YYY_pd_tou">
+                <span>8</span>
+                <img src="images/YYY_paodao_top1.png" class="pd_gan right" />
+            </div>
+            <div class="YYY_pd_zhong">
+
+            </div>
+            <div class="YYY_pd_wei">
+                <img src="images/YYY_paodao_wei1.png" class="pd_gan left" />
+            </div>
+        </div>
+        <div class="YYY_pd">
+            <div class="YYY_pd_tou">
+                <span>9</span>
+                <img src="images/YYY_paodao_top1.png" class="pd_gan right" />
+            </div>
+            <div class="YYY_pd_zhong">
+
+            </div>
+            <div class="YYY_pd_wei">
+                <img src="images/YYY_paodao_wei1.png" class="pd_gan left" />
+            </div>
+        </div>
+        <div class="YYY_pd">
+            <div class="YYY_pd_tou">
+                <span>10</span>
+                <img src="images/YYY_paodao_top1.png" class="pd_gan right" />
+            </div>
+            <div class="YYY_pd_zhong">
+
+            </div>
+            <div class="YYY_pd_wei">
+                <img src="images/YYY_paodao_wei1.png" class="pd_gan left" />
+                <span class='xingm'>小强强强强强强</span>
+            </div>
+        </div>
+    </div>
+    <div class="zheme">
+        <div>
+            <img src="images/YYY_jiangt.png" />
+            <div class="zheme_1">
+                <p>123123412344</p>
+                <img src="images/mingx_toux.png" />
+            </div>
+            <div class="zheme_2">
+                <p>好好吃</p>
+                <img src="images/mingx_toux.png" />
+            </div>
+            <div class="zheme_3">
+                <p>萌萌大</p>
+                <img src="images/mingx_toux.png" />
+            </div>
+        </div>
+
+    </div>
+    <script>
+        //结束显示idDIV
+        $(".zheme").height($(window).height());
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".YYY_pd_zong>img").each(function () {
+                var a = $(this).index();
+                $(this).css({
+                    "top": a * 70 + 50,
+                })
+                $(this).addClass("yb");
+            })
+
+            var zong_cishu;
+            var biaoji = 1;
+            var bbshi = 1;
+            var c = setInterval(
+                 function () {
+                     $(".YYY_pd_zong>img").attr("data-bl", 0);
+                     $(".YYY_pd_zong>img").attr("data-qian", -1);
+                     $.ajax({
+                         url: 'aaa.txt?' + Math.random(),
+                         dataType: "json",
+                         success: function (data) {
+                             for (var i = 0; i < data.length; i++) {
+                                 zong_cishu = data[i].zong_cishu / 2.5;
+                                 //if (zong_cishu <= data[i].cishu) {
+                                 //    $(".YYY_pd_zong").children("img").each(function () {
+                                 //        var my_id = $(this).attr("id");
+                                 //        var i_dd = data[i].id;
+                                 //        if (my_id == i_dd) {
+                                 //            now_cishu = $(this).index();
+                                 //            biaobiaoJI = now_cishu;
+                                 //            $(".YYY_pd_zong>img:eq(" + now_cishu + ")").removeClass("yb");
+                                 //            $(".YYY_pd_zong>img:eq(" + now_cishu + ")").css({
+                                 //                "left": 82 + "%"
+                                 //            })
+                                 //        }
+                                 //    })
+                                 //    var b = '<img src="images/YYY_paodao_wei1.png" class="pd_gan left" /> '
+                                 //    var a = "<span class='xingm'>小强强强强强</span>"
+                                 //    //以上小强强强应该为变量  用户名
+                                 //    $(".YYY_pd_zong>div:eq(" + biaobiaoJI + ")>div:last").html(b + a);
+                                 //    if (biaobiaoJI + 1 == data.length) {
+                                 //        $(".zheme").show();
+                                 //    }
+                                 //}
+                                 //else {
+                                     var i_d = data[i].id;
+                                     var a = data[i].mingci; //A是名词
+                                     var qian = data[i].qian;//qian是之前的跑到数
+                                     var b = data[i].cishu * 6.8 + 15 - (a - 1) * 0.2;
+                                     if (qian <= 10) {
+                                         $(".YYY_pd_zong").children("img").each(function () {
+                                             var xz_mingci = $(this).attr("data-mingci");
+                                             var xiug_qian = $(this).attr("data-qian");
+                                             if (xz_mingci == qian && $(this).attr("data-bl")==0) {
+                                                 $(this).css({
+                                                     "top": (a - 1) * 70 + 50,
+                                                     "left": b + "%"
+                                                 })
+                                                // $(this).attr("src", data[i].src);
+                                                 $(this).attr("data-mingci", a);
+                                                 $(this).attr("data-qian", xz_mingci);
+                                                 $(this).attr("id", data[i].id);
+                                                 $(this).attr("data-bl", 1)
+                                             }
+                                         })
+                                     }
+                                     else {
+                                         $(".YYY_pd_zong").children("img").each(function () {
+                                             if ($(this).attr("data-bl") == 0) {
+
+                                                 $(this).attr("src", data[i].src); //给图片路径
+                                                 $(this).attr("id", data[i].id);   //赋值ID
+                                                 $(this).attr("data-mingci", a);   //赋值名词
+                                                 $(this).attr("data-bl", 1);       //标记该名词变动过
+                                                 $(this).removeClass("yb");        //取消动画效果
+                                                 $(this).css({                       //出现在相对地点
+                                                     "top": (a - 1) * 70 + 50,
+                                                     "left": b + "%"
+                                                 })
+                                                 
+                                             }
+
+
+                                         })
+                                     }
+                                 //}
+                             }
+                         }
+                     });
+                 },10000);
+            $(".YYY_pd_zong>img").attr("data-qian", -1);
+
+
+        })
+
+    </script>
+</body>
+</html>

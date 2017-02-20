@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <script src="js/bootstrap.js"></script>
+    <style>
+        body {
+            background: #EDEDED;
+        }
+    </style>
+    <div class="container-fluid nr_top_1">
+        <a href="wode.html" class="glyphicon glyphicon-menu-left "></a>
+        <b class="text-center">安全中心</b>
+    </div>
+    <div class="container-fluid text-center axqx_top">
+        <img src="images/anqan_zhongxin.png"/>
+        <p>您还没有启用安全中心!</p>
+    </div>
+
+    <div class="container-fluid anqx_index">
+        <div>
+            <p>绑定手机</p>
+            <p>已设置</p>
+            <a href="wode_shouji.html" class="jz_wd mo_re">绑定手机 ></a>
+        </div>
+        <div>
+            <p>支付密码</p>
+            <p>已设置</p>
+            <a href="wode_zhifu.html" class="jz_wd mo_re">设置支付密码 ></a>
+        </div>
+    </div>
+    <div class="container-fluid dibu">
+        <a href="wode_shouji.html" class="botn_quan" style="width:100%;padding:10px;margin-bottom:10px;">启用安全中心</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,364 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <title>极速漂移</title>
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+    <link href="css/jisu.css" rel="stylesheet" />
+    <script src="../js/jquery-1.11.1.min.js"></script>
+</head>
+<body class="body_bg">
+    <script src="js/kongjian_js/mobiscroll_002.js" type="text/javascript"></script>
+    <script src="js/kongjian_js/mobiscroll_004.js" type="text/javascript"></script>
+    <link href="css/kongjian_css/mobiscroll_002.css" rel="stylesheet" type="text/css">
+    <link href="css/kongjian_css/mobiscroll.css" rel="stylesheet" type="text/css">
+    <script src="js/kongjian_js/mobiscroll.js" type="text/javascript"></script>
+    <script src="js/kongjian_js/mobiscroll_003.js" type="text/javascript"></script>
+    <script src="js/kongjian_js/mobiscroll_005.js" type="text/javascript"></script>
+    <link href="css/kongjian_css/mobiscroll_003.css" rel="stylesheet" type="text/css">
+
+    <div class="baom1_bg">
+        <img src="images/bao1_top.png" class="img-responsive" />
+        <div class="baom1_index">
+            <div class="baom1_div">
+                <!--  text -->
+                <span class="baom1_span">姓名 :</span>
+                <input class="baom1_input baom_jiben_input" type="text" />
+            </div>
+            <div class="baom1_div">
+                <!--  单选 -->
+                <span class="baom1_span">性别 :</span>
+                <label class="baom1_damx">
+                    <input type="radio" name="sex" />
+                    <span>男</span>
+                </label>
+                <label class="baom1_damx">
+                    <input type="radio" name="sex" />
+                    <span>女</span>
+                </label>
+            </div>
+            <div class="baom1_div">
+                <!--  时间弹窗 -->
+                <span class="baom1_span">出身日期 :</span>
+                <input class="baom1_input baom_jiben_input" type="text" id="appDate" />
+            </div>
+            <div class="baom1_div">
+                <span class="baom1_span">手机号 :</span>
+                <input class="baom1_input baom_jiben_input" type="number" />
+            </div>
+            <div class="baom1_div">
+                <span class="baom1_span">身份号码 :</span>
+                <input class="baom1_input baom_jiben_input" type="number" />
+            </div>
+            <div class="baom1_div">
+                <!--  单选 -->
+                <span class="baom1_span">参与形式 :</span>
+                <label class="baom1_damx">
+                    <input type="radio" name="cheshou" />
+                    <span>车手</span>
+                </label>
+                <label class="baom1_damx">
+                    <input type="radio" name="cheshou" />
+                    <span>观众</span>
+                </label>
+            </div>
+
+            <div class="baom1_div">
+                <span class="baom1_span">微信号码 :</span>
+                <input class="baom1_input baom_jiben_input" type="text" />
+            </div>
+            <div class="baom1_div">
+                <!--  下拉 -->
+                <span class="baom1_span">职业 :</span>
+                <div class="pos_r">
+                    <select class="baom_jiben_input baom1_input xiala">
+                        <option>经商</option>
+                        <option>行政</option>
+                        <option>工程</option>
+                        <option>个体</option>
+                        <option>学校</option>
+                    </select>
+                    <span class="glyphicon glyphicon-menu-down xiala_tub"></span>
+                </div>
+            </div>
+            <div class="baom1_div">
+                <span class="baom1_span">是否有车 :</span>
+                <label class="baom1_damx xuanze" data-data="che">
+                    <input type="radio" name="youche" />
+                    <span>是</span>
+                </label>
+                <label class="baom1_damx xuanze" data-data="che">
+                    <input type="radio" name="youche" />
+                    <span>否</span>
+                </label>
+            </div>
+            <div class="che che1">
+                <!--1有车-->
+                <div class="baom1_div">
+                    <!--  下拉 -->
+                    <span class="baom1_span">汽车品牌 :</span>
+                    <div class="pos_r">
+                        <select class="baom_jiben_input baom1_input xiala">
+                            <option>经商</option>
+                            <option>行政</option>
+                            <option>工程</option>
+                            <option>个体</option>
+                            <option>学校</option>
+                        </select>
+                        <span class="glyphicon glyphicon-menu-down xiala_tub"></span>
+                    </div>
+                </div>
+
+                <div class="baom1_div">
+                    <!--  下拉 -->
+                    <span class="baom1_span">汽车型号 :</span>
+                    <div class="pos_r">
+                        <select class="baom_jiben_input baom1_input xiala">
+                            <option>经商</option>
+                            <option>行政</option>
+                            <option>工程</option>
+                            <option>个体</option>
+                            <option>学校</option>
+                        </select>
+                        <span class="glyphicon glyphicon-menu-down xiala_tub"></span>
+                    </div>
+                </div>
+
+                <div class="baom1_div">
+                    <!--  下拉 -->
+                    <span class="baom1_span">换车记录 :</span>
+                    <div class="pos_r">
+                        <select class="baom_jiben_input baom1_input xiala">
+                            <option>经商</option>
+                            <option>行政</option>
+                            <option>工程</option>
+                            <option>个体</option>
+                            <option>学校</option>
+                        </select>
+                        <span class="glyphicon glyphicon-menu-down xiala_tub"></span>
+                    </div>
+                </div>
+
+                <div class="baom1_div">
+                    <span class="baom1_span">是否改装 :</span>
+                    <label class="baom1_damx xuanze" data-data="gaizhuang">
+                        <input type="radio" name="gaizhuang" />
+                        <span>有</span>
+                    </label>
+                    <label class="baom1_damx xuanze" data-data="gaizhuang">
+                        <input type="radio" name="gaizhuang" />
+                        <span>无</span>
+                    </label>
+                </div>
+                <div class="gaizhuang gaizhuang1">
+                    <div class="baom1_div">
+                        <span class="baom1_span">改装类型 :</span>
+                        <label class="baom1_damx" >
+                            <input type="radio" name="leixing" />
+                            <span>动力改装</span>
+                        </label>
+                        <label class="baom1_damx" >
+                            <input type="radio" name="leixing" />
+                            <span>外观改装</span>
+                        </label>
+                    </div>
+                    <div class="baom1_div">
+                        <span class="baom1_span">改装详情 :</span>
+                        <textarea class="baom_text baom_jiben_input" type="text"></textarea>
+                    </div>
+                    <div class="baom1_div">
+                        <span class="baom1_span">常去商家 :</span>
+                        <input class="baom1_input baom_jiben_input" type="text" />
+                    </div>
+                    <div class="baom1_div">
+                        <span class="baom1_span">兴趣爱好 :</span>
+                        <input class="baom1_input baom_jiben_input" type="text" placeholder="如运动,休闲，娱乐，没事" />
+                    </div>
+                    <div class=" m-10 text-center">
+                        <a class="baom1_bron">确认提交</a>
+                        <div>
+                            <img src="images/bao1_bton.png" class="img-responsive baom1_bton_img" />
+                        </div>
+                    </div>
+                </div>
+                <div class="gaizhuang gaizhuang2">
+                    <div class="baom1_div">
+                        <span class="baom1_span">考虑改装 :</span>
+                        <label class="baom1_damx">
+                            <input type="radio" name="kaol_gaiz" />
+                            <span>有</span>
+                        </label>
+                        <label class="baom1_damx">
+                            <input type="radio" name="kaol_gaiz" />
+                            <span>没有</span>
+                        </label>
+                    </div>
+                    <div class="baom1_div">
+                        <span class="baom1_span">常去商家 :</span>
+                        <input class="baom1_input baom_jiben_input" type="text" />
+                    </div>
+                    <div class="baom1_div">
+                        <span class="baom1_span">兴趣爱好 :</span>
+                        <input class="baom1_input baom_jiben_input" type="text" placeholder="如运动,休闲，娱乐，没事" />
+                    </div>
+                    <div class=" m-10 text-center">
+                        <a class="baom1_bron">确认提交</a>
+                        <div>
+                            <img src="images/bao1_bton.png" class="img-responsive baom1_bton_img" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="che che2">
+                <div class="baom1_div">
+                    <span class="baom1_span">考虑买车 :</span>
+                    <label class="baom1_damx xuanze" data-data="maiche">
+                        <input type="radio" name="wu_youche" />
+                        <span>是</span>
+                    </label>
+                    <label class="baom1_damx xuanze" data-data="maiche">
+                        <input type="radio" name="wu_youche" />
+                        <span>否</span>
+                    </label>
+                </div>
+                <div class="maiche1 maiche">
+                    <div class="baom1_div">
+                        <!--  下拉 -->
+                        <span class="baom1_span">买车时间 :</span>
+                        <div class="pos_r">
+                            <select class="baom_jiben_input baom1_input xiala">
+                                <option>1年内</option>
+                                <option>3年内</option>
+                                <option>5年内</option>
+                                <option>10年内</option>
+                            </select>
+                            <span class="glyphicon glyphicon-menu-down xiala_tub"></span>
+                        </div>
+                    </div>
+                    <div class="baom1_div">
+                        <!--  下拉 -->
+                        <span class="baom1_span">车身价位 :</span>
+                        <div class="pos_r">
+                            <select class="baom_jiben_input baom1_input xiala">
+                                <option>1年内</option>
+                                <option>3年内</option>
+                                <option>5年内</option>
+                                <option>10年内</option>
+                            </select>
+                            <span class="glyphicon glyphicon-menu-down xiala_tub"></span>
+                        </div>
+                    </div>
+                    <div class="baom1_div">
+                        <span class="baom1_span">汽车类型 :</span>
+                        <label class="baom1_damx ">
+                            <input type="radio" name="qc_leix" />
+                            <span>新车</span>
+                        </label>
+                        <label class="baom1_damx ">
+                            <input type="radio" name="qc_leix" />
+                            <span>二手车</span>
+                        </label>
+                    </div>
+                    <div class="baom1_div">
+                        <!--  下拉 -->
+                        <span class="baom1_span">汽车品牌 :</span>
+                        <div class="pos_r">
+                            <select class="baom_jiben_input baom1_input xiala">
+                                <option>1年内</option>
+                                <option>3年内</option>
+                                <option>5年内</option>
+                                <option>10年内</option>
+                            </select>
+                            <span class="glyphicon glyphicon-menu-down xiala_tub"></span>
+                        </div>
+                    </div>
+                    <div class="baom1_div">
+                        <!--  下拉 -->
+                        <span class="baom1_span">汽车品牌 :</span>
+                        <div class="pos_r">
+                            <select class="baom_jiben_input baom1_input xiala">
+                                <option>1年内</option>
+                                <option>3年内</option>
+                                <option>5年内</option>
+                                <option>10年内</option>
+                            </select>
+                            <span class="glyphicon glyphicon-menu-down xiala_tub"></span>
+                        </div>
+                    </div>
+                    <div class="baom1_div">
+                        <span class="baom1_span">兴趣爱好 :</span>
+                        <input class="baom1_input baom_jiben_input" type="text" placeholder="如运动,休闲，娱乐，没事" />
+                    </div>
+                    <div class=" m-10 text-center">
+                        <a class="baom1_bron">确认提交</a>
+                        <div>
+                            <img src="images/bao1_bton.png" class="img-responsive baom1_bton_img" />
+                        </div>
+                    </div>
+
+                </div>
+                <div class="maiche2 maiche">
+                    <div class="baom1_div">
+                        <span class="baom1_span">兴趣爱好 :</span>
+                        <input class="baom1_input baom_jiben_input" type="text" placeholder="如运动,休闲，娱乐，没事" />
+                    </div>
+                    <div class=" m-10 text-center">
+                        <a class="baom1_bron">确认提交</a>
+                        <div>
+                            <img src="images/bao1_bton.png" class="img-responsive baom1_bton_img" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--<div class="baom1_div">
+                <span class="baom1_span">姓名 :</span>
+                <textarea class="baom_text baom_jiben_input" type="text"></textarea>
+            </div>-->
+        </div>
+    </div>
+
+    <script>
+        $(".xuanze").change(function () {
+            var duanze = $(this).index();
+            var a = $(this).attr("data-data");
+            console.log("." + a + duanze);
+            $("." + a).hide();
+            $("." + a + duanze).show();
+            // alert($("input[name='sex']:checked").val());
+        })
+    </script>
+
+    <script type="text/javascript">
+
+        $(".jiaoyi_Jilu_rig").width(($(window).width() - 115))
+
+        $(function () {
+            var currYear = (new Date()).getFullYear();
+            var opt = {};
+            opt.date = { preset: 'date' };
+            opt.datetime = { preset: 'datetime' };
+            opt.time = { preset: 'time' };
+            opt.default = {
+                theme: 'android-ics light', //皮肤样式
+                display: 'modal', //显示方式
+                mode: 'scroller', //日期选择模式
+                dateFormat: 'yy/mm/dd',
+                lang: 'zh',
+                showNow: true,
+                nowText: "今天",
+                startYear: currYear - 40, //开始年份
+                endYear: currYear + 40 //结束年份
+            };
+
+            $("#appDate").mobiscroll($.extend(opt['date'], opt['default']));
+        });
+
+    </script>
+
+
+
+</body>
+</html>

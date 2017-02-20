@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/toupiao.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body style="background:#fff;">
+    <script src="js/bootstrap.js"></script>
+    <div class="container-fluid p0">
+        <img src="images/hongbao_top.png" class="img-responsive" />
+    </div>
+    <div class="container-fluid  p0 hb_lingqu">
+        <p class="lingqu_1">天天一块 的赠礼</p>
+        <p class="lingqu_2">恭喜发财, 大吉大利!</p>
+        <p class="lingqu_3"><span>0.01</span>元</p>
+        <p class="lingqu_4">已存入零钱,可直接提现</p>
+        <p class="lingqu_6">人品爆发 去抢iPhone 6s!</p>
+        <a href="#" data-toggle="modal" data-target="#myModal1" style="outline:none">
+            立即参与
+        </a>
+    </div>
+
+
+</body>
+</html>

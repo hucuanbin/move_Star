@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid nr_top">
+        <span class="glyphicon glyphicon-th yh_tu1"></span>
+        <p class="text-center">演出</p>
+        <span class="glyphicon glyphicon-filter yh_tu3"></span>
+    </div>
+    <div class="container-fluid p0 ych_lb">
+        <a href="yanchu_xq.html">
+            <div class="ych_lb_nr">
+                <div class="col-xs-4">
+                    <img src="images/ych.png" />
+                </div>
+                <div class="col-xs-8 ych_lb_nr_2">
+                    <label>汪峰2015 "峰暴来临"超级巡回演唱会上海收官之战</label>
+                    <span>售票中</span>
+                    <div>
+                        <p class="m0">时间 : 2015.9.26</p>
+                        <p>场馆 : 上海体育馆</p>
+                        <p>票价 : <b class="mo_re"><span class="mo_re">180-1128</span> 元</b></p>
+                    </div>
+                </div>
+            </div>
+
+        </a>
+        <a href="yanchu_xq.html">
+            <div class="ych_lb_nr">
+                <div class="col-xs-4">
+                    <img src="images/ych.png" />
+                </div>
+                <div class="col-xs-8 ych_lb_nr_2">
+                    <label>汪峰2015 "峰暴来临"超级巡回演唱会上海收官之战</label>
+                    <span>售票中</span>
+                    <div>
+                        <p class="m0">时间 : 2015.9.26</p>
+                        <p>场馆 : 上海体育馆</p>
+                        <p>票价 : <b class="mo_re"><span class="mo_re">180-1128</span> 元</b></p>
+                    </div>
+                </div>
+            </div>
+
+        </a>
+        <a href="yanchu_xq.html">
+            <div class="ych_lb_nr">
+                <div class="col-xs-4">
+                    <img src="images/ych.png" />
+                </div>
+                <div class="col-xs-8 ych_lb_nr_2">
+                    <label>汪峰2015 "峰暴来临"超级巡回演唱会上海收官之战</label>
+                    <span>售票中</span>
+                    <div>
+                        <p class="m0">时间 : 2015.9.26</p>
+                        <p>场馆 : 上海体育馆</p>
+                        <p>票价 : <b class="mo_re"><span class="mo_re">180-1128</span> 元</b></p>
+                    </div>
+                </div>
+            </div>
+
+        </a>
+
+    </div>
+    <div class="hei_di">
+
+    </div>
+    <div class="container-fluid index_wei">
+        <a>
+            <div>
+                <b class="wei_1"></b>
+                <p>首页</p>
+            </div>
+        </a>
+        <a>
+            <div>
+                <b class="wei_2"></b>
+                <p>新闻</p>
+            </div>
+        </a>
+        <a href="yanchu.html">
+            <div>
+                <b class="wei_31"></b>
+                <p class="mo_re">演出</p>
+            </div>
+        </a>
+        <a>
+            <div>
+                <b class="wei_4"></b>
+                <p>发现</p>
+            </div>
+        </a>
+        <a>
+            <div>
+                <b class="wei_5"></b>
+                <p>我的</p>
+            </div>
+        </a>
+    </div>
+    <script>
+        $(document).ready(function () {
+            document.onreadystatechange = subSomething;//当页面加载状态改变的时候执行这个方法. 
+            function subSomething() {
+                if (document.readyState == "complete") //当页面加载状态 
+                    $(".ych_lb_nr_2").height($(".ych_lb_nr>div>img").height());
+            }
+        })
+    </script>
+
+</body>
+</html>

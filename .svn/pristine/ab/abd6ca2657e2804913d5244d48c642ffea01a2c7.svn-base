@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid nr_top_1">
+        <a href="yanchu_xq.html" class="glyphicon glyphicon-menu-left "></a>
+        <b class="text-center">场馆地图</b>
+    </div>
+    <div style="height:300PX;width:100%;background:#000000" id="container">
+
+    </div>
+    <div class="container-fluid yhc_bor yhc_cd">
+        <label>演出场地</label>
+        <p>北京展览馆剧场</p>
+        <a><span class="glyphicon glyphicon-map-marker"></span>地址：北京西城区西直门外大街136号</a>
+    </div>
+    <div class="container-fluid yhc_bor yhc_cd">
+        <label>场馆介绍</label>
+       <div class="yhc_cg_jc">
+           <p>asdsadada</p>
+       </div>
+    </div>
+
+    <script src="http://api.map.baidu.com/api?v=2.0&ak=6bf286074aa246093e0b2d1ae4ee38e4" type="text/javascript"></script>
+    <script type="text/javascript">
+        //var map = new BMap.Map("container");
+        //var point = new BMap.Point(116.404, 39.915);
+        //map.centerAndZoom(point, 15);
+        //var marker = new BMap.Marker(point);        // 创建标注    
+        //map.addOverlay(marker);                     // 将标注添加到地图中
+
+        var map = new BMap.Map("container");
+        var point = map.centerAndZoom(new BMap.Point(116.404, 39.915), 13);
+
+        var local = new BMap.LocalSearch(map, {
+            renderOptions: { map: map }
+        });
+        local.search("福州市第二人民医院");
+     
+        var opts = { anchor: BMAP_ANCHOR_TOP_RIGHT }
+        map.addControl(new BMap.ScaleControl(opts));
+        var opssts = { anchor: BMAP_ANCHOR_TOP_LEFT }
+        map.addControl(new BMap.GeolocationControl(opssts));
+     
+    </script>
+</body>
+</html>

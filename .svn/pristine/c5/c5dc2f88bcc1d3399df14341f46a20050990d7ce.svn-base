@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <script src="js/bootstrap.js"></script>
+    <style>
+        body {
+            background: #EDEDED;
+        }
+    </style>
+    <div class="container-fluid nr_top_1">
+        <a href="wode.html" class="glyphicon glyphicon-menu-left "></a>
+        <span class="right glyphicon glyphicon-option-vertical wenx_shezh" id="tilj"></span>
+        <span class="right xinw_huifu">100<b class="san_pl"></b></span>
+    </div>
+    <div class="xinw_xq_bt container-fluid p10">
+        <p>标题标题标题新闻标标题标题标题新闻标题题</p>
+        <p>腾讯娱乐 28分钟前</p>
+    </div>
+    <div class="container-fluid xinw_xq_nr">
+        <div class="xinw_nr">
+            <p>balsadsad</p>
+            <p>balsadsad</p>
+            <p>balsadsad</p>
+            <p>balsadsad</p>
+            <p>balsadsad</p>
+            <p>balsadsad</p>
+            <p>balsadsad</p>
+            <p>balsadsad</p>
+            <p>balsadsad</p>
+            <p>balsadsad</p>
+        </div>
+        <div class="text-center">
+            <span class="yuan_dz">
+                <b class="glyphicon glyphicon-thumbs-up"></b>
+            </span>
+        </div>
+    </div>
+    <div class="container-fluid xin_pl p0">
+        <p>最新评论</p>
+        <div class="xinw_pingl">
+            <div class="fx_huod">
+                <p class="a_lan">我是姓名我是姓名 <span class="right xinw_zan" data-data="0"><b>0</b>赞</span></p>
+                <p>2015-07-16 12:21:21</p>
+                <div class="yid_left">
+                    <img src="images/mingx_toux.png" class="img-circle"/>
+                </div>
+            </div>
+            <div>
+                <p>哈萨达送到阿斯顿网全额趣味额趣味额趣味额</p>
+            </div>
+        </div>
+        <div class="xinw_pingl">
+            <div class="fx_huod">
+                <p class="a_lan">我是姓名我是姓名 <span class="right xinw_zan" data-data="0"><b>0</b>赞</span></p>
+                <p>2015-07-16 12:21:21</p>
+                <div class="yid_left">
+                    <img src="images/mingx_toux.png" class="img-circle" />
+                </div>
+            </div>
+            <div>
+                <p>哈萨达送到阿斯顿网全额趣味额趣味额趣味额</p>
+            </div>
+        </div>
+        <div class="xinw_pingl">
+            <div class="fx_huod">
+                <p class="a_lan">我是姓名我是姓名 <span class="right xinw_zan" data-data="0"><b>0</b>赞</span></p>
+                <p>2015-07-16 12:21:21</p>
+                <div class="yid_left">
+                    <img src="images/mingx_toux.png" class="img-circle" />
+                </div>
+            </div>
+            <div>
+                <p>哈萨达送到阿斯顿网全额趣味额趣味额趣味额</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid winw_huifu p0 m-10">
+        <input placeholder="我来说两句..."/>
+        <a class="mo_re">发送</a>
+    </div>
+
+    <div class="container-fluid tjtj_big">
+    </div>
+    <div class="ziti_tj">
+        <div>
+            <span data-data="12">小</span>
+            <span data-data="14">中</span>
+            <span data-data="16">大</span>
+        </div>
+    </div>
+
+    <script>
+
+        $(document).ready(function () {
+          
+           
+            $(".yuan_dz").click(function () {
+                var a = $(this).addClass("mo_quan");
+            })
+
+
+            $(".xinw_zan").click(function () {
+                if ($(this).attr("data-data") == 0) {
+                    $(this).addClass("mo_quan");;
+                    var a = parseInt($(this).children("b").text()) + 1;
+                    $(this).children("b").text(a);
+                    $(this).attr("data-data", "1");
+                }
+            })
+
+            $(".tjtj_big").height($(window).height());
+            $("#tilj").click(function () {
+                $(".ziti_tj").show();
+                $(".tjtj_big").show();
+                jz_gdl();
+            })
+            //移动端禁止滚动条方法
+            function jz_gdl() {
+                $("body").css("overflow-y", "hidden");
+                $("body").css("height", $(window).height() + "px");                var a = $(window).width();
+                var move = function (e) {
+                    e.preventDefault && e.preventDefault();
+                    e.returnValue = false;
+                    e.stopPropagation && e.stopPropagation();
+                    return false;
+                }
+                var start = function (e) {
+                    pos.y = e.targetTouches[0].pageY;
+                    pos.x = e.targetTouches[0].pageX;
+                }
+                var end = function (e) {
+                    //stop the zoom in event be motivated ,for the handle equipment's dobule click event.
+                    move(e);
+                    y = e.targetTouches[0].pageY;
+                    x = e.targetTouches[0].pageX;
+                    if (Math.abs(pos.y - y) < 3 || Math.abs(pos.x - x) < 3) {
+                        setTimeout(function () { fireEvent(e.target, 'click'); }, 2);
+                    }
+                    pos = null;
+                    return false;
+                }
+
+                document.documentElement.style.overflow = 'hidden'; //低版本需要
+                document.body.style.overflow = 'hidden';//mobile 低版本不生效
+                eventUtil.addEvent(window, 'touchmove', move);
+                eventUtil.addEvent(document.body, 'touchstart', start);
+                eventUtil.addEvent(document.body, 'touchend', end);
+
+            }            // 弹窗隐藏
+            $(".tjtj_big").click(function () {
+                $("body").css("overflow", "auto");                $(".ziti_tj").hide();
+                $(".tjtj_big").hide();
+
+            })
+
+            //设置字体大小
+            $(".ziti_tj>div>span").click(function () {
+                $(".ziti_tj>div>span").attr("class", "");
+                $(this).attr("class", "botn_quan");
+                var a = $(this).attr("data-data");
+                $(".xinw_nr").attr("class", "xinw_nr zi_" + a);
+                $("body").css("overflow", "auto");                $(".ziti_tj").hide();
+                $(".tjtj_big").hide();
+            })
+        })
+    </script>
+</body>
+</html>

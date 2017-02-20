@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <script src="js/bootstrap.js"></script>
+    <style>
+        body {
+            background: #F0F2F4;
+        }
+    </style>
+    <div class="container-fluid nr_top_1">
+        <a href="wode_dingdan.html" class="glyphicon glyphicon-menu-left "></a>
+        <b class="text-center">订单详情</b>
+    </div>
+    <div class="ddxx_top container-fluid">
+        <p><b class="glyphicon glyphicon-time ce_huang"></b>等待付款</p>
+        <p>下单时间:08-11 11:40:45<span class="right">订单编号:24867729</span></p>
+    </div>
+
+    <div class=" container-fluid m-10 dd_xq_index">
+        <div class="ddxx_time">
+            <div class="text-center dao_time" data-data="1439888822">
+                <script>
+                    //选择的时间+1小时  测试用
+                    var a = parseInt(new Date().valueOf() / 1000 + 3600);
+                    $(".dao_time").attr("data-data", a);
+                </script>
+                <b id="fen_1"></b>
+                <b id="fen_2"></b>
+                <span>分</span>
+                <b id="miao_1"></b>
+                <b id="miao_2"></b>
+                <span>秒</span>
+            </div>
+            <p>支付截止时间：11:55:45,别错过哟～</p>
+        </div>
+        <div class="ddxx_jg m-10">
+            <div>
+                <img src="images/index_yhc.png" />
+                <span class=" yuan_top"></span>
+                <span class=" yuan_left"></span>
+                <span class=" yuan_right"></span>
+            </div>
+            <div>
+                <p><span>单位</span><span>总价</span></p>
+                <p><span><b class="zi_big">1</b>张</span><span><b class="mo_re zi_big">380.00</b>元</span></p>
+            </div>
+        </div>
+        <div class="m-10 ddxx_qpfs" style="display:block">
+            <label class="biaoti_hong">配送方式</label>
+            <div>
+                <img src="images/dd_zq.png" />
+            </div>
+            <div class="qup_dizhi" style="display:block;border-top:1px #E8E8E8 solid">
+                <p>我是地址我是地址我是地址我是地址我是地址我是地址我是地址我是地址我是地址我是地址 </p>
+                <p>营业时间：工作日9:00-20:00,周末及节假日9:00-18:00</p>
+            </div>
+        </div>
+        <div class="m-10 ddxx_qpfs" style="display:block">
+            <label class="biaoti_hong">配送方式</label>
+            <div class="ddxx_fh">
+                <p>肉包子 157*****3612</p>
+                <p>营业时间：工作日9:00-20:00,周末及节假日9:00-18:00</p>
+                <img class="ddxx_fh_img" ; src="images/dd_kd.png" />
+            </div>
+        </div>
+        <div class="sp_je m-10" style="padding:10px;">
+            <p>商品金额<span class="right">380.0元</span></p>
+            <p>运费<span class="right">+22.0元</span></p>
+            <p id="baox_je" style="display:none">保险<span class="right">+22.0元</span></p>
+            <p>优惠政策<span class="right">01元</span></p>
+            <p>订单金额<span class="right"><b class="zi_big mo_re" id="zng_je">402.00</b>元</span></p>
+        </div>
+        <div class="zhifu_fs m-10" style="padding:10px;">
+            <label class="biaoti_hong">选择支付方式</label>
+            <div>
+                <ul class="zhifu_tb">
+                    <li>
+                        <em class="yh_tu_1">
+
+                        </em>
+                        <span>
+                            <b>支付宝客户端只支付</b><br />
+                            <b>推荐安装支付宝客户端的用户使用</b>
+                        </span>
+                        <b class="quan right glyphicon glyphicon-ok-sign quan_xz"></b>
+                    </li>
+                    <li>
+                        <em class="yh_tu_2">
+                        </em>
+                        <span>
+                            <b>微信支付</b><br />
+                            <b>推荐安装微信的用户使用</b>
+                        </span>
+                        <b class="quan right"></b>
+                    </li>
+                    <li>
+                        <em class="yh_tu_3">
+
+                        </em>
+                        <span>
+                            <b>银联手机支付</b><br />
+                            <b>推荐银联用户使用</b>
+                        </span>
+                        <b class="quan right"></b>
+                    </li>
+                    <li>
+                        <em class="yh_tu_4">
+
+                        </em>
+                        <span>
+                            <b>支付宝网页支付</b><br />
+                            <b>推荐有支付宝账户的用户使用</b>
+                        </span>
+                        <b class="quan right"></b>
+                    </li>
+                    <li>
+                        <em class="yh_tu_5">
+
+                        </em>
+                        <span>
+                            <b>电子钱包</b><br />
+                            <b>大麦钱包支付</b>
+                        </span>
+                        <b class="quan right"></b>
+                    </li>
+                    <li>
+                        <em class="yh_tu_6">
+
+                        </em>
+                        <span>
+                            <b>中国银行</b><br />
+                            <b>中国银行支付</b>
+                        </span>
+                        <b class="quan right"></b>
+                    </li>
+                    <li>
+                        <em class="yh_tu_7">
+
+                        </em>
+                        <span>
+                            <b>浦发银行WAP</b><br />
+                            <b>浦发银行WAP支付</b>
+                        </span>
+                        <b class="quan right"></b>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid  dd_xq_fk m-10">
+        <a class="botn_quan" style="background:#B2B2B2">取消订单</a>
+        <a class="botn_quan">确认付款</a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="js/daojishi.js"></script>
+    <script>
+        $(".zhifu_tb li").click(function () {
+            $(".zhifu_tb>li>.right").attr("class", "quan right");
+            $(this).find(".right").attr("class", "quan right glyphicon glyphicon-ok-sign quan_xz");
+        });
+    </script>
+</body>
+</html>

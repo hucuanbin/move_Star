@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <style>
+        @media only screen and (min-width: 375px) {
+            body, html {
+                font-size: 12.5px;
+            }
+        }
+
+        @media only screen and (min-width: 414px) {
+            body, html {
+                font-size: 13px;
+            }
+        }
+    </style>
+    <script src="js/bootstrap.js"></script>
+    <div class="container-fluid p0">
+        <img src="images/zhuimeng_top.png" class="img-responsive" />
+    </div>
+    <div class="container-fluid zm_top text-center">
+        <p class="zm_top_zi">2005《丁香花》第一次感动中国</p>
+        <img src="images/zhuimeng_zi.png" class="img-responsive" />
+    </div>
+    <div class="container-fluid zm_voide">
+        <div class="zm_void"></div>
+        <p class="zm_void_p shengl">巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴巴拉巴拉巴巴巴拉巴拉巴拉巴拉巴巴拉巴拉巴巴巴巴拉巴拉巴巴</p>
+    </div>
+    <div class="container-fluid text-center p0 zm_index_ewm">
+        <img src="images/zhuimeng_zi2.png" class="zm_zwm m-5" />
+        <img src="images/zhuimeng_ewm.png" class="zm_zwm m-10" />
+        <a class="zm_lingqu m-10" id="lingqu">立即领取</a>
+    </div>
+    <div class="container-fluid zhuim_guize">
+        <div class="zhuim_guiz_div">
+            <p class="text-center zm_gz_la m-5">活动规则</p>
+            <ol class="m-10 ol_shuzi">
+                <li>文文字文文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文字文字文字文字文字文字文字字</li>
+                <li>文文字文文文字文字字字文字文字文字文字文字文字文字文字文字字</li>
+            </ol>
+        </div>
+    </div>
+
+
+    <div id="myModal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog1" style="width:300px !important;margin:40px auto;position:relative;">
+            <div class="modal-content huoj_tc_index">
+                <div class="modal-body p0 pos_r">
+                    <a data-dismiss="modal" aria-label="Close" class="huoj_tc_close">
+                    </a>
+                    <img src="images/zhuimeng_tc.png" class="img-responsive" />
+                    <a class="guan_zc_a">立即关注</a>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <script>
+        $("#lingqu").click(function () {
+            $('#myModal1').modal({
+                keyboard: false
+            })        })
+    </script>
+</body>
+</html>

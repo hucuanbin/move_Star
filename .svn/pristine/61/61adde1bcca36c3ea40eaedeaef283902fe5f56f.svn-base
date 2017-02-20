@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <style>
+        body {
+            background: #F0F2F5;
+        }
+    </style>
+    <div class="container-fluid nr_top">
+        <p class="text-center">我的</p>
+        <span class="glyphicon glyphicon-cog yh_tu3" data-data="0"></span>
+    </div>
+    <div class="container-fluid m-10 wode_xx">
+        
+        <a href="oux_xiug.html">
+            <img src="images/toux.png" />
+        </a>
+        <span>麦子</span>
+        <a href="wode_zil.html" class="glyphicon glyphicon-menu-right jz_wd"></a>
+    </div>
+    <div class="container-fluid wod_nr">
+        <div>
+            <a href="wode_dingdan.html">
+                <div>
+                    我的订单
+                    <span class="glyphicon glyphicon-menu-right jz_wd"></span>
+                </div>
+            </a>
+            <b class="wod_nr_b1"></b>
+        </div>
+        <div>
+            <a href="wo_shouc.html">
+                <div>
+                    我的收藏
+                    <span class="glyphicon glyphicon-menu-right jz_wd"></span>
+                </div>
+            </a>
+            <b class="wod_nr_b2"></b>
+        </div>
+        <div>
+            <a href="wode_dizhi.html">
+                <div>
+                    收货地址
+                    <span class="glyphicon glyphicon-menu-right jz_wd"></span>
+                </div>
+            </a>
+            <b class="wod_nr_b3"></b>
+        </div>
+        <div>
+            <a href="wode_qianb.html">
+                <div>
+                    电子钱包
+                    <span class="glyphicon glyphicon-menu-right jz_wd"></span>
+                </div>
+            </a>
+            <b class="wod_nr_b4"></b>
+        </div>
+        <div>
+            <a href="wode_aqzx.html">
+                <div>
+                    安全中心
+                    <span class="glyphicon glyphicon-menu-right jz_wd"></span>
+                </div>
+            </a>
+            <b class="wod_nr_b5"></b>
+        </div>
+        <div>
+            <a>
+                <div>
+                    我的积分
+                    <span class="glyphicon glyphicon-menu-right jz_wd"></span>
+                </div>
+            </a>
+            <b class="wod_nr_b6"></b>
+        </div>
+    </div>
+    <div class="hei_di" style="height:65px;">
+
+    </div>
+    <div class="container-fluid index_wei">
+        <a href="index.html">
+            <div>
+                <b class="wei_1"></b>
+                <p>首页</p>
+            </div>
+        </a>
+        <a href="xinwen.html">
+            <div>
+                <b class="wei_2"></b>
+                <p>新闻</p>
+            </div>
+        </a>
+        <a href="yanchu.html">
+            <div>
+                <b class="wei_3"></b>
+                <p>演出</p>
+            </div>
+        </a>
+        <a href="fax.html">
+            <div>
+                <b class="wei_4"></b>
+                <p>发现</p>
+            </div>
+        </a>
+        <a href="wode.html">
+            <div>
+                <b class="wei_51"></b>
+                <p class="mo_re">我的</p>
+            </div>
+        </a>
+    </div>
+
+</body>
+</html>

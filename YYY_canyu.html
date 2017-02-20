@@ -1,0 +1,62 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link href="css/yyy.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid p0 yyy_cy">
+        <div class="yyy_cy_top">添加文字</div>
+        <div class="yyy_nr">
+            <div class="col-xs-6 col-sm-66 col-md-6 col-lg-6 p0 yyy_nr_1">
+                <img src="images/YYY_ks_ew.png" />
+            </div>
+            <div class="col-xs-6 col-sm-66 col-md-6 col-lg-6 p0 yyy_nr_2">
+                <p>当前已有<em>100</em>人参与</p>
+                <div class="mingx_tou">
+                    <img src="images/YYY_ks_quan_bj.png" />
+                     <img src="images/YYY_ks_saom.png" class="saom"/>
+                    <div class="toux_1">
+                        <img src="images/mingx_toux.png" class="img-circle" />
+                    </div>
+                    <div class="toux_2">
+                        <img src="images/mingx_toux.png" class="img-circle" />
+                    </div>
+                    <div class="toux_3">
+                        <img src="images/mingx_toux.png" class="img-circle" />
+                    </div>
+                    <div class="toux_4">
+                        <img src="images/mingx_toux.png" class="img-circle" />
+                    </div>
+                    <div class="toux_5">
+                        <img src="images/mingx_toux.png" class="img-circle" />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="yyy_cy_wei">
+            <a href="YYY_paod.html">立即参加</a>
+        </div>
+    </div>
+
+    <script>
+
+
+        window.onload = function () {
+            changeDivHeight();
+        }
+        //当浏览器窗口大小改变时，设置显示内容的高度
+        window.onresize = function () {
+            changeDivHeight();
+        }
+        function changeDivHeight() {
+            $(".yyy_cy").height($(window).height());
+        }
+    </script>
+</body>
+</html>

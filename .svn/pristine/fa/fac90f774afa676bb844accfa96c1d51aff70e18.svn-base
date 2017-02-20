@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <style>
+        body{
+            background:#F6F6F6;
+        }
+    </style>
+    <div class="container-fluid nr_top">
+        <span class="glyphicon glyphicon-th yh_tu1" data-data="0"></span>
+        <p class="text-center">图册</p>
+        <span class="glyphicon glyphicon-filter yh_tu3" data-data="0"></span>
+    </div>
+    <div class="container-fluid tup_leb">
+        <a href="tupian_xq.html">
+            <div class="tup_leb_div">
+                <img src="images/mingx_toux.png" class="imght_hei" />
+                <span class="tup_leb_wenzi shengl">你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好</span>
+            </div>
+        </a>
+        <a href="tupian_xq.html">
+            <div class="tup_leb_div">
+                <img src="images/mingx_toux.png" class="imght_hei" />
+                <span class="tup_leb_wenzi shengl">你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好</span>
+            </div>
+        </a>
+        <a href="tupian_xq.html">
+            <div class="tup_leb_div">
+                <img src="images/mingx_toux.png" class="imght_hei" />
+                <span class="tup_leb_wenzi shengl">你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好</span>
+            </div>
+        </a>
+
+        <a>
+            <div class="tup_leb_div tplb_gd text-center"><span class="tplb_gd_span">查看更多</span></div>
+        </a>
+    </div>
+
+
+
+    <div class="yhc_shaixuan">
+    </div>
+    <div class="yhc_shaixuan_nr">
+        <div class="col-xs-5">
+            <ul class="sx_lei">
+                <li class="show_yc"><b class="yhc_sx_tu_1"></b> <span>时间范围</span></li>
+                <li><b class="yhc_sx_tu_2"></b> <span>排序方式</span></li>
+            </ul>
+        </div>
+        <div class="col-xs-7">
+            <ul class="yhc_shaixuan_nr_1 m0" style="display:block;">
+                <li class="yc_xz"><a href="/Show">全部时间<span class="glyphicon glyphicon-ok"></span></a></li>
+                <li><a href="/Show/Index?time=now">今天<span></span></a></li>
+                <li><a href="/Show/Index?time=tomorrow">明天<span></span></a></li>
+                <li><a href="/Show/Index?time=week">一周内<span></span></a></li>
+                <li><a href="/Show/Index?time=month">一个月内<span></span></a></li>
+            </ul>
+            <ul class="yhc_shaixuan_nr_2 m0" style="display:none;">
+                <li class="yc_xz"><a href="/Show">按演出时间<span class="glyphicon glyphicon-ok"></span></a></li>
+                <li><a href="/Show/Index?ob=sell">按开售时间<span></span></a></li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="container-fluid yhc_shaixuan_leix">
+        <div class="col-xs-5">
+            <ul class="sx_lei ">
+
+                <li class="show_yc"><span><a href="/Show/Index?c_id=1">歌友会</a></span></li>
+                <li><span><a href="/Show/Index?c_id=2">个人演唱会</a></span></li>
+                <li><span><a href="/Show/Index?c_id=3">群星演唱会</a></span></li>
+                <li><span><a href="/Show/Index?c_id=4">公益演唱会</a></span></li>
+                <li><span><a href="/Show/Index?c_id=5">音乐节</a></span></li>
+                <li><span><a href="/Show/Index?c_id=6">音乐会</a></span></li>
+            </ul>
+        </div>
+        <div>
+
+        </div>
+    </div>
+
+    <script>
+    $(document).ready(function () {
+        $(".yhc_shaixuan").height($(window).height());
+    
+    })
+
+
+    //时间范围-排序方式 切换
+    $(".sx_lei li").click(function () {
+        var a = parseInt($(this).index()) + 1;
+        $(".yhc_shaixuan_nr>.col-xs-7>ul").hide();
+        $(".yhc_shaixuan_nr_" + a + "").show();
+        $(".sx_lei li").attr("class", "");
+        $(this).attr("class", "show_yc");
+    });
+    $(".yhc_shaixuan_nr>.col-xs-7 li").click(function () {
+        $(this).siblings("li").find("span").attr("class", "");
+        $(this).siblings("li").attr("class", "");
+        $(this).find("span").attr("class", "glyphicon glyphicon-ok");
+        $(this).attr("class", "yc_xz")
+    });
+
+    $(".yhc_shaixuan").click(function () {
+        $(".yhc_shaixuan_nr").hide();
+        $(".yhc_shaixuan_leix").hide();
+        $("body").css("overflow", "auto");
+        $(this).hide();
+    });
+
+    $(".yh_tu3").click(function () {
+        var a = $(this).attr("data-data");
+        if (a == 0) {
+            $(".yhc_shaixuan_leix").hide();
+            $(".yhc_shaixuan").show();
+            $(".yhc_shaixuan_nr").slideDown();
+            $(".yh_tu1").attr("data-data", "0");
+            $(this).attr("data-data", "1");
+            jz_gdl();
+        }
+        else {
+            $(".yhc_shaixuan_nr").hide();
+            $(".yhc_shaixuan").hide();
+            $("body").css("overflow", "auto");
+
+            $(this).attr("data-data", "0");
+        }
+    })
+    //按照演唱会类别筛选 切换
+    $(".yh_tu1").click(function () {
+        var a = $(this).attr("data-data");
+        if (a == 0) {
+            $(".yhc_shaixuan_nr").hide();
+            $(".yh_tu3").attr("data-data", "0");
+            $(".yhc_shaixuan").show();
+            $(".yhc_shaixuan_leix").slideDown();
+            $(this).attr("data-data", "1");
+            jz_gdl();
+        }
+        else {
+            $(".yhc_shaixuan_leix").hide();
+            $(".yhc_shaixuan").hide();
+            $(this).attr("data-data", "0");
+            $("body").css("overflow", "auto");
+        }
+    })
+    </script>
+
+
+</body>
+</html>

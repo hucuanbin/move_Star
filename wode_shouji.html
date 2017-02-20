@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+    <script src="js/bootstrap.js"></script>
+    <style>
+        body {
+            background: #EDEDED;
+        }
+    </style>
+    <div class="container-fluid nr_top_1">
+        <a href="wode.html" class="glyphicon glyphicon-menu-left "></a>
+        <b class="text-center">安全中心</b>
+    </div>
+    <div class="container-fluid xiug_shouji">
+        <div class="shouji_qieh">
+            <div>
+                <div class="wode_shouj_yhxx">
+                    <div>
+                        <input placeholder="必填" />
+                        <span>*常用手机:</span>
+                    </div>
+                    <div>
+                        <input placeholder="必填(6位数字)" />
+                        <span>*支付密码:</span>
+                    </div>
+                    <div>
+                        <input placeholder="必填(再输入一次)" />
+                        <span>*确认密码:</span>
+                    </div>
+                    <div>
+                        <select>
+                            <option>男</option>
+                            <option>女</option>
+                        </select>
+                        <span>性别：</span>
+                    </div>
+                    <div>
+                        <select>
+                            <option>身份证</option>
+                            <option>军官证</option>
+                        </select>
+                        <span>证件类型：</span>
+                    </div>
+                    <div>
+                        <input placeholder="请填写证件号码" />
+                        <span>证件号码:</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="wode_shouj_xb">
+                <div class="text-center">
+                   选择性别
+                </div>
+                <div class="wod_xb_xz xb_zz">
+                    <p>男<span class="quan right glyphicon glyphicon-ok-sign quan_xz"></span></p>
+                    <p>女<span></span></p>
+                </div>
+            </div>
+            <div class="wode_shouj_xb ">
+                <div class="wod_xb_xz wodd_yzm">
+                    <p>短信验证码已发送到157****4654,请注意查收</p>
+                    <p><input width="100" placeholder="请输入验证码"/><b class="botn_quan right" id="btn_send_code" data-data="0">发送手机验证码</b></p>
+                </div>
+            </div>
+            <div class="wode_shoji_cg">
+                <div>
+                    <span class=" glyphicon glyphicon-ok-sign quan_xz"></span>
+                    <span>安全中心启用成功</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hei_di">
+
+    </div>
+    <div class="container-fluid dibu">
+        <span id="wode_sj_nex"  class="botn_quan" style="width:100%;padding:10px;margin-bottom:10px;" data-data="1">下一步</span>
+        <a id="jineu" href="wode_aqzx.html" class="botn_quan" style="width:100%;padding:10px;margin-bottom:10px;display:none;" data-data="0">进入安全中心</a>
+    </div>
+
+    <script>
+        $(".shouji_qieh>div").width($(window).width());
+
+        $("#wode_sj_nex").click(function () {
+            var now =parseInt( $(this).attr("data-data"));
+            var jul = now * $(window).width() * -1;
+            $('.shouji_qieh').animate({ marginLeft: jul }, 300);            $(this).attr("data-data", now + 1);
+            if ((now + 1) == 4) {
+                $(this).hide();
+                $("#jineu").show();
+            }
+        })
+
+        $(".xb_zz>p").click(function () {
+            $(".xb_zz span").attr("class", "");
+            $(this).children("span").attr("class", "quan right glyphicon glyphicon-ok-sign quan_xz");
+        })
+
+        $("#btn_send_code").click(function () {
+            var biaoji = $(this).attr("data-data");
+            if (biaoji == 0) {
+                var a = 6;
+                $(this).attr("data-data", "1");
+                $(this).addClass("zhc_no");
+                var mytime = setInterval(function () {
+                    getTime();
+                }, 1000);
+                function getTime() {
+                    if (a == 0) {
+                        $("#btn_send_code").attr("data-data", "0");
+                        $("#btn_send_code").removeClass("zhc_no");
+                        $("#btn_send_code").text("获取验证码");
+                        clearInterval(mytime);
+                    }
+                    else {
+                        a -= 1;
+                        $("#btn_send_code").text("重新发送(" + a + ")");
+                    }
+                }
+                //点击代码
+                var mobile = $("#mobile").val();
+                if (mobile == "") {
+                    alert('请填入手机号码！');
+                    return;
+                }
+                $.ajax({
+                    url: '/Register/Sent_Msg',
+                    data: { 'mobile': mobile },
+                    dataType: 'json',
+                    type: 'post',
+                    success: function (data) {
+                        if (data == true) {
+                        }
+                    }
+                });
+            }
+            else {
+                return;
+            }
+        });
+    </script>
+</body>
+</html>

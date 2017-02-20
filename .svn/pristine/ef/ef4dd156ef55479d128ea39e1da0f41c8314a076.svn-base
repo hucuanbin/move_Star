@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/wangpan_css.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/my_lj.js"></script>
+    <title></title>
+</head>
+<body>
+ 
+    <div class="container-fluid nr_top_1">
+        <a href="denglu.html" class="glyphicon glyphicon-menu-left "></a>
+        <b class="text-center bt_jz">手机注册</b>
+    </div>
+    <div class="container-fluid dengl_index">
+        <input class="inpt_show" placeholder="请输入11位手机号码" autofocus />
+        <p class="cuowu_tishi">请填写正确的手机号码</p>
+        <input class="inpt_show" placeholder="请输入短信验证码" autofocus />
+        <p class="cuowu_tishi">您输入的短信激活码有误</p>
+        <input placeholder="请输入6-16位字母和数字密码" type="password" />
+        <p class="cuowu_tishi">密码格式错误</p>
+        <input placeholder="请输入验证码" type="password" />
+        <p class="cuowu_tishi">密码格式错误</p>
+        <img src="images/mingx_toux.png" class="dl_tzb" style="top:228px;" />
+        <button id="zhuce" class="botn_quan">注册</button>
+        <p class="ydtlk m-10"><input type="checkbox" checked id="checkbox1" />我已阅读并接受<a href="tiaok.html">与星共舞会员服务条款</a></p>
+        <a class="zhc_yzm " data-data="0" id="btn_send_code">获取验证码</a>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $(".dengl_index>input").focus(function () {
+                $(".dengl_index>input").attr("class", "");
+                $(this).attr("class", "inpt_show");
+            });
+        //发送验证码
+            $("#btn_send_code").click(function () {
+                var biaoji = $(this).attr("data-data");
+                if (biaoji == 0) {
+                    var a = 6;
+                    $(this).attr("data-data", "1");
+                    $(this).addClass("zhc_no");
+                    var mytime = setInterval(function () {
+                        getTime();
+                    }, 1000);
+                    function getTime() {
+                        if (a == 0) {
+                            $("#btn_send_code").attr("data-data", "0");
+                            $("#btn_send_code").removeClass("zhc_no");
+                            $("#btn_send_code").text("获取验证码");
+                            clearInterval(mytime);
+                        }
+                        else {
+                            a -= 1;
+                            $("#btn_send_code").text("重新发送("+ a +")");
+                        }
+                    }
+                    //点击代码
+                    var mobile = $("#mobile").val();
+                    if (mobile == "") {
+                        alert('请填入手机号码！');
+                        return;
+                    }
+                    $.ajax({
+                        url: '/Register/Sent_Msg',
+                        data: { 'mobile': mobile },
+                        dataType: 'json',
+                        type: 'post',
+                        success: function (data) {
+                            if (data == true) {
+                            }
+                        }
+                    });
+                }
+                else {
+                    return;
+                }
+            });            //协议同意
+            $(document).ready(function () {
+                $("#checkbox1").click(function () {
+                    if ($("#checkbox1").is(":checked")) {
+                        $('#zhuce').removeAttr("disabled");
+                    }
+                    else {
+                        $('#zhuce').attr('disabled', "true"); 添加disabled属性
+                    }
+                });
+            });
+
+        })
+    </script>
+</body>
+</html>
